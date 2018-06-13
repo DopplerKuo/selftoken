@@ -10,11 +10,26 @@ $(window).bind('scroll resize', function() {
 									$('.sec5').height() +
 									$('.sec6').height();
 
+	function moveSomething(something) {
+		var height = $(something).height();
+		var moveSomethingRange = (height - windowHeight) * ($this_Top / ( pageHeigh - windowHeight ));
+		$(something).css('transform', 'translateY(-'+ moveSomethingRange +'px)');
+	}
 
-	var colorfulHeigh = $('.color-bg').height();
-	var moveColorful = (colorfulHeigh - windowHeight) * ($this_Top / ( pageHeigh - windowHeight ));
-	console.log(moveColorful)
-	$('.color-bg').css('transform', 'translateY(-'+ moveColorful +'px)');
+	moveSomething('.color-bg');
+	moveSomething('.dot');
+	moveSomething('.line');
+
 	
 	}).scroll();
+
+
+	$(document).on('click', 'a[href^="#"]', function (event) {
+	    event.preventDefault();
+
+	    $('html, body').animate({
+	        scrollTop: $($.attr(this, 'href')).offset().top
+	    }, 500);
+	});
+
 })

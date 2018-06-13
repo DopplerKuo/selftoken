@@ -17,7 +17,7 @@
   <link href="https://fonts.googleapis.com/css?family=PT+Sans+Narrow" rel="stylesheet">
 </head>
 <script src="/assets/js/vendor/font.js"></script>
-<body>
+<body id="vue-app">
   <div class="bg">
     <div class="dot"></div>
     <div class="line"></div>
@@ -29,15 +29,15 @@
 
   <nav id="nav">
     <div class="top flex-jc-ac-">
-      <a href="">關於我們</a>
-      <a href="">技術白皮書</a>
-      <a href="">計畫發展</a>
+      <a href="#about">{{ navLinkAboutUs }}</a>
+      <a href="#white">{{ navLinkWhitePaper }}</a>
+      <a href="#roadmap">{{ navLinkRoadMap }}</a>
       <div class="logo">
         <img src="assets/img/main/cover-selftoken_logo.PNG" alt="">
       </div>
-      <a href="">團隊成員</a>
-      <a href="">媒體報導</a>
-      <a href="">聯絡我們</a>
+      <a href="#team">{{ navLinkTeamMembers }}</a>
+      <a href="#news">{{ navLinkMedia }}</a>
+      <a href="">{{ navLinkContact }}</a>
     </div>
     <div class="bot flex-jsb-ac-">
       <div class="left flex-ac-jc-">
@@ -61,60 +61,61 @@
     <div class="content flex-jc-ac-nw-">
       <div class="header-model"><img src="assets/img/main/cover-S.PNG" alt=""></div>
       <div class="header-title">
-        <h2>鏈接虛擬與現實的<br>沉浸式娛樂代幣</h2>
+        <h2>{{ sec1Title }}</h2>
       </div>
     </div>
   </header>
 
-  <section class="sec2">
+  <section class="sec2" id="about">
     <div class="content">
       <h2>ABOUT US</h2>
-      <h3>什麼是 SELF TOKEN</h3>
+      <h3>{{ sec2Title1 }}</h3>
       <p>
-        未來看電影時我們將不再使用電影票，而是獨一無二的電影代幣，<br>
-        一個可以讓人人成為電影的支持者、推廣者、獲益者並入場觀影的電影區塊鏈加密代幣，<br>
-        而 SELF TOKEN 將會是這個自生態代幣的領航者。
+        {{ sec2Dsc1 }}
       </p>
     </div>
 
     <div class="content">
-      <h3>全新的區塊鏈電影觀影體驗</h3>
+      <h3>{{ sec2Title1 }}</h3>
       <p>
-        我們將透過以太坊智能合約技術，創造全新的電影區塊鏈加密代幣 ，打造對大眾更友善、高互動性的生態系統，並將以香港知名電影人曾志偉、億萬監製葉如芬共同監製、SELFPICK 製作之區塊鏈商戰電影「聖人大盜」，作為首次應用。
+        {{ sec2Dsc1 }}
       </p>
     </div>
 
     <div class="content">
-      <h3>全方位的娛樂支付</h3>
+      <h3>{{ sec2Title2 }}</h3>
       <p>
-        我們將以食、衣、住、行、育、樂六大面向簽訂合作品牌，支持娛樂上的多元支付，並設立直營之多元娛樂場域（如SELF BAR、SELF CAFE、電影場景轉營運之共創空間SELF SPACE等）。
+        {{ sec2Dsc2 }}
       </p>
     </div>
 
     <div class="content">
-      <h3>全透明的影視生態系獎勵</h3>
+      <h3>{{ sec2Title3 }}</h3>
       <p>
-        我們將把電影的票房、直營店之營收以及其他相關之營銷盈餘轉成Ether或是其他數位加密貨幣，作為獎勵予以所有支持、使用 SELF TOKEN 消費的使用者，而首次的獎勵將會由電影聖人大盜之100%票房營收作爲基礎。
+        {{ sec2Dsc3 }}
       </p>
     </div>
 
     <div class="content">
-      <h3>全球流通的應用代幣</h3>
+      <h3>{{ sec2Title4 }}</h3>
       <p>
-        除了作爲應用代幣之外，我們將跟交易所進行合作，成為可在全球流通、自由交易的 SELF 幣。
+        {{ sec2Dsc4 }}
       </p>
     </div>
 
     <div class="content">
-      <h3>
-        讓人人都可以是電影娛樂生態中<br>
-        推廣者、支持者、觀眾、受益者，<br>
-        創造一個共好的娛樂生態系。
-      </h3>
+      <h3>{{ sec2Title5 }}</h3>
+      <p>
+        {{ sec2Dsc5 }}
+      </p>
+    </div>
+
+    <div class="content">
+      <h3>{{ sec2Title6 }}</h3>
     </div>
   </section>
 
-  <section class="sec3">
+  <section class="sec3" id="white">
     <div class="content">
       <h2>WHITE PAPER</h2>
       <div id="form">
@@ -125,7 +126,7 @@
           ONEPAGER
         </div>
         <div class="right">
-          <label for="">輸入您的郵件地址：</label>
+          <label for="">{{ sec3Label }}</label>
           <input type="email">
           <span>ENTER</span>
         </div>
@@ -133,70 +134,70 @@
     </div>
   </section>
 
-  <section class="sec4">
+  <section class="sec4" id="roadmap">
     <div class="content">
       <h2>ROADMAP</h2>
       <div class="roads">
         <div class="road">
           <h3>2017 MAY</h3>
-          <p>母公司 SELFPICK PRODUCTION 完成 pre A 輪一千五百萬元增資，並推出沉浸式娛樂計畫，啟動區塊鏈電影、SELF TOKEN 白皮書計畫。</p>
+          <p>{{ sec4p1 }}</p>
         </div>
 
         <div class="road">
           <h3>2017 JUNE</h3>
-          <p>整合各界資源完成聖人大盜電影劇本、企劃以及 SELF TOKEN 白皮書、團隊組建。</p>
+          <p>{{ sec4p2 }}</p>
         </div>
 
         <div class="road">
           <h3>2018 APRIL</h3>
-          <p>私募一千萬元新台幣完成 SELF TOKEN 公司設立，並與 MAX 交易所簽訂合作協議。</p>
+          <p>{{ sec4p3 }}</p>
         </div>
 
         <div class="road">
           <h3>2018 MAY</h3>
-          <p>電影聖人大盜進入正式前製期、正式成立以閉鎖型股份有限公司之形式成立 SELF WORKSHOP，正式運轉 SELF TOKEN 相關事宜。</p>
+          <p>{{ sec4p4 }}</p>
         </div>
 
         <div class="road">
           <h3>2018 JUNE</h3>
-          <p>電影聖人大盜進行前導預告拍攝計畫 SELF TOKEN 於線下招開 Pre IEO SALE 階段之說明會。</p>
+          <p>{{ sec4p5 }}</p>
         </div>
 
         <div class="road">
           <h3>2018 JUNE-JULY</h3>
-          <p>電影聖人大盜進入前導影片拍攝。SELF TOKEN白皮書釋出。</p>
+          <p>{{ sec4p6 }}</p>
         </div>
 
         <div class="road">
           <h3>2017 AUGUEST</h3>
-          <p>SELF TOKEN 籌備進行 IEO</p>
+          <p>{{ sec4p7 }}</p>
         </div>
 
         <div class="road">
           <h3>2018 SEP-NOV</h3>
-          <p>電影聖人大盜進入 60 天拍攝期、SELF TOKEN 進入商轉前技術開發。</p>
+          <p>{{ sec4p8 }}</p>
         </div>
 
         <div class="road">
           <h3>2018 DECENBER</h3>
-          <p>電影正式預告上線、SELFTOKEN 上線 MAX 交易所。</p>
+          <p>{{ sec4p9 }}</p>
         </div>
       </div>
     </div>
   </section>
 
-  <section class="sec5">
+  <section class="sec5" id="team">
     <div class="content">
       <h2>TEAM MEMBER</h2>
-      <div class="members flex-l2-m1-">
+      <div class="members flex-l2-m1-jfs-">
         <div class="member">
           <div class="img">
-            <img src="assets/img/main/1.kack.PNG" alt="">
+            <img src="assets/img/main/1.徐嘉凱.PNG" alt="">
           </div>
           <div class="text">
-            <div class="name">徐嘉凱</div>
+            <div class="name">{{ sec5name1 }}</div>
             <div class="intro">
-              1991年生，2014年創立SELFPICK PRODUCTION、2017年創立SELF BAR，擔任Mr.BArtender、我們是歐爸、私室等知名網劇導演，在網路上創造了千萬點擊，並成功帶領SELFPICK PRODUCTION榮獲2017年行銷傳播貢獻獎年度傑出行銷創意團隊、2017年金炬獎年度傑出十大潛力經理人。
+              {{ sec5intro1 }}
             </div>
           </div>
         </div>
@@ -206,9 +207,9 @@
             <img src="assets/img/main/2.葛如鈞.PNG" alt="">
           </div>
           <div class="text">
-            <div class="name">葛如鈞</div>
+            <div class="name">{{ sec5name2 }}</div>
             <div class="intro">
-              擁有超過十年的跨國、跨領域創新創業與實戰經驗。為目前國內少數熟赧 VR/AR, AI 以及 Blockchain 等新興科技專家,並協助多家跨國/上市公司科技技術與區塊鏈合約。現任國立台北科技大學設計學院互動設計系專任助理教授，經濟部、台北市政府與 VR/AR 計劃顧問，COBINHOOD, Ubitus Inc., Blueprint Japan 等多家企業區塊鏈深耕推廣。
+              {{ sec5intro2 }}
             </div>
           </div>
         </div>
@@ -218,141 +219,153 @@
             <img src="assets/img/main/3.關心.PNG" alt="">
           </div>
           <div class="text">
-            <div class="name">關心</div>
+            <div class="name">{{ sec5name3 }}</div>
             <div class="intro">
-              為華人著名組織百人會下一代領袖成員，私募基金Perseverance Capital Management LLC 共同合夥人，也擔任被投公司Cold Genesys, Inc 執行長，共募資兩千五百萬美金，同時也是資深虛擬貨幣投資人，未來將透過豐沛的人脈資源協助SELF TOKEN往國際的市場推進，達成整合綜效。
+              {{ sec5intro3 }}
             </div>
           </div>
         </div>
 
         <div class="member">
           <div class="img">
-            <img src="assets/img/main/10.jackson.png" alt="">
+            <img src="assets/img/main/4.曾國駿.png" alt="">
           </div>
           <div class="text">
-            <div class="name">曾國駿</div>
+            <div class="name">{{ sec5name4 }}</div>
             <div class="intro">
-              兩岸三地的著名製片人，也是電影製作公司影市堂的負責人，製作、出品知名華語電影九降風、殺手歐陽盆栽、變身、看不見的台灣等優秀作品，更獲得了台灣、香港金馬獎的多項肯定，未來將透過SELF TOKEN讓影視圈與區塊鏈科技更緊密結合，並共創出更多優秀的電影、網路影視內容。
+              {{ sec5intro4 }}
             </div>
           </div>
         </div>
 
         <div class="member">
           <div class="img">
-            <img src="assets/img/main/1.kack.PNG" alt="">
+            <img src="assets/img/main/5.洪雯娟.png" alt="">
           </div>
           <div class="text">
-            <div class="name">洪雯娟</div>
+            <div class="name">{{ sec5name5 }}</div>
             <div class="intro">
-              兩岸三地的著名製片人，也是電影製作公司影市堂的負責人，製作、出品知名華語電影九降風、殺手歐陽盆栽、變身、看不見的台灣等優秀作品，更獲得了台灣、香港金馬獎的多項肯定，未來將透過SELF TOKEN讓影視圈與區塊鏈科技更緊密結合，並共創出更多優秀的電影、網路影視內容。
+              {{ sec5intro5 }}
             </div>
           </div>
         </div>
 
         <div class="member">
           <div class="img">
-            <img src="assets/img/main/1.kack.PNG" alt="">
+            <img src="assets/img/main/6.林帝沅.png" alt="">
           </div>
           <div class="text">
-            <div class="name">林帝沅</div>
+            <div class="name">{{ sec5name6 }}</div>
             <div class="intro">
-              曾任澳商紅點行銷之行銷總監，協助VISA和中信金、日盛金推動異業結盟合作以及紅利點數回饋機制，現為大硯建築品牌行銷暨客戶關係總監、新竹縣不動產開發公會副理事長，創辦第一屆住宅博覽會，創造超過兩億新台幣的現場交易量，未來將協助SELF TOKEN落實與在地商家連接、拓展SELF PAY的多樣化娛樂餐飲商機，並建造完整的品牌形象。
+              {{ sec5intro6 }}
             </div>
           </div>
         </div>
 
         <div class="member">
           <div class="img">
-            <img src="assets/img/main/1.kack.PNG" alt="">
+            <img src="assets/img/main/7.邱瑞文.png" alt="">
           </div>
           <div class="text">
-            <div class="name">邱瑞文</div>
+            <div class="name">{{ sec5name7 }}</div>
             <div class="intro">
-              資深的企業財務顧問、天使投資人，曾協助四家公司在台灣主板上市、渣打銀行董事總經理以及匯豐環球投資銀行大中華區董事總經理進行相關投資工作，同時也是資深虛擬貨幣投資人，將協助SELF TOKEN在未來營運上取得更多不同的幣圈內外互利合作的機會以及架構完整金融交易生態圈。
+              {{ sec5intro7 }}
             </div>
           </div>
         </div>
 
         <div class="member">
           <div class="img">
-            <img src="assets/img/main/4.feihu.PNG" alt="">
+            <img src="assets/img/main/8.feihu.PNG" alt="">
           </div>
           <div class="text">
-            <div class="name">FEIHU</div>
+            <div class="name">{{ sec5name8 }}</div>
             <div class="intro">
-              前 Google 軟體工程師，智能合約工程師，製作並協助發行2018年中國第一款區塊鏈遊戲「以太萌王」、「以太水滸」、「冥幣」等七款智能合約遊戲，曾創下 24小時全球交易量 Top3，兩週總流水 780ETH 的記錄。協助 SELF Token 進行智能合約的研發、測試與佈建。
+              {{ sec5intro8 }}
             </div>
           </div>
         </div>
 
         <div class="member">
           <div class="img">
-            <img src="assets/img/main/1.kack.PNG" alt="">
+            <img src="assets/img/main/9.林仲生.png" alt="">
           </div>
           <div class="text">
-            <div class="name">林仲生</div>
+            <div class="name">{{ sec5name9 }}</div>
             <div class="intro">
-              芝加哥大學經濟學博士，現任美國Clemson University 經濟學助理教授，専精於網路經濟學，數位經濟學。Tom 的研究包含共享經濟，電商評分系統，遊戲產業，工程招標及誘因合約設計。於上海、香港及美國等地主講有關計量經濟學及機器學習的講座及課程。協助SELF Token 進行經濟學模型模擬與計算。
+              {{ sec5intro9 }}
             </div>
           </div>
         </div>
 
         <div class="member">
           <div class="img">
-            <img src="assets/img/main/5.Roger.PNG" alt="">
+            <img src="assets/img/main/10.ROGER.PNG" alt="">
           </div>
           <div class="text">
-            <div class="name">ROGER</div>
+            <div class="name">{{ sec5name10 }}</div>
             <div class="intro">
-              前 Google 軟體工程師，智能合約工程師，製作並協助發行2018年中國第一款區塊鏈遊戲「以太萌王」、「以太水滸」、「冥幣」等七款智能合約遊戲，曾創下 24小時全球交易量 Top3，兩週總流水 780ETH 的記錄。協助 SELF Token 進行智能合約的研發、測試與佈建。
+              {{ sec5intro10 }}
             </div>
           </div>
         </div>
 
         <div class="member">
           <div class="img">
-            <img src="assets/img/main/10.jackson.png" alt="">
+            <img src="assets/img/main/11.曾志偉.png" alt="">
           </div>
           <div class="text">
-            <div class="name">曾志偉</div>
+            <div class="name">{{ sec5name11 }}</div>
             <div class="intro">
-              香港知名演員、電視節目主持和電影製作人。近年多為電視節目主持，偶為電影導演，他同時亦投資、策劃及參與電影製作。現代表香港演藝人協會任香港電影金像獎董事局副主席。曾榮獲 第11屆香港金像獎《雙城故事》榮獲最佳男主角、第36屆香港金像獎《一念無明》榮獲最佳男配角、第53屆金馬獎《愈快樂愈墮落》榮獲最佳男配角。
+              {{ sec5intro11 }}
             </div>
           </div>
         </div>
 
         <div class="member">
           <div class="img">
-            <img src="assets/img/main/1.kack.PNG" alt="">
+            <img src="assets/img/main/12.葉如芬.PNG" alt="">
           </div>
           <div class="text">
-            <div class="name">葉如芬</div>
+            <div class="name">{{ sec5name12 }}</div>
             <div class="intro">
-              台灣資深電影人,深耕電影逾二十載,合作對象皆為 享譽中外、作品題材各異的優秀導演。擅長電影資源整合、預算掌控與製作,具豐富的國際合作經驗。現擔任華文創總監制。曾獲得第50屆金馬獎年度台灣傑出電影工作者，並擔任第35屆香港金像獎提名最佳兩岸華語電影《我的少女時代》總監制以及第53屆金馬獎8項提名、第36屆香港金像獎最佳兩岸華語電影《一路順風》監制。
+              {{ sec5intro12 }}
             </div>
           </div>
         </div>
 
         <div class="member">
           <div class="img">
-            <img src="assets/img/main/6.venk.png" alt="">
+            <img src="assets/img/main/13楊子樸.venk.png" alt="">
           </div>
           <div class="text">
-            <div class="name">楊子樸</div>
+            <div class="name">{{ sec5name13 }}</div>
             <div class="intro">
-              渺小（歌手：田馥甄）、寂寞寂寞就好（歌手：田馥甄）、意外（歌手：薛之謙）、曾經是少年（歌手：SHE）等華語暢銷歌曲、電影原創主題曲作曲，曾獲得金曲獎、上海音樂風雲榜年度十大金曲等殊榮，現任SELFPICK PRODUCTION音樂總監、華研音樂專屬詞曲音樂作者。
+              {{ sec5intro13 }}
             </div>
           </div>
         </div>
 
         <div class="member">
           <div class="img">
-            <img src="assets/img/main/1.kack.PNG" alt="">
+            <img src="assets/img/main/14.許家瑄.png" alt="">
           </div>
           <div class="text">
-            <div class="name">許家瑄</div>
+            <div class="name">{{ sec5name14 }}</div>
             <div class="intro">
-              畢業於南加州大學大眾傳播系，曾有在美國生物科技產業招募人才與社群行銷經驗，同時在KB Capital Management 協助投資管理 。近期回台也在虛擬貨幣產業公司擔任主導招募與翻譯，協助行銷團隊對國外用戶進行推廣教育。未來將協助與代表 Self Token 對外進行區塊鏈教育和對英語系國家進行IEO計畫的公關宣傳。
+              {{ sec5intro14 }}
+            </div>
+          </div>
+        </div>
+
+        <div class="member">
+          <div class="img">
+            <img src="assets/img/main/15.何姿瑩.png" alt="">
+          </div>
+          <div class="text">
+            <div class="name">{{ sec5name15 }}</div>
+            <div class="intro">
+              {{ sec5intro15 }}
             </div>
           </div>
         </div>
@@ -361,18 +374,37 @@
     </div>
   </section>
 
-  <section class="sec6">
+  <section class="sec6" id="news">
     <div class="content">
       <h2>NEWS・REPORT</h2>
-      <div class="medias">
-        <div class="media"><img src="assets/img/main/" alt=""></div>
+      <div class="medias flex-jc-ac-l4-m3-s2-">
+          <a href="http://rec.org.tw/modules/tadnews/index.php?nsn=8548" target="_blank">
+            <img style="width: 70%" src="assets/img/main/media/民視.PNG" alt="">
+          </a>
+          <a href="https://m.ctee.com.tw/dailynews/20170503/a15aa15/803724/64fef61fccbabff9ed10081203ead9ef?h=" target="_blank">
+            <img style="width: 50%" src="assets/img/main/media/工商時報.PNG" alt="">
+          </a>
+          <a href="http://news.cts.com.tw/tnn/life/201705/201705041865220.html#.WQvnLuWGPIU" target="_blank">
+            <img style="width: 80%" src="assets/img/main/media/華視.PNG" alt="">
+          </a>
+          <a href="https://technews.tw/2017/05/03/" target="_blank">
+            <img src="assets/img/main/media/科技新報.PNG" alt="">
+          </a>
+          <a href="http://www.epochtimes.com/b5/17/5/2/n9099066.htm" target="_blank">
+            <img src="assets/img/main/media/ET_Logo_2_cn.png" alt="">
+          </a>
+          <a href="https://tw.news.yahoo.com/%E8%A7%80%E7%9C%BE%E8%AE%8A%E6%BC%94%E5%93%A1-%E5%85%A8%E6%96%B0%" target="_blank">
+            <img src="assets/img/main/media/yahoo.PNG" alt="">
+          </a>
+          <a href="http://ent.ltn.com.tw/news/breakingnews/2054474" target="_blank">
+            <img src="assets/img/main/media/自由時報.PNG" alt="">
+          </a>
       </div>
     </div>
   </section>
 </body>
 <script src="/assets/js/vendor/jquery-2.1.4.min.js"></script>
-<script src="/assets/js/vendor/headroom/headroom.js"></script>
-<script src="/assets/js/vendor/headroom/jQuery.headroom.js"></script>
+<script src="/assets/js/vendor/vue.min.js"></script>
 <script src="/assets/js/animateNumber.js"></script>
 <script src="/assets/js/aboutScroll.js"></script>
 <script src="/assets/js/index.js"></script>
