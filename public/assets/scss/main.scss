@@ -29,6 +29,10 @@ section {
 		color: $lg;
 		margin-bottom: 110px;
 		letter-spacing: 10px;
+
+		@media screen and ( max-width: 992px ) {
+			margin-bottom: 30px;
+		}
 	}
 
 	h3 {
@@ -37,12 +41,23 @@ section {
 		font-weight: 300;
 		margin-bottom: 40px;
 		line-height: 1.8;
+
+		@media screen and ( max-width: 992px ) {
+			line-height: 1.4;
+			margin-bottom: 15px;
+		}
 	}
 
 	p {
 		font-family: $p200;
 		font-weight: 200;
 		line-height: 1.8;
+
+		@media screen and ( max-width: 992px ) {
+			line-height: 1.4;
+			font-size: 15px;
+			margin-bottom: 15px;
+		}
 	}
 }
 
@@ -52,6 +67,10 @@ section .content, header .content {
 	width: 100%;
 	padding: 2.5%;
 	margin: auto;
+
+	@media screen and ( max-width: 992px ) {
+		padding: 2.5% 5%;
+	}
 }
 
 section .content {
@@ -124,6 +143,10 @@ body {
 		width: 95px;
 		margin: auto;
 		display: block;
+
+		@media screen and ( max-width: 992px ) { 
+			width: 60px;
+		}
 	}
 
 	.top, .bot {
@@ -135,12 +158,19 @@ body {
 		height: 100px;
 		background-color: rgba(0, 0, 0, .2);
 		color: $sup;
+
+		@media screen and ( max-width: 992px ) { 
+			height: 50px;	
+		}
 	}
 
 	.top > a {
 		display: block;
 		width: 90px;
 		text-align: center;
+		@media screen and ( max-width: 992px ) { 
+			display: none;		
+		}
 	}
 
 	.bot {
@@ -171,9 +201,25 @@ header {
 	justify-content: center;
 	align-items: center;
 
+	.content {
+		@media screen and ( max-width: 992px ) {
+			display: block;
+		}
+	}
+
 	h2 {
 		font-size: 65px;
 		line-height: 1.7;
+		@media screen and ( max-width: 992px ) {
+			line-height: 1.2;
+			font-size: 30px;
+			margin-top: 60px;
+			text-align: center;
+		}
+	}
+
+	h2.en {
+		line-height: 1.4;
 	}
 }
 
@@ -183,8 +229,17 @@ header {
 	width: 372px;
 	text-align: center;
 
+	@media screen and ( max-width: 992px ) { 
+		flex: 0 0 100%;
+		width: 100%;
+	}
+
 	img {
 		width: 37%;
+
+		@media screen and ( max-width: 992px ) {
+			width: 40%;
+		}
 	}
 }
 
@@ -194,6 +249,12 @@ header {
 	font-family: $p200;
 	font-weight: 200;
 	padding: 0 10px;
+
+	@media screen and ( max-width: 992px ) {
+		flex: 0 0 auto;
+		width: 90%;
+		margin: auto;
+	}
 }
 
 .header-model:after, .header-model:before {
@@ -220,12 +281,21 @@ header {
 
 	.content {
 		padding: 13% 2.5%;
+
+		@media screen and ( max-width: 992px ) {
+			padding: 10% 5%;
+		}
 	}
 
 	.content:nth-last-child(1) {
 		h3 {
 			width: 50%;
 			margin: 0 0 0 auto;
+
+			@media screen and ( max-width: 992px ) {
+				width: 100%;
+				line-height: 1.4;
+			}
 		}
 	}
 }
@@ -237,12 +307,24 @@ header {
 	justify-content: center;
 	align-items: center;
 
+	@media screen and ( max-width: 992px ) {
+		padding-top: 20px;
+		display: block;
+	}
+
 	.left {
 		flex: 1 1 auto;
 		width: auto;
 		font-size: 25px;
 		line-height: 2;
 		letter-spacing: 4px;
+
+		@media screen and ( max-width: 992px ) {
+			width: 100%;
+			margin-bottom: 60px;
+			line-height: 1.2;
+			text-align: center;
+		}
 	}
 
 	.right {
@@ -254,6 +336,12 @@ header {
 		padding-bottom: 50px;
 		margin-bottom: 80px;
 		box-shadow: 0 1px 0 0 #fff;
+
+		@media screen and ( max-width: 992px ) {
+			width: 100%;
+			margin-bottom: 0;
+			padding-bottom: 20px;
+		}
 
 		label {
 			color: $sup;
@@ -292,6 +380,11 @@ header {
 		flex: 0 0 50%;
 		display: flex;
 		flex-wrap: wrap;
+
+		@media screen and ( max-width: 992px ) {
+			flex: 0 0 100%;
+			width: 100%;
+		}
 	}
 
 	.road:nth-of-type(n) {
@@ -323,6 +416,17 @@ header {
 
 		& > * {
 			text-align: left;
+		}
+	}
+
+	.road {
+		@media screen and ( max-width: 992px ) {
+			padding: 0!important;
+			margin-bottom: 30px;
+
+			& > * {
+				text-align: left!important;
+			}
 		}
 	}
 }

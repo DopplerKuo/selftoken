@@ -61,7 +61,7 @@
     <div class="content flex-jc-ac-nw-">
       <div class="header-model"><img src="assets/img/main/cover-S.PNG" alt=""></div>
       <div class="header-title">
-        <h2>{{ sec1Title }}</h2>
+        <h2 :class="lang">{{ sec1Title }}</h2>
       </div>
     </div>
   </header>
@@ -126,8 +126,7 @@
           ONEPAGER
         </div>
         <div class="right">
-          <label for="">{{ sec3Label }}</label>
-          <input type="email">
+          <input type="email" placeholder="{{ sec3Label }}">
           <span>ENTER</span>
         </div>
       </div>
