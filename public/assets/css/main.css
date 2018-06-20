@@ -218,6 +218,21 @@ a {
   font-weight: 200;
   position: relative; }
 
+.dollar_sign {
+  position: relative; }
+
+.dollar_sign:before {
+  content: '';
+  position: absolute;
+  width: 30px;
+  height: 35px;
+  left: -41px;
+  top: 5px;
+  background-image: url("../img/main/logo-s.PNG");
+  background-size: 14px;
+  background-repeat: no-repeat;
+  background-position: center; }
+
 section {
   position: relative;
   width: 100%;
@@ -373,55 +388,31 @@ header {
   -webkit-box-align: center;
   -ms-flex-align: center;
   align-items: center; }
-  @media screen and (max-width: 992px) {
-    header .content {
-      display: block; } }
   header h2 {
-    font-size: 65px;
-    line-height: 1.7; }
+    font-size: 53px;
+    line-height: 1.7;
+    text-align: center;
+    margin-top: 100px; }
     @media screen and (max-width: 992px) {
       header h2 {
-        line-height: 1.2;
-        font-size: 30px;
-        margin-top: 60px;
-        text-align: center; } }
+        font-size: 30px; } }
   header h2.en {
     line-height: 1.2; }
 
 .header-model {
   position: relative;
-  -webkit-box-flex: 0;
-  -ms-flex: 0 0 372px;
-  flex: 0 0 372px;
-  width: 372px;
-  text-align: center; }
-  @media screen and (max-width: 992px) {
-    .header-model {
-      -webkit-box-flex: 0;
-      -ms-flex: 0 0 100%;
-      flex: 0 0 100%;
-      width: 100%; } }
+  text-align: center;
+  margin: auto;
+  width: 80%;
+  max-width: 300px; }
   .header-model img {
     width: 37%; }
-    @media screen and (max-width: 992px) {
-      .header-model img {
-        width: 40%; } }
 
 .header-title {
-  -webkit-box-flex: 1;
-  -ms-flex: 1 1 auto;
-  flex: 1 1 auto;
-  width: auto;
   font-family: "PT Sans Narrow", PingFangTC-Thin, xingothic-tc, sans-serif, Microsoft JhengHei;
   font-weight: 200;
-  padding: 0 10px; }
-  @media screen and (max-width: 992px) {
-    .header-title {
-      -webkit-box-flex: 0;
-      -ms-flex: 0 0 auto;
-      flex: 0 0 auto;
-      width: 90%;
-      margin: auto; } }
+  padding: 0 10px;
+  margin: auto; }
 
 .header-model:after, .header-model:before {
   content: '';
@@ -587,6 +578,9 @@ header {
     .sec4 .road > * {
       text-align: left !important; } }
 
+.sec5 .content {
+  max-width: 1000px; }
+
 .member {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -597,7 +591,7 @@ header {
   -webkit-box-align: start;
   -ms-flex-align: start;
   align-items: flex-start;
-  padding: 0 2%;
+  padding: 0 1.5%;
   margin-bottom: 30px; }
   .member img {
     width: 100%; }
@@ -614,8 +608,12 @@ header {
     font-family: "PT Sans Narrow", PingFangTC-Thin, xingothic-tc, sans-serif, Microsoft JhengHei;
     font-weight: 200; }
     .member .text .name {
-      margin-bottom: 15px;
       font-size: 14px;
+      line-height: 1.6;
+      color: #d6a838; }
+    .member .text .sub_title {
+      font-size: 14px;
+      line-height: 1.6;
       color: #d6a838; }
 
 .svg-animation {

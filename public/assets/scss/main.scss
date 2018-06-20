@@ -15,6 +15,23 @@
 	position: relative;
 }
 
+.dollar_sign {
+	position: relative;
+}
+
+.dollar_sign:before {
+	content: '';
+  position: absolute;
+  width: 30px;
+  height: 35px;
+  left: -41px;
+  top: 5px;
+  background-image: url('../img/main/logo-s.PNG');
+  background-size: 14px;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
 
 section {
 	position: relative;
@@ -201,20 +218,14 @@ header {
 	justify-content: center;
 	align-items: center;
 
-	.content {
-		@media screen and ( max-width: 992px ) {
-			display: block;
-		}
-	}
-
 	h2 {
-		font-size: 65px;
+		font-size: 53px;
 		line-height: 1.7;
+		text-align: center;
+		margin-top: 100px;
+		
 		@media screen and ( max-width: 992px ) {
-			line-height: 1.2;
 			font-size: 30px;
-			margin-top: 60px;
-			text-align: center;
 		}
 	}
 
@@ -225,36 +236,21 @@ header {
 
 .header-model {
 	position: relative;
-	flex: 0 0 372px;
-	width: 372px;
 	text-align: center;
-
-	@media screen and ( max-width: 992px ) { 
-		flex: 0 0 100%;
-		width: 100%;
-	}
+	margin: auto;
+	width: 80%;
+	max-width: 300px;
 
 	img {
 		width: 37%;
-
-		@media screen and ( max-width: 992px ) {
-			width: 40%;
-		}
 	}
 }
 
 .header-title {
-	flex: 1 1 auto;
-	width: auto;
 	font-family: $p200;
 	font-weight: 200;
 	padding: 0 10px;
-
-	@media screen and ( max-width: 992px ) {
-		flex: 0 0 auto;
-		width: 90%;
-		margin: auto;
-	}
+	margin: auto;
 }
 
 .header-model:after, .header-model:before {
@@ -431,11 +427,15 @@ header {
 	}
 }
 
+.sec5 .content {
+	max-width: 1000px;
+}
+
 .member {
 	display: flex;
 	justify-content: center;
 	align-items: flex-start;
-	padding: 0 2%;
+	padding: 0 1.5%;
 	margin-bottom: 30px;
 
 	img {
@@ -456,8 +456,14 @@ header {
 		font-weight: 200;
 
 		.name {
-			margin-bottom: 15px;
 			font-size: 14px;
+			line-height: 1.6;
+			color: $sup;
+		}
+
+		.sub_title {
+			font-size: 14px;
+			line-height: 1.6;
 			color: $sup;
 		}
 	}

@@ -58,10 +58,10 @@
   </nav>
 
   <header>
-    <div class="content flex-jc-ac-nw-">
+    <div class="content">
       <div class="header-model"><img src="assets/img/main/cover-S.PNG" alt=""></div>
       <div class="header-title">
-        <h2 :class="lang">{{ sec1Title }}</h2>
+        <h2 :class="lang" v-html="sec1Title"></h2>
       </div>
     </div>
   </header>
@@ -69,7 +69,7 @@
   <section class="sec2" id="about">
     <div class="content">
       <h2>ABOUT US</h2>
-      <h3>{{ sec2Title1 }}</h3>
+      <h3 class="dollar_sign">{{ sec2Title1 }}</h3>
       <p>
         {{ sec2Dsc1 }}
       </p>
@@ -195,20 +195,9 @@
           </div>
           <div class="text">
             <div class="name">{{ sec5name1 }}</div>
+            <div class="sub_title">{{ sec5title1 }}</div>
             <div class="intro">
               {{ sec5intro1 }}
-            </div>
-          </div>
-        </div>
-
-        <div class="member">
-          <div class="img">
-            <img src="assets/img/main/2.葛如鈞.PNG" alt="">
-          </div>
-          <div class="text">
-            <div class="name">{{ sec5name2 }}</div>
-            <div class="intro">
-              {{ sec5intro2 }}
             </div>
           </div>
         </div>
@@ -219,20 +208,9 @@
           </div>
           <div class="text">
             <div class="name">{{ sec5name3 }}</div>
+            <div class="sub_title">{{ sec5title3 }}</div>
             <div class="intro">
               {{ sec5intro3 }}
-            </div>
-          </div>
-        </div>
-
-        <div class="member">
-          <div class="img">
-            <img src="assets/img/main/4.曾國駿.png" alt="">
-          </div>
-          <div class="text">
-            <div class="name">{{ sec5name4 }}</div>
-            <div class="intro">
-              {{ sec5intro4 }}
             </div>
           </div>
         </div>
@@ -243,6 +221,7 @@
           </div>
           <div class="text">
             <div class="name">{{ sec5name5 }}</div>
+            <div class="sub_title">{{ sec5title5 }}</div>
             <div class="intro">
               {{ sec5intro5 }}
             </div>
@@ -251,12 +230,13 @@
 
         <div class="member">
           <div class="img">
-            <img src="assets/img/main/6.林帝沅.png" alt="">
+            <img src="assets/img/main/4.曾國駿.png" alt="">
           </div>
           <div class="text">
-            <div class="name">{{ sec5name6 }}</div>
+            <div class="name">{{ sec5name4 }}</div>
+            <div class="sub_title">{{ sec5title4 }}</div>
             <div class="intro">
-              {{ sec5intro6 }}
+              {{ sec5intro4 }}
             </div>
           </div>
         </div>
@@ -267,6 +247,7 @@
           </div>
           <div class="text">
             <div class="name">{{ sec5name7 }}</div>
+            <div class="sub_title">{{ sec5title7 }}</div>
             <div class="intro">
               {{ sec5intro7 }}
             </div>
@@ -275,12 +256,26 @@
 
         <div class="member">
           <div class="img">
-            <img src="assets/img/main/8.feihu.PNG" alt="">
+            <img src="assets/img/main/6.林帝沅.png" alt="">
           </div>
           <div class="text">
-            <div class="name">{{ sec5name8 }}</div>
+            <div class="name">{{ sec5name6 }}</div>
+            <div class="sub_title">{{ sec5title6 }}</div>
             <div class="intro">
-              {{ sec5intro8 }}
+              {{ sec5intro6 }}
+            </div>
+          </div>
+        </div>
+        
+        <div class="member">
+          <div class="img">
+            <img src="assets/img/main/2.葛如鈞.PNG" alt="">
+          </div>
+          <div class="text">
+            <div class="name">{{ sec5name2 }}</div>
+            <div class="sub_title">{{ sec5title2 }}</div>
+            <div class="intro">
+              {{ sec5intro2 }}
             </div>
           </div>
         </div>
@@ -291,8 +286,22 @@
           </div>
           <div class="text">
             <div class="name">{{ sec5name9 }}</div>
+            <div class="sub_title">{{ sec5title9 }}</div>
             <div class="intro">
               {{ sec5intro9 }}
+            </div>
+          </div>
+        </div>
+
+        <div class="member">
+          <div class="img">
+            <img src="assets/img/main/8.feihu.PNG" alt="">
+          </div>
+          <div class="text">
+            <div class="name">{{ sec5name8 }}</div>
+            <div class="sub_title">{{ sec5title8 }}</div>
+            <div class="intro">
+              {{ sec5intro8 }}
             </div>
           </div>
         </div>
@@ -303,8 +312,35 @@
           </div>
           <div class="text">
             <div class="name">{{ sec5name10 }}</div>
+            <div class="sub_title">{{ sec5title10 }}</div>
             <div class="intro">
               {{ sec5intro10 }}
+            </div>
+          </div>
+        </div>
+
+        <div class="member">
+          <div class="img">
+            <img src="" alt="">
+          </div>
+          <div class="text">
+            <div class="name">{{ sec5name16 }}</div>
+            <div class="sub_title">{{ sec5title16 }}</div>
+            <div class="intro">
+              {{ sec5intro16 }}
+            </div>
+          </div>
+        </div>
+
+        <div class="member">
+          <div class="img">
+            <img src="" alt="">
+          </div>
+          <div class="text">
+            <div class="name">{{ sec5name17 }}</div>
+            <div class="sub_title">{{ sec5title17 }}</div>
+            <div class="intro">
+              {{ sec5intro17 }}
             </div>
           </div>
         </div>
@@ -315,6 +351,7 @@
           </div>
           <div class="text">
             <div class="name">{{ sec5name11 }}</div>
+            <div class="sub_title">{{ sec5title11 }}</div>
             <div class="intro">
               {{ sec5intro11 }}
             </div>
@@ -327,6 +364,7 @@
           </div>
           <div class="text">
             <div class="name">{{ sec5name12 }}</div>
+            <div class="sub_title">{{ sec5title12 }}</div>
             <div class="intro">
               {{ sec5intro12 }}
             </div>
@@ -339,6 +377,7 @@
           </div>
           <div class="text">
             <div class="name">{{ sec5name13 }}</div>
+            <div class="sub_title">{{ sec5title13 }}</div>
             <div class="intro">
               {{ sec5intro13 }}
             </div>
@@ -351,6 +390,7 @@
           </div>
           <div class="text">
             <div class="name">{{ sec5name14 }}</div>
+            <div class="sub_title">{{ sec5title14 }}</div>
             <div class="intro">
               {{ sec5intro14 }}
             </div>
@@ -363,6 +403,7 @@
           </div>
           <div class="text">
             <div class="name">{{ sec5name15 }}</div>
+            <div class="sub_title">{{ sec5title15 }}</div>
             <div class="intro">
               {{ sec5intro15 }}
             </div>
