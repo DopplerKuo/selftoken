@@ -13,7 +13,7 @@
   <meta content="" property="og:image">
   <link href="" rel="shortcut icon">
   <link rel="stylesheet" href="/assets/css/main.css">
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
   <link href="https://fonts.googleapis.com/css?family=PT+Sans+Narrow" rel="stylesheet">
 </head>
 <script src="/assets/js/vendor/font.js"></script>
@@ -41,10 +41,24 @@
     </div>
     <div class="bot flex-jsb-ac-">
       <div class="left flex-ac-jc-">
-        <a href="" target="_blank"><i class="fa fa-twitter"></i></a>
-        <a href="" target="_blank"><i class="fa fa-facebook-square"></i></a>
-        <a href="" target="_blank"><i class="fa fa-paper-plane"></i></a>
-        <a href="" target="_blank"><i class="fa fa-medium"></i></a>
+        <a href="https://twitter.com/self_token_co" target="_blank">
+          <i class="fab fa-twitter"></i>
+        </a>
+        <a href="facebook.com/selfpick" target="_blank">
+          <i class="fab fa-facebook-f"></i>
+        </a>
+        <a href="https://t.me/self_token" target="_blank">
+          <i class="fa fa-paper-plane"></i>
+        </a>
+        <a v-if="lang === 'en'" href="https://medium.com/self-token" target="_blank">
+          <i class="fab fa-medium-m"></i>
+        </a>
+        <a v-if="lang !== 'en'" href="https://medium.com/self-token-cn" target="_blank">
+          <i class="fab fa-medium-m"></i>
+        </a>
+        <a href="https://discordapp.com/channels/453448709368315916" target="_blank">
+          <i class="fab fa-discord"></i>
+        </a>
       </div>
       <div class="right flex-ac-jc-">
         <label for="lang">LANGUAGE</label>
