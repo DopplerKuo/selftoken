@@ -316,12 +316,74 @@ body {
 .color-bg {
   position: fixed;
   width: 100%;
+  height: 644.86vw;
   left: 0;
   top: 0;
   font-size: 0; }
   .color-bg img {
-    height: 100%;
-    width: 100%; }
+    width: 100%;
+    position: absolute; }
+  .color-bg img.sample {
+    opacity: 0; }
+  .color-bg img:nth-of-type(1) {
+    width: 80.8%;
+    right: 0;
+    top: 0;
+    opacity: 0.5; }
+  .color-bg img:nth-of-type(2) {
+    width: 80%;
+    left: -12%;
+    top: -1%;
+    opacity: 0.5; }
+  .color-bg img:nth-of-type(3) {
+    width: 80%;
+    left: 8%;
+    top: 8.5%; }
+  .color-bg img:nth-of-type(4) {
+    width: 85%;
+    right: 0;
+    top: 16.3%; }
+  .color-bg img:nth-of-type(5) {
+    width: 85%;
+    left: 0;
+    top: 15.9%;
+    opacity: 0.4; }
+  .color-bg img:nth-of-type(6) {
+    width: 85%;
+    right: 0;
+    top: 26.55%; }
+  .color-bg img:nth-of-type(7) {
+    width: 85%;
+    left: 0;
+    top: 34.4%; }
+  .color-bg img:nth-of-type(8) {
+    width: 85%;
+    left: 0;
+    top: 42.5%; }
+  .color-bg img:nth-of-type(9) {
+    width: 85%;
+    right: 0;
+    top: 46.7%; }
+  .color-bg img:nth-of-type(10) {
+    width: 85%;
+    left: 0;
+    top: 55.8%; }
+  .color-bg img:nth-of-type(11) {
+    width: 85%;
+    right: 0;
+    top: 65.8%; }
+  .color-bg img:nth-of-type(12) {
+    width: 30%;
+    left: 0;
+    top: 77.8%; }
+  .color-bg img:nth-of-type(13) {
+    width: 85%;
+    right: 0;
+    bottom: 0; }
+  .color-bg img:nth-of-type(14) {
+    width: 40%;
+    left: 0;
+    bottom: 3.7%; }
 
 #nav {
   position: fixed;
