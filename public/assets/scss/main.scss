@@ -310,6 +310,7 @@ body {
 	z-index: 30;
 	pointer-events: none;
 	font-size: 15px;
+	opacity: 1;
 
 	.logo {
 		width: 160px;
@@ -679,4 +680,42 @@ header {
 	img {
 		width: 100%;
 	}
+}
+
+.loading {
+
+	#nav, header, section {
+		opacity: 0;
+		transition: 1s ease;
+	}
+
+	#nav .top {
+		transform: translateY(-100%);
+	}
+
+	#nav .right {
+		transform: translate3d(100%, -50%, 0);
+	}
+
+	#nav .bot {
+		transform: translateY(100%);
+	}
+
+}
+
+#nav, header, section {
+	opacity: 1;
+	transition: 0.3s ease;
+}
+
+#nav .top, #nav .bot, #nav .right {
+	transition: 1s ease .4s;
+}
+
+#nav .top {
+	transform: translateY(0%);
+}
+
+#nav .bot {
+	transform: translateY(0%);
 }
