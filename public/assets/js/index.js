@@ -423,5 +423,6 @@ var selftoken = new Vue({
 
   ready: function() {
     this.lang = 'tc';
+    $('.loading').removeClass('loading');
   }
 })

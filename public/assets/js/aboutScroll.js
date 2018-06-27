@@ -123,7 +123,3 @@ $(function() {
     }, 500);
 	});
 })
-
-$(window).load(function () {
-	$('.loading').removeClass('loading')
-})
