@@ -2,6 +2,7 @@ var selftoken = new Vue({
   el: '#vue-app',
   data: {
   	lang: '',
+
     navLinkAboutUs: "",
     navLinkWhitePaper: "",
     navLinkRoadMap: "",
@@ -112,7 +113,7 @@ var selftoken = new Vue({
     pointsHeader2: function() {
       var width = $('header .content').width()
       var height = $('header').height()
-      var string = `${width * 4/ 5},${width * 4/ 5} ${width},${width} `
+      var string = `${width * 4/ 5},${width * 4/ 5} ${width},${width}`
       return string
     },
 
@@ -172,7 +173,7 @@ var selftoken = new Vue({
         this.sec5name4 = "曾國駿"
         this.sec5title4 = "SELF TOKEN 聯合創始人＆風險管理委員"
 
-        this.sec5intro5 = "兩岸三地的著名製片人，也是電影製作公司影市堂的負責人，製作、出品知名華語電影九降風、殺手歐陽盆栽、變身、看不見的台灣等優秀作品，更獲得了台灣、香港金馬獎的多項肯定，未來將透過 SELF TOKEN 讓影視圈與區塊鏈科技更緊密結合，並共創出更多優秀的電影、網路影視內容。"
+        this.sec5intro5 = "曾任資策會產推處副處長、經濟部中小企業執行國家級對接歐美加速器的計畫主持人，曾協助全球第五大特效公司 - Rhythm & Hues (李安導演 Life of Pi 後製特效 ）在台募資含國發基金等投資 2100 萬美金，未來將協助 SELF TOKEN 在技術發展上有更穩固的基礎，並協同整合兩岸、國際資源，逐步落實各項應用。"
         this.sec5name5 = "洪雯娟"
         this.sec5title5 = "SELF TOKEN 聯合創始人＆風險管理委員"
 
@@ -186,15 +187,15 @@ var selftoken = new Vue({
 
         this.sec5intro8 = "前 Google 軟體工程師，智能合約工程師，製作並協助發行 2018 年中國第一款區塊鏈遊戲「以太萌王」、「以太水滸」、「冥幣」等七款智能合約遊戲，曾創下 24 小時全球交易量 Top3，兩週總流水 780ETH 的記錄。協助 SELF Token 進行智能合約的研發、測試與佈建。"
         this.sec5name8 = "FEIHU"
-        this.sec5title8 = "SELF TOKEN　智能合約開發團隊總監"
+        this.sec5title8 = "SELF TOKEN 智能合約開發團隊總監"
 
         this.sec5intro9 = "芝加哥大學經濟學博士，現任美國 Clemson University 經濟學助理教授，専精於網路經濟學，數位經濟學。Tom 的研究包含共享經濟，電商評分系統，遊戲產業，工程招標及誘因合約設計。於上海、香港及美國等地主講有關計量經濟學及機器學習的講座及課程。協助 SELF Token 進行經濟學模型模擬與計算。"
         this.sec5name9 = "林仲生"
         this.sec5title9 = "SELF TOKEN 首席經濟學家"
 
-        this.sec5intro10 = "前 Google 軟體工程師，智能合約工程師，製作並協助發行 2018 年中國第一款區塊鏈遊戲「以太萌王」、「以太水滸」、「冥幣」等七款智能合約遊戲，曾創下 24 小時全球交易量 Top3，兩週總流水 780ETH 的記錄。協助 SELF Token 進行智能合約的研發、測試與佈建。"
-        this.sec5name10 = "ROGER"
-        this.sec5title10 = "SELF TOKEN 專案工程師"
+        this.sec5intro10 = "台大電機系畢業，目前是台大電信所碩士生。曾在 HTC、聯發科、幫你優等公司實習。擁有一年以上的智能合約開發經驗與兩年以上的網頁前端開發經驗。將協助 SELF TOKEN 進行智能合約的研發、測試與佈建，以及智能合約與 SELF PAY 前後端的整合。"
+        this.sec5name10 = "吳冠融"
+        this.sec5title10 = "SELF TOKEN 專案經理"
 
         this.sec5intro11 = "香港知名演員、電視節目主持和電影製作人。近年多為電視節目主持，偶為電影導演，他同時亦投資、策劃及參與電影製作。現代表香港演藝人協會任香港電影金像獎董事局副主席。曾榮獲 第11屆香港金像獎《雙城故事》榮獲最佳男主角、第36屆香港金像獎《一念無明》榮獲最佳男配角、第53屆金馬獎《愈快樂愈墮落》榮獲最佳男配角。"
         this.sec5name11 = "曾志偉"
@@ -291,7 +292,7 @@ var selftoken = new Vue({
 
         this.sec5intro10 = "Roger graduated with a degree in Electrical Engineering from National Taiwan University (NTU) and is currently studying Telecommunications as a graduate student at NTU. Roger has worked in multiple telecommunications companies such as HTC, MediaTek, BoniQ, and is experienced with smart contract development and web design. Roger will assist SELF TOKEN in developing smart contracts and its integration with SELF PAY."
         this.sec5name10 = "Roger Wu"
-        this.sec5title10 = "Engineering Project Manager"
+        this.sec5title10 = "Project Manager"
 
         this.sec5intro11 = "Eric is a renowned Cantonese actor, TV show personality, and filmmaker who also invests and participates in film production. Eric has won Best Actor at the 11th Hong Kong Film Awards for his role in Alan & Eric: Between Hello and Goodbye (1991), as well as Best Supporting Actor at the 36th and 53rd Golden Horse Awards for his roles in Mad World (2016)  and Hold You Tight (1998). Currently, Eric is the Vice Chairman of the Hong Kong Film Awards."
         this.sec5name11 = "Eric"
@@ -367,57 +368,58 @@ var selftoken = new Vue({
         this.sec5name4 = "曾國駿"
         this.sec5title4 = "SELF TOKEN 聯合創始人＆風險管理委員"
 
-        this.sec5intro5 = "兩岸三地的著名製片人，也是電影製作公司影市堂的負責人，製作、出品知名華語電影九降風、殺手歐陽盆栽、變身、看不見的台灣等優秀作品，更獲得了台灣、香港金馬獎的多項肯定，未來將透過SELF TOKEN 讓影視圈與區塊鏈科技更緊密結合，並共創出更多優秀的電影、網路影視內容。"
+        this.sec5intro5 = "曾任资策会产推处副处长、经济部中小企业执行国家级对接欧美加速器的计画主持人，曾协助全球第五大特效公司- Rhythm & Hues (李安导演Life of Pi 后制特效）在台募资含国发基金等投资2100 万美金，未来将协助SELF TOKEN 在技术发展上有更稳固的基础，并协同整合两岸、国际资源，逐步落实各项应用。"
         this.sec5name5 = "洪雯娟"
-        this.sec5title5 = "SELF TOKEN 聯合創始人＆風險管理委員"
+        this.sec5title5 = "SELF TOKEN 联合创始人＆风险管理委员"
 
-        this.sec5intro6 = "曾任澳商紅點行銷之行銷總監，協助VISA 和中信金、日盛金推動異業結盟合作以及紅利點數回饋機制，現為大硯建築品牌行銷暨客戶關係總監、新竹縣不動產開發公會副理事長，創辦第一屆住宅博覽會，創造超過兩億新台幣的現場交易量，未來將協助SELF TOKEN 落實與在地商家連接、拓展SELF PAY 的多樣化娛樂餐飲商機，並建造完整的品牌形象。"
+        this.sec5intro6 = "曾任澳商红点行销之行销总监，协助VISA 和中信金、日盛金推动异业结盟合作以及红利点数回馈机制，现为大砚建筑品牌行销暨客户关系总监、新竹县不动产开发公会副理事长，创办第一届住宅博览会，创造超过两亿新台币的现场交易量，未来将协助SELF TOKEN 落实与在地商家连接、拓展SELF PAY 的多样化娱乐餐饮商机，并建造完整的品牌形象。"
         this.sec5name6 = "林帝沅"
-        this.sec5title6 = "SELF TOKEN 聯合創始人＆風險管理委員"
+        this.sec5title6 = "SELF TOKEN 联合创始人＆风险管理委员"
 
-        this.sec5intro7 = "資深的企業財務顧問、天使投資人，曾協助四家公司在台灣主板上市、渣打銀行董事總經理以及匯豐環球投資銀行大中華區董事總經理進行相關投資工作，同時也是資深虛擬貨幣投資人，將協助SELF TOKEN 在未來營運上取得更多不同的幣圈內外互利合作的機會以及架構完整金融交易生態圈。"
+        this.sec5intro7 = "资深的企业财务顾问、天使投资人，曾协助四家公司在台湾主板上市、渣打银行董事总经理以及汇丰环球投资银行大中华区董事总经理进行相关投资工作，同时也是资深虚拟货币投资人，将协助SELF TOKEN 在未来营运上取得更多不同的币圈内外互利合作的机会以及架构完整金融交易生态圈。"
         this.sec5name7 = "邱瑞文"
-        this.sec5title7 = "SELF TOKEN 聯合創始人＆風險管理委員"
+        this.sec5title7 = "SELF TOKEN 联合创始人＆风险管理委员"
 
-        this.sec5intro8 = "前Google 軟體工程師，智能合約工程師，製作並協助發行2018 年中國第一款區塊鏈遊戲「以太萌王」、「以太水滸」、「冥幣」等七款智能合約遊戲，曾創下24 小時全球交易量Top3，兩週總流水780ETH 的記錄。協助 SELF Token 進行智能合約的研發、測試與佈建。 "
+        this.sec5intro8 = "前Google 软体工程师，智能合约工程师，制作并协助发行2018 年中国第一款区块链游戏「以太萌王」、「以太水浒」、「冥币」等七款智能合约游戏，曾创下24 小时全球交易量Top3，两周总流水780ETH 的记录。协助 SELF Token 进行智能合约的研发、测试与布建。 "
         this.sec5name8 = "FEIHU"
-        this.sec5title8 = "SELF TOKEN　智能合約開發團隊總監"
+        this.sec5title8 = "SELF TOKEN 智能合约开发团队总监"
 
-        this.sec5intro9 = "芝加哥大學經濟學博士，現任美國Clemson University 經濟學助理教授，専精於網路經濟學，數位經濟學。Tom 的研究包含共享經濟，電商評分系統，遊戲產業，工程招標及誘因合約設計。於上海、香港及美國等地主講有關計量經濟學及機器學習的講座及課程。協助SELF Token 進行經濟學模型模擬與計算。"
+        this.sec5intro9 = "芝加哥大学经济学博士，现任美国Clemson University 经济学助理教授，専精于网路经济学，数位经济学。Tom 的研究包含共享经济，电商评分系统，游戏产业，工程招标及诱因合约设计。于上海、香港及美国等地主讲有关计量经济学及机器学习的讲座及课程。协助SELF Token 进行经济学模型模拟与计算。"
         this.sec5name9 = "林仲生"
-        this.sec5title9 = "SELF TOKEN 首席經濟學家"
+        this.sec5title9 = "SELF TOKEN 首席经济学家"
 
-        this.sec5intro10 = "前Google 軟體工程師，智能合約工程師，製作並協助發行2018 年中國第一款區塊鏈遊戲「以太萌王」、「以太水滸」、「冥幣」等七款智能合約遊戲，曾創下24 小時全球交易量Top3，兩週總流水780ETH 的記錄。協助 SELF Token 進行智能合約的研發、測試與佈建。 "
-        this.sec5name10 = "ROGER"
-        this.sec5title10 = "SELF TOKEN 專案工程師"
+        this.sec5intro10 = "台大电机系毕业，目前是台大电信所硕士生。曾在HTC、联发科、帮你优等公司实习。拥有一年以上的智能合约开发经验与两年以上的网页前端开发经验。将协助SELF TOKEN 进行智能合约的研发、测试与布建，以及智能合约与SELF PAY 前后端的整合。"
+        this.sec5name10 = "吴冠融"
+        this.sec5title10 = "SELF TOKEN 专案经理"
 
-        this.sec5intro11 = "香港知名演員、電視節目主持和電影製作人。近年多為電視節目主持，偶為電影導演，他同時亦投資、策劃及參與電影製作。現代表香港演藝人協會任香港電影金像獎董事局副主席。曾榮獲第11屆香港金像獎《雙城故事》榮獲最佳男主角、第36屆香港金像獎《一念無明》榮獲最佳男配角、第53屆金馬獎《愈快樂愈墮落》榮獲最佳男配角。"
-        this.sec5name11 = "曾志偉"
-        this.sec5title11 = "SELF TOKEN 原創電影聖人大盜監製"
+        this.sec5intro11 = "香港知名演员、电视节目主持和电影制作人。近年多为电视节目主持，偶为电影导演，他同时亦投资、策划及参与电影制作。现代表香港演艺人协会任香港电影金像奖董事局副主席。曾荣获第11届香港金像奖《双城故事》荣获最佳男主角、第36届香港金像奖《一念无明》荣获最佳男配角、第53届金马奖《愈快乐愈堕落》荣获最佳男配角。"
+        this.sec5name11 = "曾志伟"
+        this.sec5title11 = "SELF TOKEN 原创电影圣人大盗监制"
 
-        this.sec5intro12 = "台湾资深电影人,深耕电影逾二十载,合作对象皆为享誉中外、作品题材各异的优秀导演。擅长电影资源整合、预算掌控与制作,具丰富的国际合作经验。现担任华文创总监制。曾获得第50届金马奖年度台湾杰出电影工作者，并担任第35届香港金像奖提名最佳两岸华语电影《我的少女时代》总监制以及第53届金马奖8项提名、第36届香港金像奖最佳两岸华语电影《一路顺风》监制。"
+        this.sec5intro12 = "台湾资深电影人，深耕电影逾二十载,合作对象皆为享誉中外、作品题材各异的优秀导演。擅长电影资源整合、预算掌控与制作，具丰富的国际合作经验。现担任华文创总监制。曾获得第50 届金马奖年度台湾杰出电影工作者，并担任第35 届香港金像奖提名最佳两岸华语电影《我的少女时代》总监制以及第53 届金马奖8项提名、第36 届香港金像奖最佳两岸华语电影《一路顺风》监制。"
         this.sec5name12 = "叶如芬"
         this.sec5title12 = "SELF TOKEN 原创电影圣人大盗监制"
 
-        this.sec5intro13 = "渺小（歌手：田馥甄）、寂寞寂寞就好（歌手：田馥甄）、意外（歌手：薛之謙）、曾經是少年（歌手：SHE）等華語暢銷歌曲、電影原創主題曲作曲，曾獲得金曲獎、上海音樂風雲榜年度十大金曲等殊榮，現任SELFPICK PRODUCTION 音樂總監、華研音樂專屬詞曲音樂作者。"
-        this.sec5name13 = "楊子樸"
-        this.sec5title13 = "SELF TOKEN 原創電影聖人大盜音樂總監"
+        this.sec5intro13 = "渺小（歌手：田馥甄）、寂寞寂寞就好（歌手：田馥甄）、意外（歌手：薛之谦）、曾经是少年（歌手：SHE）等华语畅销歌曲、电影原创主题曲作曲，曾获得金曲奖、上海音乐风云榜年度十大金曲等殊荣，现任SELFPICK PRODUCTION 音乐总监、华研音乐专属词曲音乐作者。"
+        this.sec5name13 = "杨子朴"
+        this.sec5title13 = "SELF TOKEN 原创电影圣人大盗音乐总监"
 
-        this.sec5intro14 = "畢業於南加州大學大眾傳播系，曾有在美國生物科技產業招募人才與社群行銷經驗，同時在KB Capital Management 協助投資管理。近期回台也在虛擬貨幣產業公司擔任主導招募與翻譯，協助行銷團隊對國外用戶進行推廣教育。未來將協助與代表Self Token 對外進行區塊鏈教育和對英語系國家進行IEO計畫的公關宣傳。"
-        this.sec5name14 = "許家瑄"
-        this.sec5title14 = "SELF TOKEN 公關經理"
+        this.sec5intro14 = "毕业于南加州大学大众传播系，曾有在美国生物科技产业招募人才与社群行销经验，同时在KB Capital Management 协助投资管理。近期回台也在虚拟货币产业公司担任主导招募与翻译，协助行销团队对国外用户进行推广教育。未来将协助与代表Self Token 对外进行区块链教育和对英语系国家进行IEO计画的公关宣传。"
+        this.sec5name14 = "许家瑄"
+        this.sec5title14 = "SELF TOKEN 公关经理"
 
-        this.sec5intro15 = "從事平面設計工作近十年，擅長平面、網站版面、包裝、與美術設計。多項音樂展演、影視海報設計經驗，包含奧地利插畫家Lisbeth Zwerger 來台巡迴展出海報與週邊商品之專案設計，東發生技水果啤酒系列包裝設計等。現為SELFPICK PRODUCTION 藝術統籌，執行美術場景設計、週邊商品開發製作與企業CIS 設計。"
-        this.sec5name15 = "何姿瑩"
-        this.sec5title15 = "SELF TOKEN 藝術總監"
+        this.sec5intro15 = "从事平面设计工作近十年，擅长平面、网站版面、包装、与美术设计。多项音乐展演、影视海报设计经验，包含奥地利插画家Lisbeth Zwerger 来台巡回展出海报与周边商品之专案设计，东发生技水果啤酒系列包装设计等。现为SELFPICK PRODUCTION 艺术统筹，执行美术场景设计、周边商品开发制作与企业CIS 设计。"
+        this.sec5name15 = "何姿莹"
+        this.sec5title15 = "SELF TOKEN 艺术总监"
 
-        this.sec5intro16 = "來自香港的區塊鏈開發者，曾於南韓，香港，台灣等地演講研究發展，並在2018 年6 月剛於德國慕尼黑發表最新的ERC860 論文，同時為香港科技大學開發第一條以校園為基準的資源共享區塊鏈。目前任職紐約Coining.ai 的區塊鏈技術總監，曾赴矽谷研發Google Glass 醫療系統與香港首個JPMorgan 自動化對話機器人。"
+        this.sec5intro16 = "来自香港的区块链开发者，曾于南韩，香港，台湾等地演讲研究发展，并在2018 年6 月刚于德国慕尼黑发表最新的ERC860 论文，同时为香港科技大学开发第一条以校园为基准的资源共享区块链。目前任职纽约Coining.ai 的区块链技术总监，曾赴矽谷研发Google Glass 医疗系统与香港首个JPMorgan 自动化对话机器人。"
         this.sec5name16 = "Jeff"
-        this.sec5title16 = "SELF TOKEN 智能合約開發技術顧問"
+        this.sec5title16 = "SELF TOKEN 智能合约开发技术顾问"
 
-        this.sec5intro17 = "同樣來自香港的區塊鏈開發者，於南韓，香港，台灣等地演講研究發展，並同JEFF 於2018 年6 月剛於德國慕尼黑發表最新的ERC860 論文，同時為香港科技大學開發第一條以校園為基準的資源共享區塊鏈。於2018年暑假在微軟香港的人工智能開發團隊實習，並在Medium 上發表以太坊系列教學，吸引1400 多人追蹤。"
+        this.sec5intro17 = "同样来自香港的区块链开发者，于南韩，香港，台湾等地演讲研究发展，并同JEFF 于2018 年6 月刚于德国慕尼黑发表最新的ERC860 论文，同时为香港科技大学开发第一条以校园为基准的资源共享区块链。于2018年暑假在微软香港的人工智能开发团队实习，并在Medium 上发表以太坊系列教学，吸引1400 多人追踪。"
         this.sec5name17 = "Tina"
-        this.sec5title17 = "SELF TOKEN 智能合約開發技術顧問"      }
+        this.sec5title17 = "SELF TOKEN 智能合约开发技术顾问"
+      }
   	}
   },
 

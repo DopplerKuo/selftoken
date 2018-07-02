@@ -249,12 +249,6 @@ svg {
   -webkit-animation: dash 1s linear 1s 1 both;
   animation: dash 1s linear 1s 1 both; }
 
-.ani .header_svg2 {
-  opacity: 0;
-  stroke-dasharray: 500;
-  -webkit-animation: dash 1s linear 1s 1 both;
-  animation: dash 1s linear 1s 1 both; }
-
 @-webkit-keyframes dash {
   to {
     opacity: 1;
@@ -266,6 +260,14 @@ svg {
     opacity: 1;
     stroke-dasharray: 1000;
     stroke-dashoffset: -1000; } }
+
+@-webkit-keyframes dash2 {
+  to {
+    opacity: 1; } }
+
+@keyframes dash2 {
+  to {
+    opacity: 1; } }
 
 section {
   position: relative;

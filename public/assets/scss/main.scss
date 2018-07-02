@@ -49,17 +49,23 @@ svg {
   animation: dash 1s linear 1s 1 both;
 }
 
-.ani .header_svg2 {
-	opacity: 0;
-	stroke-dasharray: 500;
-  animation: dash 1s linear 1s 1 both;
-}
+// .ani .header_svg2 {
+// 	opacity: 1;
+// 	stroke-dasharray: 500;
+//   animation: dash2 1s linear 1s 1 both;
+// }
 
 @keyframes dash {
   to {
   	opacity: 1;
   	stroke-dasharray: 1000;
     stroke-dashoffset: -1000;
+  }
+}
+
+@keyframes dash2 {
+  to {
+  	opacity: 1;
   }
 }
 
