@@ -214,7 +214,7 @@ a {
   text-align: center; }
 
 * {
-  font-family: "PT Sans Narrow", PingFangTC-Thin, xingothic-tc, sans-serif, Microsoft JhengHei;
+  font-family: "Quicksand", PingFangTC-Thin, xingothic-tc, sans-serif, Microsoft JhengHei;
   font-weight: 200;
   position: relative; }
 
@@ -261,13 +261,139 @@ svg {
     stroke-dasharray: 1000;
     stroke-dashoffset: -1000; } }
 
-@-webkit-keyframes dash2 {
-  to {
-    opacity: 1; } }
+.a-line.active:after {
+  width: 0 !important; }
 
-@keyframes dash2 {
-  to {
-    opacity: 1; } }
+.a-line {
+  position: absolute;
+  -webkit-transition: 1s ease;
+  -o-transition: 1s ease;
+  transition: 1s ease;
+  right: 15%;
+  bottom: 15%;
+  width: 150px;
+  height: 3px;
+  -webkit-transform: scale(1) rotate(45deg);
+  -ms-transform: scale(1) rotate(45deg);
+  transform: scale(1) rotate(45deg); }
+  .a-line:after {
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+    background-color: #fff;
+    -webkit-transition: 1.4s ease 0.7s;
+    -o-transition: 1.4s ease 0.7s;
+    transition: 1.4s ease 0.7s; }
+
+.a-line.b {
+  right: calc(15% + 25px);
+  bottom: calc(15% + 10px);
+  width: 150px;
+  height: 2px;
+  -webkit-transform: scale(1) rotate(45deg);
+  -ms-transform: scale(1) rotate(45deg);
+  transform: scale(1) rotate(45deg); }
+
+.a-line.c {
+  right: auto;
+  bottom: auto;
+  margin: auto;
+  width: 250px;
+  height: 1px;
+  position: relative;
+  -webkit-transform: scale(1) translate3d(-100%, 0px, 0) rotate(-225deg);
+  transform: scale(1) translate3d(-100%, 0px, 0) rotate(-225deg); }
+
+.a-line.d {
+  right: auto;
+  bottom: auto;
+  margin: auto;
+  width: 250px;
+  height: 1px;
+  position: relative;
+  -webkit-transform: scale(1) translate3d(-150%, -30px, 0) rotate(45deg);
+  transform: scale(1) translate3d(-150%, -30px, 0) rotate(45deg); }
+
+.a-line.e {
+  right: auto;
+  bottom: auto;
+  margin: auto;
+  width: 250px;
+  height: 1px;
+  position: relative;
+  -webkit-transform: scale(1) translate3d(150%, 80px, 0) rotate(-225deg);
+  transform: scale(1) translate3d(150%, 80px, 0) rotate(-225deg); }
+
+.a-line.f {
+  right: auto;
+  bottom: auto;
+  margin: auto;
+  width: 250px;
+  height: 1px;
+  position: relative;
+  -webkit-transform: scale(1) translate3d(0%, 0px, 0) rotate(-45deg);
+  transform: scale(1) translate3d(0%, 0px, 0) rotate(-45deg); }
+
+.a-line.g {
+  right: auto;
+  bottom: auto;
+  margin: auto;
+  width: 100px;
+  height: 1px;
+  position: relative;
+  -webkit-transform: scale(1) translate3d(20.5px, 50px, 0) rotate(45deg);
+  transform: scale(1) translate3d(20.5px, 50px, 0) rotate(45deg); }
+
+.a-line.h,
+.a-line.i {
+  right: auto;
+  bottom: auto;
+  margin: auto;
+  width: 100px;
+  height: 1px;
+  position: relative;
+  -webkit-transform: scale(1) translate3d(-50px, 0px, 0) rotate(45deg);
+  transform: scale(1) translate3d(-50px, 0px, 0) rotate(45deg); }
+
+.a-line.i {
+  -webkit-transform: scale(1) translate3d(20px, 0px, 0) rotate(-45deg);
+  transform: scale(1) translate3d(20px, 0px, 0) rotate(-45deg); }
+
+.a-line.j {
+  width: 200px;
+  height: 1px;
+  -webkit-transform: scale(1) translate3d(-50%, 0px, 0) rotate(-225deg);
+  transform: scale(1) translate3d(-50%, 0px, 0) rotate(-225deg); }
+
+.a-line.k {
+  width: 200px;
+  height: 1px;
+  left: 0;
+  top: 0;
+  -webkit-transform: scale(1) translate3d(10%, 14vh, 0) rotate(-45deg);
+  transform: scale(1) translate3d(10%, 14vh, 0) rotate(-45deg); }
+
+.a-line.l,
+.a-line.m {
+  bottom: -1px;
+  left: -150px;
+  right: auto;
+  margin: auto;
+  height: 1px;
+  -webkit-transform: scale(1) rotate(45deg);
+  -ms-transform: scale(1) rotate(45deg);
+  transform: scale(1) rotate(45deg);
+  -webkit-transform-origin: 100% 50%;
+  -ms-transform-origin: 100% 50%;
+  transform-origin: 100% 50%; }
+
+.a-line.m {
+  -webkit-transform: scale(1) rotate(-45deg);
+  -ms-transform: scale(1) rotate(-45deg);
+  transform: scale(1) rotate(-45deg); }
 
 section {
   position: relative;
@@ -292,7 +418,7 @@ section {
         margin-bottom: 30px; } }
   section h3 {
     color: #d6a838;
-    font-family: "PT Sans Narrow", PingFangTC-Light, xingothic-tc, sans-serif, Microsoft JhengHei;
+    font-family: "Quicksand", PingFangTC-Light, xingothic-tc, sans-serif, Microsoft JhengHei;
     font-weight: 300;
     margin-bottom: 40px;
     line-height: 1.8; }
@@ -301,7 +427,7 @@ section {
         line-height: 1.4;
         margin-bottom: 15px; } }
   section p {
-    font-family: "PT Sans Narrow", PingFangTC-Thin, xingothic-tc, sans-serif, Microsoft JhengHei;
+    font-family: "Quicksand", PingFangTC-Thin, xingothic-tc, sans-serif, Microsoft JhengHei;
     font-weight: 200;
     line-height: 1.8; }
     @media screen and (max-width: 992px) {
@@ -310,14 +436,16 @@ section {
         font-size: 15px;
         margin-bottom: 15px; } }
 
-section .content, header .content {
+section .content,
+header .content {
   position: relative;
   max-width: 1100px;
   width: 100%;
   padding: 2.5%;
   margin: auto; }
   @media screen and (max-width: 992px) {
-    section .content, header .content {
+    section .content,
+    header .content {
       padding: 2.5% 5%; } }
 
 section .content {
@@ -334,7 +462,8 @@ body {
   left: 0;
   top: 0;
   overflow: hidden; }
-  .bg .dot, .bg .line {
+  .bg .dot,
+  .bg .line {
     position: absolute;
     left: 0;
     top: 0;
@@ -491,7 +620,8 @@ body {
     @media screen and (max-width: 992px) {
       #nav img {
         width: 60px; } }
-  #nav .top, #nav .bot {
+  #nav .top,
+  #nav .bot {
     pointer-events: visible;
     position: absolute;
     top: 0;
@@ -501,7 +631,8 @@ body {
     background-color: rgba(0, 0, 0, 0.15);
     color: #d6a838; }
     @media screen and (max-width: 992px) {
-      #nav .top, #nav .bot {
+      #nav .top,
+      #nav .bot {
         height: 50px; } }
   #nav .top > a {
     display: block;
@@ -585,12 +716,13 @@ header {
     width: 37%; }
 
 .header-title {
-  font-family: "PT Sans Narrow", PingFangTC-Thin, xingothic-tc, sans-serif, Microsoft JhengHei;
+  font-family: "Quicksand", PingFangTC-Thin, xingothic-tc, sans-serif, Microsoft JhengHei;
   font-weight: 200;
   padding: 0 10px;
   margin: auto; }
 
-.header-model:after, .header-model:before {
+.header-model:after,
+.header-model:before {
   content: '';
   position: absolute;
   left: 0;
@@ -611,7 +743,7 @@ header {
 .sec2 {
   display: block; }
   .sec2 .content {
-    padding: 13% 2.5%; }
+    padding: 10% 2.5%; }
     @media screen and (max-width: 992px) {
       .sec2 .content {
         padding: 10% 5%; } }
@@ -722,6 +854,7 @@ header {
       width: 100%; } }
 
 .sec4 .road:nth-of-type(n) {
+  position: relative;
   padding-right: 10%;
   padding-bottom: 20%; }
   .sec4 .road:nth-of-type(n) > * {
@@ -732,7 +865,24 @@ header {
     text-align: right;
     font-size: 18px;
     font-weight: 100;
-    font-family: "PT Sans Narrow", PingFangTC-Ultralight, xingothic-tc, sans-serif, Microsoft JhengHei; }
+    font-family: "Quicksand", PingFangTC-Ultralight, xingothic-tc, sans-serif, Microsoft JhengHei; }
+  .sec4 .road:nth-of-type(n):after {
+    content: '';
+    position: absolute;
+    right: 0;
+    top: 25%;
+    margin: auto;
+    width: 40%;
+    -webkit-transform-origin: 0 50%;
+    -ms-transform-origin: 0 50%;
+    transform-origin: 0 50%;
+    -webkit-transform: translate3d(65%, 0, 0) rotate(45deg);
+    transform: translate3d(65%, 0, 0) rotate(45deg);
+    height: 1px;
+    background-color: #fff; }
+    @media screen and (max-width: 992px) {
+      .sec4 .road:nth-of-type(n):after {
+        display: none !important; } }
   .sec4 .road:nth-of-type(n) h3 {
     margin-bottom: 10px;
     font-size: 25px;
@@ -746,6 +896,17 @@ header {
   padding-left: 10%; }
   .sec4 .road:nth-of-type(2n) > * {
     text-align: left; }
+  .sec4 .road:nth-of-type(2n):after {
+    right: auto;
+    left: 0;
+    top: 75%;
+    -webkit-transform-origin: 100% 50%;
+    -ms-transform-origin: 100% 50%;
+    transform-origin: 100% 50%;
+    -webkit-transform: translate3d(-65%, 0, 0) rotate(-45deg);
+    transform: translate3d(-65%, 0, 0) rotate(-45deg);
+    height: 1px;
+    background-color: #fff; }
 
 @media screen and (max-width: 992px) {
   .sec4 .road {
@@ -753,6 +914,64 @@ header {
     margin-bottom: 30px; }
     .sec4 .road > * {
       text-align: left !important; } }
+
+.sec4 .road.active:after {
+  width: 0 !important; }
+
+.sec4 .road:nth-of-type(1):after {
+  -webkit-transition: 0.6s ease calc(0s * 2);
+  -o-transition: 0.6s ease calc(0s * 2);
+  transition: 0.6s ease calc(0s * 2); }
+
+.sec4 .road:nth-of-type(2):after {
+  -webkit-transition: 0.6s ease calc(0.2s * 2);
+  -o-transition: 0.6s ease calc(0.2s * 2);
+  transition: 0.6s ease calc(0.2s * 2); }
+
+.sec4 .road:nth-of-type(3):after {
+  -webkit-transition: 0.6s ease calc(0.4s * 2);
+  -o-transition: 0.6s ease calc(0.4s * 2);
+  transition: 0.6s ease calc(0.4s * 2); }
+
+.sec4 .road:nth-of-type(4):after {
+  -webkit-transition: 0.6s ease calc(0.6s * 2);
+  -o-transition: 0.6s ease calc(0.6s * 2);
+  transition: 0.6s ease calc(0.6s * 2); }
+
+.sec4 .road:nth-of-type(5):after {
+  -webkit-transition: 0.6s ease calc(0.8s * 2);
+  -o-transition: 0.6s ease calc(0.8s * 2);
+  transition: 0.6s ease calc(0.8s * 2); }
+
+.sec4 .road:nth-of-type(6):after {
+  -webkit-transition: 0.6s ease calc(1s * 2);
+  -o-transition: 0.6s ease calc(1s * 2);
+  transition: 0.6s ease calc(1s * 2); }
+
+.sec4 .road:nth-of-type(7):after {
+  -webkit-transition: 0.6s ease calc(1.2s * 2);
+  -o-transition: 0.6s ease calc(1.2s * 2);
+  transition: 0.6s ease calc(1.2s * 2); }
+
+.sec4 .road:nth-of-type(8):after {
+  -webkit-transition: 0.6s ease calc(1.4s * 2);
+  -o-transition: 0.6s ease calc(1.4s * 2);
+  transition: 0.6s ease calc(1.4s * 2); }
+
+.sec4 .road:nth-of-type(9):after {
+  -webkit-transition: 0.6s ease calc(1.6s * 2);
+  -o-transition: 0.6s ease calc(1.6s * 2);
+  transition: 0.6s ease calc(1.6s * 2); }
+
+.sec4 .road:nth-of-type(10):after {
+  -webkit-transition: 0.6s ease calc(1.8s * 2);
+  -o-transition: 0.6s ease calc(1.8s * 2);
+  transition: 0.6s ease calc(1.8s * 2); }
+
+.sec4 .road:nth-of-type(11):after {
+  -webkit-transition: 0.6s ease calc(2s * 2);
+  -o-transition: 0.6s ease calc(2s * 2);
+  transition: 0.6s ease calc(2s * 2); }
 
 .sec5 .content {
   max-width: 1000px; }
@@ -781,7 +1000,7 @@ header {
   .member .text {
     font-size: 12px;
     line-height: 1.8;
-    font-family: "PT Sans Narrow", PingFangTC-Thin, xingothic-tc, sans-serif, Microsoft JhengHei;
+    font-family: "Quicksand", PingFangTC-Thin, xingothic-tc, sans-serif, Microsoft JhengHei;
     font-weight: 200; }
     .member .text .name {
       font-size: 14px;
@@ -813,7 +1032,9 @@ header {
   .medias a img {
     width: 100%; }
 
-.loading #nav, .loading header, .loading section {
+.loading #nav,
+.loading header,
+.loading section {
   opacity: 0;
   -webkit-transition: 1s ease;
   -o-transition: 1s ease;
@@ -833,16 +1054,20 @@ header {
   -ms-transform: translateY(100%);
   transform: translateY(100%); }
 
-#nav, header, section {
+#nav,
+header,
+section {
   opacity: 1;
   -webkit-transition: 0.3s ease;
   -o-transition: 0.3s ease;
   transition: 0.3s ease; }
 
-#nav .top, #nav .bot, #nav .right {
-  -webkit-transition: 1s ease .4s;
-  -o-transition: 1s ease .4s;
-  transition: 1s ease .4s; }
+#nav .top,
+#nav .bot,
+#nav .right {
+  -webkit-transition: 1s ease 0.4s;
+  -o-transition: 1s ease 0.4s;
+  transition: 1s ease 0.4s; }
 
 #nav .top {
   -webkit-transform: translateY(0%);
