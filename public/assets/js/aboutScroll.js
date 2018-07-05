@@ -19,7 +19,8 @@ $(function() {
         $('.sec3').height() +
         $('.sec4').height() +
         $('.sec5').height() +
-        $('.sec6').height();
+        $('.sec6').height() +
+        $('.sec7').height();
 
       function moveSomething(something) {
         var height = $(something).height();

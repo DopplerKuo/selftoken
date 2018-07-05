@@ -71,7 +71,15 @@
     </div>
     <img class="sample" src="assets/img/main/bg_colorful.png" alt="">
   </div>
-
+  <div class="menu-btn {{ mobileMenu ? 'active' : ''}}" v-on:click="mobileMenu = !mobileMenu"></div>
+  <div class="menu-list {{ mobileMenu ? 'active' : ''}}">
+    <a href="#about" v-on:click="mobileMenu = !mobileMenu">{{ navLinkAboutUs }}</a>
+    <a href="#white" v-on:click="mobileMenu = !mobileMenu">{{ navLinkWhitePaper }}</a>
+    <a href="#roadmap" v-on:click="mobileMenu = !mobileMenu">{{ navLinkRoadMap }}</a>
+    <a href="#team" v-on:click="mobileMenu = !mobileMenu">{{ navLinkTeamMembers }}</a>
+    <a href="#news" v-on:click="mobileMenu = !mobileMenu">{{ navLinkMedia }}</a>
+    <a href="#contact" v-on:click="mobileMenu = !mobileMenu">{{ navLinkContact }}</a>
+  </div>
   <nav id="nav">
     <div class="top flex-jc-ac-">
       <a href="#about">{{ navLinkAboutUs }}</a>
@@ -82,7 +90,15 @@
       </div>
       <a href="#team">{{ navLinkTeamMembers }}</a>
       <a href="#news">{{ navLinkMedia }}</a>
-      <a href="">{{ navLinkContact }}</a>
+      <a href="#contact">{{ navLinkContact }}</a>
+    </div>
+    <div class="top-right flex-ac-jc-">
+      <label for="lang">LANG</label>
+      <select id="lang" v-model="lang">
+        <option value="tc">繁中</option>
+        <option value="sc">簡中</option>
+        <option value="en">EN</option>
+      </select>
     </div>
     <div class="bot flex-jsb-ac-">
       <div class="left flex-ac-jc-">
@@ -105,14 +121,6 @@
           <i class="fab fa-discord"></i>
         </a>
       </div>
-      <div class="right flex-ac-jc-">
-        <label for="lang">LANGUAGE</label>
-        <select id="lang" v-model="lang">
-          <option value="tc">繁中</option>
-          <option value="sc">簡中</option>
-          <option value="en">ENGLISH</option>
-        </select>
-      </div>
     </div>
     <div class="right">
       <a href="#header" class="active"></a>
@@ -121,6 +129,7 @@
       <a href="#roadmap"></a>
       <a href="#team"></a>
       <a href="#news"></a>
+      <a href="#contact"></a>
     </div>
   </nav>
 
@@ -128,8 +137,6 @@
     <svg>
       <polyline class="header_svg" points="{{pointsHeader1}}" style="fill: none; stroke: #fff; stroke-width: 3" />
     </svg>
-    <div class="a-line a active"></div>
-    <div class="a-line b active"></div>
     <div class="content">
       <div class="header-model">
         <img src="assets/img/main/cover-S.PNG" alt="">
@@ -143,36 +150,29 @@
   <section class="sec2" id="about">
     <div class="content">
       <h2>ABOUT US</h2>
-      <h3 class="dollar_sign">{{ sec2Title1 }}</h3>
+      <h3>{{ sec2Title1 }}</h3>
       <p>
         {{ sec2Dsc1 }}
       </p>
     </div>
-    <div class="a-line c active"></div>
     <div class="content">
       <h3>{{ sec2Title2 }}</h3>
       <p>
         {{ sec2Dsc2 }}
       </p>
     </div>
-    <div class="a-line d active"></div>
-    <div class="a-line e active"></div>
     <div class="content">
       <h3>{{ sec2Title3 }}</h3>
       <p>
         {{ sec2Dsc3 }}
       </p>
     </div>
-    <div class="a-line f active"></div>
-    <div class="a-line g active"></div>
     <div class="content">
       <h3>{{ sec2Title4 }}</h3>
       <p>
         {{ sec2Dsc4 }}
       </p>
     </div>
-    <div class="a-line h active"></div>
-    <div class="a-line i active"></div>
     <div class="content">
       <h3>{{ sec2Title5 }}</h3>
       <p>
@@ -511,6 +511,40 @@
         <a href="http://ent.ltn.com.tw/news/breakingnews/2054474" target="_blank">
           <img src="assets/img/main/media/自由時報.PNG" alt="">
         </a>
+      </div>
+    </div>
+  </section>
+
+  <section class="sec7" id="contact">
+    <div class="content">
+      <h2>CONTACT US</h2>
+      <div class="flex-l2-m1-ac-jc-">
+        <div class="left">
+          <a href="https://twitter.com/self_token_co" target="_blank">
+            TWITTER
+          </a>
+          <a href="https://t.me/self_token" target="_blank">
+            TELEGRAM
+          </a>
+          <a v-if="lang === 'en'" href="https://medium.com/self-token" target="_blank">
+            MEDIUM
+          </a>
+          <a v-if="lang !== 'en'" href="https://medium.com/self-token-cn" target="_blank">
+            MEDIUM
+          </a>
+          <a href="facebook.com/selfpick" target="_blank">
+            FACEBOOK
+          </a>
+          <a href="https://discordapp.com/channels/453448709368315916" target="_blank">
+            DISCORD
+          </a> 
+        </div>
+        <div class="right">
+          <a href="">BITCOIN FORUM</a>
+          <a href="https://www.reddit.com/user/self_token_co/">REDDI</a>
+          <i class="far fa-envelope"></i>
+          <span>CONTACT@SELFTOKEN.CO</span>
+        </div>
       </div>
     </div>
   </section>
