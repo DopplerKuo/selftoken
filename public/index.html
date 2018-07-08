@@ -21,6 +21,9 @@
 <script src="/assets/js/vendor/font.js"></script>
 
 <body id="vue-app" class="loading">
+  <div class="loading-cover">
+    <div class="loader"></div>
+  </div>  
   <div class="bg">
     <div class="dot"></div>
     <div class="line"></div>
@@ -166,47 +169,51 @@
   <section class="sec2" id="about">
     <div class="content">
       <h2>ABOUT US</h2>
-      <h3>{{ sec2Title1 }}</h3>
-      <p>
+      <h3 class="reveal">{{ sec2Title1 }}</h3>
+      <p class="reveal">
         {{ sec2Dsc1 }}
       </p>
     </div>
     <div class="content">
-      <h3>{{ sec2Title2 }}</h3>
-      <p>
+      <h3 class="reveal">{{ sec2Title2 }}</h3>
+      <p class="reveal">
         {{ sec2Dsc2 }}
       </p>
     </div>
     <div class="content">
-      <h3>{{ sec2Title3 }}</h3>
-      <p>
+      <h3 class="reveal">{{ sec2Title3 }}</h3>
+      <p class="reveal">
         {{ sec2Dsc3 }}
       </p>
     </div>
     <div class="content">
-      <h3>{{ sec2Title4 }}</h3>
-      <p>
+      <h3 class="reveal">{{ sec2Title4 }}</h3>
+      <p class="reveal">
         {{ sec2Dsc4 }}
       </p>
     </div>
     <div class="content">
-      <h3>{{ sec2Title5 }}</h3>
-      <p>
+      <h3 class="reveal">{{ sec2Title5 }}</h3>
+      <p class="reveal">
         {{ sec2Dsc5 }}
       </p>
     </div>
-    <div class="a-line j active"></div>
-    <div class="content">
-      <h3>{{ sec2Title6 }}</h3>
+    <div class="content last active">
+      <div class="a"></div>
+      <div class="b"></div>
+      <div class="c"></div>
+      <div class="d"></div>
+      <div class="e"></div>
+      <div class="f"></div>
+      <h3 class="reveal" v-html="sec2Title6"></h3>
     </div>
   </section>
 
   <section class="sec3" id="white">
     <div class="content">
-      <div class="a-line k active"></div>
       <h2>WHITE PAPER</h2>
       <div id="form">
-        <div class="left">
+        <div class="left" style="font-size: 20px;">
           WHITE
           <br> PAPER &
           <br> ONEPAGER
@@ -214,6 +221,7 @@
         <div class="right">
           <div class="a-line l active"></div>
           <div class="a-line m active"></div>
+          <div class="a-line xx active"></div>
           <input type="email" placeholder="{{ sec3Label }}">
           <span>ENTER</span>
         </div>
@@ -277,7 +285,7 @@
     <div class="content">
       <h2>TEAM MEMBER</h2>
       <div class="members flex-l2-m1-jfs-">
-        <div class="member">
+        <div class="member reveal2">
           <div class="img">
             <img src="assets/img/main/1.徐嘉凱.PNG" alt="">
           </div>
@@ -290,72 +298,7 @@
           </div>
         </div>
 
-        <div class="member">
-          <div class="img">
-            <img src="assets/img/main/3.關心.PNG" alt="">
-          </div>
-          <div class="text">
-            <div class="name">{{ sec5name3 }}</div>
-            <div class="sub_title">{{ sec5title3 }}</div>
-            <div class="intro">
-              {{ sec5intro3 }}
-            </div>
-          </div>
-        </div>
-
-        <div class="member">
-          <div class="img">
-            <img src="assets/img/main/5.洪雯娟.png" alt="">
-          </div>
-          <div class="text">
-            <div class="name">{{ sec5name5 }}</div>
-            <div class="sub_title">{{ sec5title5 }}</div>
-            <div class="intro">
-              {{ sec5intro5 }}
-            </div>
-          </div>
-        </div>
-
-        <div class="member">
-          <div class="img">
-            <img src="assets/img/main/4.曾國駿.png" alt="">
-          </div>
-          <div class="text">
-            <div class="name">{{ sec5name4 }}</div>
-            <div class="sub_title">{{ sec5title4 }}</div>
-            <div class="intro">
-              {{ sec5intro4 }}
-            </div>
-          </div>
-        </div>
-
-        <div class="member">
-          <div class="img">
-            <img src="assets/img/main/7.邱瑞文.png" alt="">
-          </div>
-          <div class="text">
-            <div class="name">{{ sec5name7 }}</div>
-            <div class="sub_title">{{ sec5title7 }}</div>
-            <div class="intro">
-              {{ sec5intro7 }}
-            </div>
-          </div>
-        </div>
-
-        <div class="member">
-          <div class="img">
-            <img src="assets/img/main/6.林帝沅.png" alt="">
-          </div>
-          <div class="text">
-            <div class="name">{{ sec5name6 }}</div>
-            <div class="sub_title">{{ sec5title6 }}</div>
-            <div class="intro">
-              {{ sec5intro6 }}
-            </div>
-          </div>
-        </div>
-
-        <div class="member">
+        <div class="member reveal2">
           <div class="img">
             <img src="assets/img/main/2.葛如鈞.PNG" alt="">
           </div>
@@ -368,7 +311,72 @@
           </div>
         </div>
 
-        <div class="member">
+        <div class="member reveal2">
+          <div class="img">
+            <img src="assets/img/main/3.關心.PNG" alt="">
+          </div>
+          <div class="text">
+            <div class="name">{{ sec5name3 }}</div>
+            <div class="sub_title">{{ sec5title3 }}</div>
+            <div class="intro">
+              {{ sec5intro3 }}
+            </div>
+          </div>
+        </div>
+
+        <div class="member reveal2">
+          <div class="img">
+            <img src="assets/img/main/4.曾國駿.png" alt="">
+          </div>
+          <div class="text">
+            <div class="name">{{ sec5name4 }}</div>
+            <div class="sub_title">{{ sec5title4 }}</div>
+            <div class="intro">
+              {{ sec5intro4 }}
+            </div>
+          </div>
+        </div>
+
+        <div class="member reveal2">
+          <div class="img">
+            <img src="assets/img/main/5.洪雯娟.png" alt="">
+          </div>
+          <div class="text">
+            <div class="name">{{ sec5name5 }}</div>
+            <div class="sub_title">{{ sec5title5 }}</div>
+            <div class="intro">
+              {{ sec5intro5 }}
+            </div>
+          </div>
+        </div>
+
+        <div class="member reveal2">
+          <div class="img">
+            <img src="assets/img/main/6.林帝沅.png" alt="">
+          </div>
+          <div class="text">
+            <div class="name">{{ sec5name6 }}</div>
+            <div class="sub_title">{{ sec5title6 }}</div>
+            <div class="intro">
+              {{ sec5intro6 }}
+            </div>
+          </div>
+        </div>
+
+        <div class="member reveal2">
+          <div class="img">
+            <img src="assets/img/main/7.邱瑞文.png" alt="">
+          </div>
+          <div class="text">
+            <div class="name">{{ sec5name7 }}</div>
+            <div class="sub_title">{{ sec5title7 }}</div>
+            <div class="intro">
+              {{ sec5intro7 }}
+            </div>
+          </div>
+        </div>
+
+        <div class="member reveal2">
           <div class="img">
             <img src="assets/img/main/9.林仲生.png" alt="">
           </div>
@@ -381,7 +389,7 @@
           </div>
         </div>
 
-        <div class="member">
+        <div class="member reveal2">
           <div class="img">
             <img src="assets/img/main/8.feihu.PNG" alt="">
           </div>
@@ -394,7 +402,7 @@
           </div>
         </div>
 
-        <div class="member">
+        <div class="member reveal2">
           <div class="img">
             <img src="assets/img/main/10.ROGER.PNG" alt="">
           </div>
@@ -407,7 +415,7 @@
           </div>
         </div>
 
-        <div class="member">
+        <div class="member reveal2">
           <div class="img">
             <img src="assets/img/main/jeff.PNG" alt="">
           </div>
@@ -420,7 +428,7 @@
           </div>
         </div>
 
-        <div class="member">
+        <div class="member reveal2">
           <div class="img">
             <img src="assets/img/main/tina.png" alt="">
           </div>
@@ -433,7 +441,7 @@
           </div>
         </div>
 
-        <div class="member">
+        <div class="member reveal2">
           <div class="img">
             <img src="assets/img/main/11.曾志偉.png" alt="">
           </div>
@@ -446,7 +454,7 @@
           </div>
         </div>
 
-        <div class="member">
+        <div class="member reveal2">
           <div class="img">
             <img src="assets/img/main/12.葉如芬.PNG" alt="">
           </div>
@@ -459,7 +467,7 @@
           </div>
         </div>
 
-        <div class="member">
+        <div class="member reveal2">
           <div class="img">
             <img src="assets/img/main/13楊子樸.venk.png" alt="">
           </div>
@@ -472,7 +480,7 @@
           </div>
         </div>
 
-        <div class="member">
+        <div class="member reveal2">
           <div class="img">
             <img src="assets/img/main/14.許家瑄.png" alt="">
           </div>
@@ -485,7 +493,7 @@
           </div>
         </div>
 
-        <div class="member">
+        <div class="member reveal2">
           <div class="img">
             <img src="assets/img/main/15.何姿瑩.png" alt="">
           </div>
@@ -504,7 +512,7 @@
 
   <section class="sec6" id="news">
     <div class="content">
-      <h2>NEWS・REPORT</h2>
+      <h2>PRESS</h2>
       <div class="medias flex-jc-ac-l4-m3-s2-">
         <a href="http://rec.org.tw/modules/tadnews/index.php?nsn=8548" target="_blank">
           <img style="width: 70%" src="assets/img/main/media/ETV.png" alt="">
@@ -568,7 +576,7 @@
 <script src="/assets/js/vendor/jquery-2.1.4.min.js"></script>
 <script src="/assets/js/vendor/vue.min.js"></script>
 <script src="/assets/js/animateNumber.js"></script>
+<script src="/assets/js/vendor/scrollreveal/scrollreveal.min.js"></script>
 <script src="/assets/js/aboutScroll.js"></script>
 <script src="/assets/js/index.js"></script>
-
 </html>
