@@ -119,8 +119,8 @@ var selftoken = new Vue({
         this.navLinkTeamMembers = '團隊成員';
         this.navLinkMedia = '媒體報導';
         this.navLinkContact = '聯絡我們';
-        this.sec1Title = '鏈接虛擬與現實的<br>沉浸式娛樂代幣';
-        this.sec2Title1 = '什麼是 SELF TOKEN';
+        this.sec1Title = '鏈接虛擬與現實的<br>沉浸式娛樂';
+        this.sec2Title1 = '什麼是 SELF';
         this.sec2Dsc1 =
           '透過以太坊智能合約所創建的代幣，同時也是開啟「沉浸式娛樂」體驗的關鍵鑰匙，將在電影《聖人大盜》與現實世界同步發行，邀請群眾跟我們共同創造一個打破現實、虛擬疆界的新世界。';
         this.sec2Title2 = '全球第一部華語區塊鏈電影《聖人大盜》';
@@ -128,7 +128,7 @@ var selftoken = new Vue({
           '由香港知名電影人曾志偉、《我的少女時代》總監製葉如芬共同監製，同時也是曾志偉睽違多年再次主演之台灣電影，而導演將由 SELFPICK PRODUCTION、SELF TOKEN 之創辦人 / 導演 徐嘉凱擔任，攜手打造出一個貼近世代潮流的全新華語商戰電影，開啟後《無間道》時代的全新鬥智類型片。';
         this.sec2Title3 = '全方位的娛樂生態系統';
         this.sec2Dsc3 =
-          '除了將支持 100 SELF TOKEN = 1 張台灣、香港可流通之電影票外，我們將以食、衣、住、行、育、樂六大面向簽訂知名的合作品牌，並設立由 SELFPICK、SELF TOKEN 所共同控股之沉浸式娛樂娛樂場域，預計將在2020年拓展經營五間不同性質之場域，包含但並不限於酒吧、咖啡廳、共同工作空間、民宿、複合性商場。';
+          '除了將支持 100 SELF  = 1 張台灣、香港可流通之電影票外，我們將以食、衣、住、行、育、樂六大面向簽訂知名的合作品牌，並設立由 SELFPICK、SELF TOKEN 所共同控股之沉浸式娛樂場域，預計將在 2020 年拓展經營五間不同性質之場域，包含但並不限於酒吧、咖啡廳、共同工作空間、民宿、複合性商場。';
         this.sec2Title4 = '全透明的獎勵機制';
         this.sec2Dsc4 =
           '透過團隊中的芝加哥大學經濟學博士林仲生所建立之區塊鏈經濟模型，我們將可以公平、透明的讓系統中所有的參與者成為受益者，並依據參與者每一次推動電影票房、直營店營收、生態系成長的行為，進行積分累積獲得實質獎勵，而首次的獎勵來源將是電影《聖人大盜》 100% 的台灣票房淨利。';
@@ -139,105 +139,108 @@ var selftoken = new Vue({
           '讓人人都可以是電影娛樂生態中<br>推廣者、支持者、觀眾、受益者，<br>創造一個共好的娛樂生態系。';
         this.sec3Label = '輸入您的郵件地址：';
         this.sec4p1 =
-          '母公司 SELFPICK PRODUCTION 完成 pre A 輪一千五百萬元增資，並推出沉浸式娛樂計畫，啟動區塊鏈電影、SELF TOKEN 白皮書計畫。';
+          '母公司 SELFPICK PRODUCTION 完成 Pre A 輪一千五百萬元增資，並推出沉浸式娛樂計畫，正式啟動區塊鏈電影、白皮書開發計畫。';
         this.sec4p2 =
-          '整合各界資源完成聖人大盜電影劇本、企劃以及 SELF TOKEN 白皮書、團隊組建。';
+          '整合各界資源推動《聖人大盜》電影劇本、企劃以及技術白皮書、團隊組建。';
         this.sec4p3 =
-          '私募一千萬元新台幣完成 SELF TOKEN 公司設立，並與合作交易所簽訂合作協議。';
+          '與橫跨電影圈、金融圈、鏈圈之夥伴組成聯合創始團隊，共同出資一千兩百萬元新台幣，登記設立區塊鏈項目之執行公司 SELF TOKEN，並與合作交易所簽訂合作備忘錄。';
         this.sec4p4 =
-          '電影聖人大盜進入正式前製期、正式成立以閉鎖型股份有限公司之形式成立 SELF WORKSHOP，正式運轉 SELF TOKEN 相關事宜。';
+          '電影製作基金「聖人大盜電影有限合夥」進行登記（詳細製作規格、金額將在八月記者會公布），同時間啟動 SELF TOKEN 正式商轉，並招聘內部工程、營運人員進行技術研發。';
         this.sec4p5 =
-          '電影聖人大盜進行前導預告拍攝計畫 SELF TOKEN 於線下招開 Pre IEO SALE 階段之說明會。';
-        this.sec4p6 = '電影聖人大盜進入前導影片拍攝。SELF TOKEN白皮書釋出。';
-        this.sec4p7 = 'SELF TOKEN 籌備進行 IEO';
+          '簽訂將在電影中曝光並實際支援 SELF 進行消費的台灣、國際知名餐飲集團、娛樂應用合作方，並同步進行技術研發。';
+        this.sec4p6 =
+          '電影《聖人大盜》前導影片拍攝，並同時進行非公開之私募，限定必須通過KYC或是邀請制度參與。';
+        this.sec4p7 =
+          '8/22 將於晶華酒店舉辦記者會，正式對外公布沉浸式娛樂計畫。';
         this.sec4p8 =
           '電影聖人大盜進入 60 天拍攝期、SELF TOKEN 進入商轉前技術開發。';
-        this.sec4p9 = '電影正式預告上線、SELFTOKEN 上線合作交易所。';
+        this.sec4p9 =
+          '電影正式預告上線、SELFTOKEN 上線合作交易所。後續進程請詳參白皮書。';
 
         this.sec5intro1 =
           '1991 年生，2014 年創立 SELFPICK PRODUCTION、2017 年創立 SELF BAR，擔任 Mr.BArtender、我們是歐爸、私室等知名網劇導演，在網路上創造了千萬點擊，並成功帶領 SELFPICK PRODUCTION 榮獲 2017 年行銷傳播貢獻獎年度傑出行銷創意團隊、2017 年金炬獎年度傑出十大潛力經理人。';
         this.sec5name1 = '徐嘉凱';
-        this.sec5title1 = 'SELF TOKEN 聯合創始人';
+        this.sec5title1 = 'SELF 創始人 ＆ 電影《聖人大盜》導演';
 
         this.sec5intro2 =
-          '擁有超過十年的跨國、跨領域創新創業與實戰經驗。為目前國內少數熟赧 VR/AR, AI 以及 Blockchain 等新興科技專家,並協助多家跨國/上市公司科技技術與區塊鏈合約。現任國立台北科技大學設計學院互動設計系專任助理教授，經濟部、台北市政府與 VR/AR 計劃顧問，COBINHOOD, Ubitus Inc., Blueprint Japan 等多家企業區塊鏈深耕推廣。';
+          '1981年生，國立臺灣大學資訊工程學博士，日本慶応大學博士後研究員，美國奇點大學首位臺灣學員，創辦多家公司曾獲紅點設計獎與 HTC 投資。現任教於北科大互動設計系，亦為奇點大學台灣大使，替多家跨國公司及政府單位如經濟部、北市府，COBINHOOD, Ubitus Inc., Blueprint Japan 等跨國企業提供區塊鏈智能合約開發之研究協助。';
         this.sec5name2 = '葛如鈞';
-        this.sec5title2 = 'SELF TOKEN 聯合創始人＆區塊鏈技術顧問';
+        this.sec5title2 = 'SELF 聯合創始人＆區塊鏈技術顧問';
 
         this.sec5intro3 =
           '為華人著名組織百人會下一代領袖成員，私募基金 Perseverance Capital Management LLC 共同合夥人，也擔任被投公司 Cold Genesys, Inc 執行長，共募資兩千五百萬美金，同時也是資深虛擬貨幣投資人，未來將透過豐沛的人脈資源協助SELF TOKEN往國際的市場推進，達成整合綜效。';
         this.sec5name3 = '關心';
-        this.sec5title3 = 'SELF TOKEN 聯合創始人＆風險管理委員';
+        this.sec5title3 = 'SELF 聯合創始人＆風險管理委員';
 
         this.sec5intro4 =
           '兩岸三地的著名製片人，也是電影製作公司影市堂的負責人，製作、出品知名華語電影九降風、殺手歐陽盆栽、變身、看不見的台灣等優秀作品，更獲得了台灣、香港金馬獎的多項肯定，未來將透過 SELF TOKEN 讓影視圈與區塊鏈科技更緊密結合，並共創出更多優秀的電影、網路影視內容。';
         this.sec5name4 = '曾國駿';
-        this.sec5title4 = 'SELF TOKEN 聯合創始人＆風險管理委員';
+        this.sec5title4 = 'SELF 聯合創始人＆風險管理委員';
 
         this.sec5intro5 =
           '曾任資策會產推處副處長、經濟部中小企業執行國家級對接歐美加速器的計畫主持人，曾協助全球第五大特效公司 - Rhythm & Hues (李安導演 Life of Pi 後製特效 ）在台募資含國發基金等投資 2100 萬美金，未來將協助 SELF TOKEN 在技術發展上有更穩固的基礎，並協同整合兩岸、國際資源，逐步落實各項應用。';
         this.sec5name5 = '洪雯娟';
-        this.sec5title5 = 'SELF TOKEN 聯合創始人＆風險管理委員';
+        this.sec5title5 = 'SELF 聯合創始人＆風險管理委員';
 
         this.sec5intro6 =
           '曾任澳商紅點行銷之行銷總監，協助 VISA 和中信金、日盛金推動異業結盟合作以及紅利點數回饋機制，現為大硯建築品牌行銷暨客戶關係總監、新竹縣不動產開發公會副理事長，創辦第一屆住宅博覽會，創造超過兩億新台幣的現場交易量，未來將協助 SELF TOKEN 落實與在地商家連接、拓展 SELF PAY 的多樣化娛樂餐飲商機，並建造完整的品牌形象。';
         this.sec5name6 = '林帝沅';
-        this.sec5title6 = 'SELF TOKEN 聯合創始人＆風險管理委員';
+        this.sec5title6 = 'SELF 聯合創始人＆風險管理委員';
 
         this.sec5intro7 =
           '資深的企業財務顧問、天使投資人，曾協助四家公司在台灣主板上市、渣打銀行董事總經理以及匯豐環球投資銀行大中華區董事總經理進行相關投資工作，同時也是資深虛擬貨幣投資人，將協助 SELF TOKEN 在未來營運上取得更多不同的幣圈內外互利合作的機會以及架構完整金融交易生態圈。';
         this.sec5name7 = '邱瑞文';
-        this.sec5title7 = 'SELF TOKEN 聯合創始人＆風險管理委員';
+        this.sec5title7 = 'SELF 聯合創始人＆風險管理委員';
 
         this.sec5intro8 =
-          '前 Google 軟體工程師，智能合約工程師，製作並協助發行 2018 年中國第一款區塊鏈遊戲「以太萌王」、「以太水滸」、「冥幣」等七款智能合約遊戲，曾創下 24 小時全球交易量 Top3，兩週總流水 780ETH 的記錄。協助 SELF Token 進行智能合約的研發、測試與佈建。';
-        this.sec5name8 = 'FEIHU';
-        this.sec5title8 = 'SELF TOKEN 智能合約開發團隊總監';
+          '前 Google 軟體工程師，哈工大畢業，2015年微軟編程之美競賽總冠軍，包括星雲鏈、BlockCity Hackthon 等競賽獲獎，傳奇智能合約工程師，製作並協助發行2018年中國第一款區塊鏈遊戲「以太萌王」、「以太水滸」、「冥幣」等七款智能合約遊戲，曾創下 24小時全球交易量 Top#3，兩週總流水 780ETH 的記錄。協助 SELF CHAIN 進行智能合約的研發、測試與佈建。';
+        this.sec5name8 = '唐飛虎';
+        this.sec5title8 = 'SELF 智能合約開發團隊總監';
 
         this.sec5intro9 =
           '芝加哥大學經濟學博士，現任美國 Clemson University 經濟學助理教授，専精於網路經濟學，數位經濟學。Tom 的研究包含共享經濟，電商評分系統，遊戲產業，工程招標及誘因合約設計。於上海、香港及美國等地主講有關計量經濟學及機器學習的講座及課程。協助 SELF Token 進行經濟學模型模擬與計算。';
         this.sec5name9 = '林仲生';
-        this.sec5title9 = 'SELF TOKEN 首席經濟學家';
+        this.sec5title9 = 'SELF 首席經濟學家';
 
         this.sec5intro10 =
-          '台大電機系畢業，目前是台大電信所碩士生。曾在 HTC、聯發科、幫你優等公司實習。擁有一年以上的智能合約開發經驗與兩年以上的網頁前端開發經驗。將協助 SELF TOKEN 進行智能合約的研發、測試與佈建，以及智能合約與 SELF PAY 前後端的整合。';
+          '台大電機系畢業，目前是台大電信所碩士生，師從知名教授葉丙成老師。曾在 HTC、聯發科、幫你優等公司工作實習。擁有多年智能合約開發經驗與網頁前端開發經驗。將協助 SELF CHAIN 進行智能合約研發、測試與佈建，亦著重智能合約與 SELF PAY 前後端的整合，未來亦將協助探索 SELF Dapps 架構設計與實作研發。';
         this.sec5name10 = '吳冠融';
-        this.sec5title10 = 'SELF TOKEN 專案經理';
+        this.sec5title10 = 'SELF 專案經理';
 
         this.sec5intro11 =
           '香港知名演員、電視節目主持和電影製作人。近年多為電視節目主持，偶為電影導演，他同時亦投資、策劃及參與電影製作。現代表香港演藝人協會任香港電影金像獎董事局副主席。曾榮獲 第11屆香港金像獎《雙城故事》榮獲最佳男主角、第36屆香港金像獎《一念無明》榮獲最佳男配角、第53屆金馬獎《愈快樂愈墮落》榮獲最佳男配角。';
         this.sec5name11 = '曾志偉';
-        this.sec5title11 = 'SELF TOKEN 原創電影聖人大盜監製';
+        this.sec5title11 = 'SELF 原創電影聖人大盜監製';
 
         this.sec5intro12 =
           '台灣資深電影人，深耕電影逾二十載,合作對象皆為 享譽中外、作品題材各異的優秀導演。擅長電影資源整合、預算掌控與製作，具豐富的國際合作經驗。現擔任華文創總監制。曾獲得第 50 屆金馬獎年度台灣傑出電影工作者，並擔任第 35 屆香港金像獎提名最佳兩岸華語電影《我的少女時代》總監制以及第 53 屆金馬獎 8 項提名、第 36 屆香港金像獎最佳兩岸華語電影《一路順風》監制。';
         this.sec5name12 = '葉如芬';
-        this.sec5title12 = 'SELF TOKEN 原創電影聖人大盜監製';
+        this.sec5title12 = 'SELF 原創電影聖人大盜監製';
 
         this.sec5intro13 =
           '渺小（歌手：田馥甄）、寂寞寂寞就好（歌手：田馥甄）、意外（歌手：薛之謙）、曾經是少年（歌手：SHE）等華語暢銷歌曲、電影原創主題曲作曲，曾獲得金曲獎、上海音樂風雲榜年度十大金曲等殊榮，現任 SELFPICK PRODUCTION 音樂總監、華研音樂專屬詞曲音樂作者。';
         this.sec5name13 = '楊子樸';
-        this.sec5title13 = 'SELF TOKEN 原創電影聖人大盜音樂總監';
+        this.sec5title13 = 'SELF 原創電影聖人大盜音樂總監';
 
         this.sec5intro14 =
           '畢業於南加州大學大眾傳播系，曾有在美國生物科技產業招募人才與社群行銷經驗，同時在 KB Capital Management 協助投資管理 。近期回台也在虛擬貨幣產業公司擔任主導招募與翻譯，協助行銷團隊對國外用戶進行推廣教育。未來將協助與代表 Self Token 對外進行區塊鏈教育和對英語系國家進行IEO計畫的公關宣傳。';
         this.sec5name14 = '許家瑄';
-        this.sec5title14 = 'SELF TOKEN 公關經理';
+        this.sec5title14 = 'SELF 公關經理';
 
         this.sec5intro15 =
           '從事平面設計工作近十年，擅長平面、網站版面、包裝、與美術設計。多項音樂展演、影視海報設計經驗，包含奧地利插畫家 Lisbeth Zwerger 來台巡迴展出海報與周邊商品之專案設計，東發生技水果啤酒系列包裝設計等。現為 SELFPICK PRODUCTION 藝術統籌，執行美術場景設計、周邊商品開發製作與企業 CIS 設計。';
         this.sec5name15 = '何姿瑩';
-        this.sec5title15 = 'SELF TOKEN 藝術總監';
+        this.sec5title15 = 'SELF 藝術總監';
 
         this.sec5intro16 =
-          '來自香港的區塊鏈開發者，曾於南韓，香港，台灣等地演講研究發展，並在 2018 年 6 月剛於德國慕尼黑發表最新的 ERC860 論文，同時為香港科技大學開發第一條以校園為基準的資源共享區塊鏈。目前任職紐約 Coining.ai 的區塊鏈技術總監，曾赴矽谷研發 Google Glass 醫療系統與香港首個 J.P.Morgan 自動化對話機器人。';
-        this.sec5name16 = 'Jeff';
-        this.sec5title16 = 'SELF TOKEN 智能合約開發技術顧問';
+          '香港科技大學一級榮譽畢業，現任圖靈鍊科技公司創始人與執行長，兼任紐約 Blackbird.AI 區塊鏈科技總監。是歷史首位港科大題名至矽谷的實習生，負責Google Glass醫療科技，隔年於 J.P. Morgan 研發NLP核心。曾獲香港 Microsoft Imagine Cup 亞軍及AI Cup季軍，Uber 電梯演講冠軍，韓國 UpTown 商務程競亞軍，法國 Atos IT 挑戰賽世界二十強與德國 CryBlock 論壇 Best Paper 等國內外數十獎項。';
+        this.sec5name16 = '胡耀傑';
+        this.sec5title16 = 'SELF 智能合約開發技術顧問';
 
         this.sec5intro17 =
-          '同樣來自香港的區塊鏈開發者，於南韓，香港，台灣等地演講研究發展，並同 JEFF 於 2018 年 6 月剛於德國慕尼黑發表最新的 ERC860 論文，同時為香港科技大學開發第一條以校園為基準的資源共享區塊鏈。於2018年暑假在微軟香港的人工智能開發團隊實習，並在 Medium 上發表以太坊系列教學，吸引 1400 多人追蹤。';
-        this.sec5name17 = 'Tina';
-        this.sec5title17 = 'SELF TOKEN 智能合約開發技術顧問';
+          '現任微軟 Microsoft 亞太區人工智能研究員，橫跨香港、印度、廣州及深圳，於香港科技大學就學中，並擔任圖靈鍊科技公司區塊鏈總監。曾於香港 Digitas 開發數項知名ICO項目，2018年榮獲德國慕尼黑CryBlock論壇最佳論文，其著作 ERC860 將受邀於國際期刊 CPE 刊出。曾在加拿大 ETHWaterloo 盛會作為香港區塊鏈代表，同時也於知名寫作平台 Medium 撰寫加密貨幣與 Ethereum 專欄，獲選為 Top Writer。';
+        this.sec5name17 = '李婷婷';
+        this.sec5title17 = 'SELF 智能合約開發技術顧問';
       } else if (val === 'en') {
         this.navLinkAboutUs = 'About us';
         this.navLinkWhitePaper = 'White Paper';
@@ -286,7 +289,7 @@ var selftoken = new Vue({
         this.sec5intro1 =
           'Jack founded SELFPICK PRODUCTION in 2014 and SELF BAR in 2017. In addition to being an entrepreneur, he is also the director of well-known web-series Mr Bartender (2015-present), OBA (2016), and The Bar (2017-present). With over 10 million views on YouTube, Jack was named Top 10 Potential Manager at the 2017 Jubilee Awards, and SELFPICK PRODUCTION was named Outstanding Marketing Team at the 2017 Agency of the Year Awards.';
         this.sec5name1 = 'Jack';
-        this.sec5title1 = 'Self token Founder';
+        this.sec5title1 = 'Self Founder';
 
         this.sec5intro2 =
           'JC is an assistant professor at National Taipei University of Technology’s Department of Interactive Design, a consultant on VR/AR for the Ministry of Economic Affairs, and an ambassador for multiple blockchain companies such as Cobinhood, Ubitus Inc., and Blueprint Japan. With more than 10 years of experience in transnational and cross-disciplinary innovation and entrepreneurship, JC is one of the leading experts in China on emerging technology such as VR/AR, AI, and blockchain.';
@@ -326,7 +329,7 @@ var selftoken = new Vue({
         this.sec5intro9 =
           'Tom holds a Ph.D in Economics from the University of Chicago and is currently an assistant professor of economics at Clemson University. Tom’s research specializes in sharing economy, e-commerce scoring system, gaming industry, project bidding, and incentive contract. Tom’s primary role at SELF TOKEN is the development and calculation of economic models.';
         this.sec5name9 = 'Tom';
-        this.sec5title9 = 'Self token Chief Economist';
+        this.sec5title9 = 'Self Chief Economist';
 
         this.sec5intro10 =
           'Roger graduated with a degree in Electrical Engineering from National Taiwan University (NTU) and is currently studying Telecommunications as a graduate student at NTU. Roger has worked in multiple telecommunications companies such as HTC, MediaTek, BoniQ, and is experienced with smart contract development and web design. Roger will assist SELF TOKEN in developing smart contracts and its integration with SELF PAY.';
