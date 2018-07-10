@@ -197,9 +197,10 @@
   <section class="sec3" id="white">
     <div class="content">
       <h2>WHITE PAPER</h2>
-      <form id="form" 
-            action="https://docs.google.com/forms/d/e/1FAIpQLSeJINDwQklvYi7k4eifctKKkvS30CgKoCSFzumw-YUJj0Z28w/formResponse" 
-            method="POST">
+      <iframe name="hidden_iframe" id="hidden_iframe" style="display:none;">
+      </iframe>
+      <form id="form" action="https://docs.google.com/forms/d/e/1FAIpQLSeJINDwQklvYi7k4eifctKKkvS30CgKoCSFzumw-YUJj0Z28w/formResponse"
+        method="POST" onsubmit="return check()">
         <div class="left" style="font-size: 20px;">
           WHITE
           <br> PAPER &
@@ -209,10 +210,14 @@
           <div class="a-line l active"></div>
           <div class="a-line m active"></div>
           <div class="a-line xx active"></div>
-          <input type="text" name="entry.1957474806" value="" class="ss-q-short" id="entry_1957474806" dir="auto" aria-label="email  " aria-required="true" required="" placeholder="{{ sec3Label }}">
+          <input type="text" name="entry.1957474806" value="" class="emailinput" id="entry_1957474806" dir="auto" aria-label="email  "
+            aria-required="true" required="" placeholder="{{ sec3Label }}">
           <span>ENTER</span>
         </div>
-      </div>
+        <div id="success">
+          <h2>XLTt 非常感謝您的支持！</h2>
+        </div>
+    </div>
     </div>
   </section>
 
@@ -567,5 +572,21 @@
 <script src="/assets/js/vendor/scrollreveal/scrollreveal.min.js"></script>
 <script src="/assets/js/aboutScroll.js"></script>
 <script src="/assets/js/index.js"></script>
+<script>
+  //// ================= 表單驗證 ================= ////
+  function check() {
+    if ($('.emailinput').val() === '') {
+      return false;
+    }
+    return true;
+  }
+  //// ================== 表單 =================== ////
+  $(window).load(function (submitted) {
+    $("#hidden_iframe").load(function () {
+      $('.emailinput').val("");
+      $("#success").css("display", "flex")
+    })
+  })
+</script>
 
 </html>
