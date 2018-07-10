@@ -98,7 +98,9 @@ var selftoken = new Vue({
 
     sec5intro17: '',
     sec5name17: '',
-    sec5title17: ''
+    sec5title17: '',
+
+    emailAlert: ''
   },
 
   computed: {
@@ -240,6 +242,7 @@ var selftoken = new Vue({
           '現任微軟 Microsoft 亞太區人工智能研究員，橫跨香港、印度、廣州及深圳，於香港科技大學就學中，並擔任圖靈鍊科技公司區塊鏈總監。曾於香港 Digitas 開發數項知名ICO項目，2018年榮獲德國慕尼黑CryBlock論壇最佳論文，其著作 ERC860 將受邀於國際期刊 CPE 刊出。曾在加拿大 ETHWaterloo 盛會作為香港區塊鏈代表，同時也於知名寫作平台 Medium 撰寫加密貨幣與 Ethereum 專欄，獲選為 Top Writer。';
         this.sec5name17 = '李婷婷';
         this.sec5title17 = 'SELF 智能合約開發技術顧問';
+        this.emailAlert = '已收到您的電子郵件，我們將盡快回復您。';
       } else if (val === 'en') {
         this.navLinkAboutUs = 'About us';
         this.navLinkWhitePaper = 'White Paper';
@@ -369,6 +372,7 @@ var selftoken = new Vue({
           'Tina is a blockchain developer from Hong Kong that works closely with Jeff. Tina has experience in the development in blockchain in South East Asia and co-published the ERC 860 paper in June with Jeff as well as the article regarding a campus-sourced sharing blockchain at Hong Kong University of Science and Technology. Currently, Tina is an intern in Microsoft’s artificial intelligence development team and has a following of more than 1,400 on Medium where she has a series of articles teaching Ethereum.';
         this.sec5name17 = 'Tina';
         this.sec5title17 = 'Smart Contract Developer';
+        this.emailAlert = "Thanks for your interest, we've received your request and will get back to you shortly.";
       } else if (val === 'sc') {
         this.navLinkAboutUs = '关于我们';
         this.navLinkWhitePaper = '技术白皮书';
@@ -501,6 +505,7 @@ var selftoken = new Vue({
         ('同样来自香港的区块链开发者，于南韩，香港，台湾等地演讲研究发展，并同JEFF 于2018 年6 月刚于德国慕尼黑发表最新的ERC860 论文，同时为香港科技大学开发第一条以校园为基准的资源共享区块链。于2018年暑假在微软香港的人工智能开发团队实习，并在Medium 上发表以太坊系列教学，吸引1400 多人追踪。');
         this.sec5name17 = 'Tina';
         this.sec5title17 = 'SELF TOKEN 智能合约开发技术顾问';
+        this.emailAlert = '已收到您的電子郵件，我們將盡快回復您。';
       }
     }
   },

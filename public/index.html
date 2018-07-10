@@ -197,9 +197,15 @@
   <section class="sec3" id="white">
     <div class="content">
       <h2>WHITE PAPER</h2>
-      <iframe name="hidden_iframe" id="hidden_iframe" style="display:none;">
+      <iframe 
+        name="hidden_iframe" 
+        id="hidden_iframe" 
+        style="display:none;">
       </iframe>
-      <form id="form" action="https://docs.google.com/forms/d/e/1FAIpQLSeJINDwQklvYi7k4eifctKKkvS30CgKoCSFzumw-YUJj0Z28w/formResponse"
+      <form 
+        id="form" 
+        action="https://docs.google.com/forms/d/e/1FAIpQLSeJINDwQklvYi7k4eifctKKkvS30CgKoCSFzumw-YUJj0Z28w/formResponse"
+        target="hidden_iframe" 
         method="POST" onsubmit="return check()">
         <div class="left" style="font-size: 20px;">
           WHITE
@@ -212,10 +218,10 @@
           <div class="a-line xx active"></div>
           <input type="text" name="entry.1957474806" value="" class="emailinput" id="entry_1957474806" dir="auto" aria-label="email  "
             aria-required="true" required="" placeholder="{{ sec3Label }}">
-          <span>ENTER</span>
+          <span id="submit">ENTER</span>
         </div>
         <div id="success">
-          <h2>XLTt 非常感謝您的支持！</h2>
+          <div>{{ emailAlert }}</div>
         </div>
     </div>
     </div>
@@ -577,6 +583,7 @@
   function check() {
     if ($('.emailinput').val() === '') {
       return false;
+      console.log('22')
     }
     return true;
   }
@@ -585,6 +592,14 @@
     $("#hidden_iframe").load(function () {
       $('.emailinput').val("");
       $("#success").css("display", "flex")
+    })
+
+    $("#success").click(function () {
+      $("#success").css("display", "none")
+    })
+
+    $('#submit').click(function () {
+      $('#form').submit();
     })
   })
 </script>
@@ -598,31 +613,22 @@
 </script>
 <!-- Facebook Pixel Code -->
 <script>
-!function(f,b,e,v,n,t,s){if(f.fbq)return;n=f.fbq=function(){n.callMethod?
-n.callMethod.apply(n,arguments):n.queue.push(arguments)};if(!f._fbq)f._fbq=n;
-n.push=n;n.loaded=!0;n.version='2.0';n.queue=[];t=b.createElement(e);t.async=!0;
-t.src=v;s=b.getElementsByTagName(e)[0];s.parentNode.insertBefore(t,s)}(window,
-document,'script','https://connect.facebook.net/en_US/fbevents.js');
-fbq('init', '436871119821880');
-fbq('track', "PageView");</script>
-<noscript><img height="1" width="1" style="display:none"
-src="https://www.facebook.com/tr?id=436871119821880&ev=PageView&noscript=1"
-/></noscript>
-<!-- End Facebook Pixel Code -->
-<!-- Facebook Pixel Code -->
-<script>
-!function(f,b,e,v,n,t,s){if(f.fbq)return;n=f.fbq=function(){n.callMethod?
-n.callMethod.apply(n,arguments):n.queue.push(arguments)};if(!f._fbq)f._fbq=n;
-n.push=n;n.loaded=!0;n.version='2.0';n.queue=[];t=b.createElement(e);t.async=!0;
-t.src=v;s=b.getElementsByTagName(e)[0];s.parentNode.insertBefore(t,s)}(window,
-document,'script','https://connect.facebook.net/en_US/fbevents.js');
-fbq('init', '194222874588047'); // Insert your pixel ID here.
+!function(f,b,e,v,n,t,s)
+{if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+n.callMethod.apply(n,arguments):n.queue.push(arguments)};
+if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
+n.queue=[];t=b.createElement(e);t.async=!0;
+t.src=v;s=b.getElementsByTagName(e)[0];
+s.parentNode.insertBefore(t,s)}(window,document,'script',
+'https://connect.facebook.net/en_US/fbevents.js');
+ fbq('init', '194222874588047'); 
 fbq('track', 'PageView');
 </script>
-<noscript><img height="1" width="1" style="display:none"
-src="https://www.facebook.com/tr?id=1479494262064127&ev=PageView&noscript=1"
-/></noscript>
-<!-- DO NOT MODIFY -->
+<noscript>
+ <img height="1" width="1" 
+src="https://www.facebook.com/tr?id=194222874588047&ev=PageView
+&noscript=1"/>
+</noscript>
 <!-- End Facebook Pixel Code -->
 
 </html>
