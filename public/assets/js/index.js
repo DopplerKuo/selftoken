@@ -242,7 +242,7 @@ var selftoken = new Vue({
           '現任微軟 Microsoft 亞太區人工智能研究員，橫跨香港、印度、廣州及深圳，於香港科技大學就學中，並擔任圖靈鍊科技公司區塊鏈總監。曾於香港 Digitas 開發數項知名ICO項目，2018年榮獲德國慕尼黑CryBlock論壇最佳論文，其著作 ERC860 將受邀於國際期刊 CPE 刊出。曾在加拿大 ETHWaterloo 盛會作為香港區塊鏈代表，同時也於知名寫作平台 Medium 撰寫加密貨幣與 Ethereum 專欄，獲選為 Top Writer。將協助 SELF Dapp 進行技術開發以及建置。';
         this.sec5name17 = '李婷婷';
         this.sec5title17 = 'SELF DApp 合作開發者＆區塊鏈技術開發顧問';
-        this.emailAlert = '已收到您的電子郵件，我們將盡快回復您。';
+        this.emailAlert = '已收到您的電子郵件，我們將盡快回覆您。';
       } else if (val === 'en') {
         this.navLinkAboutUs = 'About us';
         this.navLinkWhitePaper = 'White Paper';
@@ -390,7 +390,7 @@ var selftoken = new Vue({
           '由香港知名电影人曾志伟、《我的少女时代》总监制叶如芬共同监制，同时也是曾志伟睽违多年再次主演之台湾电影，而导演将由SELFPICK PRODUCTION、SELF TOKEN 之创办人/ 导演徐嘉凯担任，携手打造出一个贴近世代潮流的全新华语商战电影，开启后《无间道》时代的全新斗智类型片。 ';
         this.sec2Title3 = '全方位的娱乐生态系统';
         this.sec2Dsc3 =
-          '除了将支持100 SELF = 1 张台湾、香港可流通之电影票外，我们将以食、衣、住、行、育、乐六大面向签订知名的合作品牌，并设立由SELFPICK、SELF TOKEN 所共同控股之沉浸式娱乐场域，预计将在2020 年拓展经营五间不同性质之场域，包含但并不限于酒吧、咖啡厅、共同工作空间、民宿、复合性商场。 ';
+          '除了将支持100 SELF = 1 张台湾、香港可流通之电影票外，我们将以食、衣、住、行、育、乐六大面向签订知名的合作品牌，并设立由SELFPICK、SELF TOKEN 所共同控股之沉浸式娱乐场域，预计将在2020年拓展经营五间不同性质之场域，包含但并不限于酒吧、咖啡厅、共同工作空间、民宿、复合性商场。 ';
         this.sec2Title4 = '全透明的奖励机制';
         this.sec2Dsc4 =
           '透过团队中的芝加哥大学经济学博士林仲生所建立之区块链经济模型，我们将可以公平、透明的让系统中所有的参与者成为受益者，并依据参与者每一次推动电影票房、直营店营收、生态系成长的行为，进行积分累积获得实质奖励，而首次的奖励来源将是电影《圣人大盗》 100% 的台湾票房净利。 ';
@@ -411,7 +411,7 @@ var selftoken = new Vue({
         this.sec4p5 =
           '签订将在电影中曝光并实际支援 SELF 进行消费的台湾、国际知名餐饮集团、娱乐应用合作方，并同步进行技术研发。 ';
         this.sec4p6 =
-          '电影《圣人大盗》前导影片拍摄，并同时进行非公开之私募，限定必须通过KYC或是邀请制度参与。 ';
+          '电影《圣人大盗》前导影片拍摄，并同时进行非公开之私募，限定必须通过 KYC 或是邀请制度参与。 ';
         this.sec4p7 =
           '8/22 将于晶华酒店举办记者会，正式对外公布沉浸式娱乐计画。 ';
         this.sec4p8 =
@@ -465,9 +465,9 @@ var selftoken = new Vue({
         this.sec5title9 = 'SELF 首席经济学家';
 
         this.sec5intro10 =
-          '台大电机系毕业，目前是台大电信所硕士生，师从知名教授叶丙成老师。曾在 HTC、联发科、帮你优等公司工作实习。拥有多年智能合约开发经验与网页前端开发经验。将协助 SELF CHAIN 进行智能合约研发、测试与布建，亦着重智能合约与 SELF PAY 前后端的整合，未来亦将协助探索 SELF Dapps 架构设计与实作研发。 ';
+          '台大电机系毕业，目前是台大电信所硕士生，师从知名教授叶丙成老师。曾在 HTC、联发科、Ubitus等公司工作实习。拥有多年智能合约开发经验与网页前端开发经验。将协助 SELF CHAIN 进行智能合约研发、测试与布建，亦着重智能合约与 SELF PAY 前后端的整合，未来亦将协助探索 SELF Dapps 架构设计与实作研发。 ';
         this.sec5name10 = '吴冠融';
-        this.sec5title10 = 'SELF 专案经理';
+        this.sec5title10 = 'SELF DApp 专案经理';
 
         this.sec5intro11 =
           '香港知名演员、电视节目主持和电影制作人。近年多为电视节目主持，偶为电影导演，他同时亦投资、策划及参与电影制作。现代表香港演艺人协会任香港电影金像奖董事局副主席。曾荣获第11届香港金像奖《双城故事》荣获最佳男主角、第36届香港金像奖《一念无明》荣获最佳男配角、第53届金马奖《愈快乐愈堕落》荣获最佳男配角。 ';
@@ -495,16 +495,16 @@ var selftoken = new Vue({
         this.sec5title15 = 'SELF 艺术总监';
 
         this.sec5intro16 =
-          '香港科技大学一级荣誉毕业，现任图灵链科技公司创始人与执行长，兼任纽约 Blackbird.AI 区块链科技总监。是历史首位港科大题名至矽谷的实习生，负责Google Glass医疗科技，隔年于 J.P. Morgan 研发NLP核心。曾获香港 Microsoft Imagine Cup 亚军及AI Cup季军，Uber 电梯演讲冠军，韩国 UpTown 商务程竞亚军，法国 Atos IT 挑战赛世界二十强与德国 CryBlock 论坛 Best Paper 等国内外数十奖项。 ';
+          '香港科技大学一级荣誉毕业，现任图灵链科技公司创始人与执行长，兼任纽约 Blackbird.AI 区块链科技总监。是历史首位港科大题名至矽谷的实习生，负责Google Glass医疗科技，隔年于 J.P. Morgan 研发NLP核心。曾获香港 Microsoft Imagine Cup 亚军及AI Cup季军，Uber 电梯演讲冠军，韩国 UpTown 商务程竞亚军，法国 Atos IT 挑战赛世界二十强与德国 CryBlock 论坛 Best Paper 等国内外数十奖项。将协助 SELF Dapp 进行技术开发以及建置，并结合其公司团队成员一同完成 SELF Dapp 之 原型。 ';
         this.sec5name16 = '胡耀杰';
-        this.sec5title16 = 'SELF 智能合约开发技术顾问';
+        this.sec5title16 = 'SELF DApp 合作开发者＆区块链技术顾问';
 
         this.sec5intro17 =
-          '现任微软 Microsoft 亚太区人工智能研究员，横跨香港、印度、广州及深圳，于香港科技大学就学中，并担任图灵链科技公司区块链总监。曾于香港 Digitas 开发数项知名ICO项目，2018年荣获德国慕尼黑CryBlock论坛最佳论文，其著作 ERC860 将受邀于国际期刊 CPE 刊出。曾在加拿大 ETHWaterloo 盛会作为香港区块链代表，同时也于知名写作平台 Medium 撰写加密货币与 Ethereum 专栏，获选为 Top Writer。 ';
+          '现任微软 Microsoft 亚太区人工智能研究员，横跨香港、印度、广州及深圳，于香港科技大学就学中，并担任图灵链科技公司区块链总监。曾于香港 Digitas 开发数项知名ICO项目，2018年荣获德国慕尼黑CryBlock论坛最佳论文，其著作 ERC860 将受邀于国际期刊 CPE 刊出。曾在加拿大 ETHWaterloo 盛会作为香港区块链代表，同时也于知名写作平台 Medium 撰写加密货币与 Ethereum 专栏，获选为 Top Writer。将协助 SELF Dapp 进行技术开发以及建置。 ';
         this.sec5name17 = '李婷婷';
-        this.sec5title17 = 'SELF 智能合约开发技术顾问';
+        this.sec5title17 = 'SELF DApp 合作开发者＆区块链技术开发顾问';
 
-        this.emailAlert = '已收到您的電子郵件，我們將盡快回復您。';
+        this.emailAlert = '已收到您的电子邮件，我们将尽快回覆您。 ';
       }
     }
   },
