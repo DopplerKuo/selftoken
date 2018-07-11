@@ -204,9 +204,9 @@ var selftoken = new Vue({
         this.sec5title9 = 'SELF 首席經濟學家';
 
         this.sec5intro10 =
-          '台大電機系畢業，目前是台大電信所碩士生，師從知名教授葉丙成老師。曾在 HTC、聯發科、幫你優等公司工作實習。擁有多年智能合約開發經驗與網頁前端開發經驗。將協助 SELF CHAIN 進行智能合約研發、測試與佈建，亦著重智能合約與 SELF PAY 前後端的整合，未來亦將協助探索 SELF Dapps 架構設計與實作研發。';
+          '台大電機系畢業，目前是台大電信所碩士生，師從知名教授葉丙成老師。曾在 HTC、聯發科、Ubitus等公司工作實習。擁有多年智能合約開發經驗與網頁前端開發經驗。將協助 SELF CHAIN 進行智能合約研發、測試與佈建，亦著重智能合約與 SELF PAY 前後端的整合，未來亦將協助探索 SELF Dapps 架構設計與實作研發。';
         this.sec5name10 = '吳冠融';
-        this.sec5title10 = 'SELF 專案經理';
+        this.sec5title10 = 'SELF DApp 專案經理';
 
         this.sec5intro11 =
           '香港知名演員、電視節目主持和電影製作人。近年多為電視節目主持，偶為電影導演，他同時亦投資、策劃及參與電影製作。現代表香港演藝人協會任香港電影金像獎董事局副主席。曾榮獲 第11屆香港金像獎《雙城故事》榮獲最佳男主角、第36屆香港金像獎《一念無明》榮獲最佳男配角、第53屆金馬獎《愈快樂愈墮落》榮獲最佳男配角。';
@@ -234,14 +234,14 @@ var selftoken = new Vue({
         this.sec5title15 = 'SELF 藝術總監';
 
         this.sec5intro16 =
-          '香港科技大學一級榮譽畢業，現任圖靈鍊科技公司創始人與執行長，兼任紐約 Blackbird.AI 區塊鏈科技總監。是歷史首位港科大題名至矽谷的實習生，負責Google Glass醫療科技，隔年於 J.P. Morgan 研發NLP核心。曾獲香港 Microsoft Imagine Cup 亞軍及AI Cup季軍，Uber 電梯演講冠軍，韓國 UpTown 商務程競亞軍，法國 Atos IT 挑戰賽世界二十強與德國 CryBlock 論壇 Best Paper 等國內外數十獎項。';
+          '香港科技大學一級榮譽畢業，現任圖靈鍊科技公司創始人與執行長，兼任紐約 Blackbird.AI 區塊鏈科技總監。是歷史首位港科大題名至矽谷的實習生，負責Google Glass醫療科技，隔年於 J.P. Morgan 研發NLP核心。曾獲香港 Microsoft Imagine Cup 亞軍及AI Cup季軍，Uber 電梯演講冠軍，韓國 UpTown 商務程競亞軍，法國 Atos IT 挑戰賽世界二十強與德國 CryBlock 論壇 Best Paper 等國內外數十獎項。將協助 SELF Dapp 進行技術開發以及建置，並結合其公司團隊成員一同完成 SELF Dapp 之 原型。';
         this.sec5name16 = '胡耀傑';
-        this.sec5title16 = 'SELF 智能合約開發技術顧問';
+        this.sec5title16 = 'SELF DApp 合作開發者＆區塊鏈技術顧問';
 
         this.sec5intro17 =
-          '現任微軟 Microsoft 亞太區人工智能研究員，橫跨香港、印度、廣州及深圳，於香港科技大學就學中，並擔任圖靈鍊科技公司區塊鏈總監。曾於香港 Digitas 開發數項知名ICO項目，2018年榮獲德國慕尼黑CryBlock論壇最佳論文，其著作 ERC860 將受邀於國際期刊 CPE 刊出。曾在加拿大 ETHWaterloo 盛會作為香港區塊鏈代表，同時也於知名寫作平台 Medium 撰寫加密貨幣與 Ethereum 專欄，獲選為 Top Writer。';
+          '現任微軟 Microsoft 亞太區人工智能研究員，橫跨香港、印度、廣州及深圳，於香港科技大學就學中，並擔任圖靈鍊科技公司區塊鏈總監。曾於香港 Digitas 開發數項知名ICO項目，2018年榮獲德國慕尼黑CryBlock論壇最佳論文，其著作 ERC860 將受邀於國際期刊 CPE 刊出。曾在加拿大 ETHWaterloo 盛會作為香港區塊鏈代表，同時也於知名寫作平台 Medium 撰寫加密貨幣與 Ethereum 專欄，獲選為 Top Writer。將協助 SELF Dapp 進行技術開發以及建置。';
         this.sec5name17 = '李婷婷';
-        this.sec5title17 = 'SELF 智能合約開發技術顧問';
+        this.sec5title17 = 'SELF DApp 合作開發者＆區塊鏈技術開發顧問';
         this.emailAlert = '已收到您的電子郵件，我們將盡快回復您。';
       } else if (val === 'en') {
         this.navLinkAboutUs = 'About us';
@@ -275,23 +275,23 @@ var selftoken = new Vue({
         this.sec4p2 =
           'Compile resources to finish The Last Thieves script. Complete business plan and model for SELF CHAIN and hire on additional team members.';
         this.sec4p3 =
-          'Found SELF TOKEN with partners across the film circle, financial circle, and blockchain circle to jointly invest $12 million NTD and sign memorandum of cooperation with exchange.';
+          'SELF TOKEN is found with partners across the film, financial, and blockchain industries to jointly invest $12 million NTD and sign memorandum of cooperation with exchange.';
         this.sec4p4 =
-          'Register film production fund “Self Alienation Co., Ltd.” (detailed production specifications and amount will be announced in the August press conference). and recruit internal staff to carry out technical research and development, marketing research, and public relation matters.';
+          'Register film production fund “Self Alienation Co., Ltd.” (detailed production specifications and amount will be announced in the August press conference) and recruit internal staff to carry out technical development, marketing research, and public relation matters.';
         this.sec4p5 =
           'Sign with world-renowned restaurant chains, entertainment businesses to support SELF as a form of payment in Taiwan and begin research and development.';
         this.sec4p6 =
-          'Begin pre-production for The Last Thieves and open private sale, limited to those having passed KYC.';
+          'Begin pre-production for The Last Thieves and start private sale, limited to those having passed KYC.';
         this.sec4p7 =
-          'Hold press conference on 8/22 at Regent Taipei, publicly announce the immersive entertainment plan';
+          'Hold press conference on 8/22 at Regent Taipei, publicly announce the immersive entertainment plan.';
         this.sec4p8 =
-          'Begin 60 days of The Last Thieves production and SELF enters pre-commercial tech development';
+          'Begin 60 days of The Last Thieves production and SELF enters pre-commercial tech development.';
         this.sec4p9 =
-          'The Last Thieves teaser online and SELF is listed on exchange.';
+          'Teaser for The Last Thieves is released online and SELF is listed on exchange.';
         this.sec5intro1 =
           'Jack founded SELFPICK PRODUCTION in 2014 and SELF BAR in 2017. In addition to being an entrepreneur, he is also the director of well-known web-series Mr Bartender (2015-present), OBA (2016), and The Bar (2017-present). With over 10 million views on YouTube, Jack was named Top 10 Potential Manager at the 2017 Jubilee Awards, and SELFPICK PRODUCTION was named Outstanding Marketing Team at the 2017 Agency of the Year Awards.';
         this.sec5name1 = 'Jack';
-        this.sec5title1 = 'Self Founder & Director of The Last Thieves ';
+        this.sec5title1 = 'Founder & Director';
 
         this.sec5intro2 =
           'Born in 1981, JC received his PhD in Computer Science at National Taipei University and completed his postdoctoral research at Keio University. JC is the first Taiwanese student to attend Singularity University, has helped multiple companies win Red Dot Design Awards, and has invested in HTC. Currently, he is a professor of Interactive Design at Taipei Tech, an ambassador at Singularity University, a consultant on VR/AR for the Ministry of Economic Affairs, and a smart contract advisor for multiple blockchain companies such as Cobinhood, Ubitus Inc., and Blueprint Japan.';
@@ -331,32 +331,32 @@ var selftoken = new Vue({
         this.sec5intro9 =
           'Tom holds a Ph.D in Economics from the University of Chicago and is currently an assistant professor of economics at Clemson University. Tom’s research specializes in sharing economy, e-commerce scoring system, gaming industry, project bidding, and incentive contract. Tom’s primary role at SELF TOKEN is the development and calculation of economic models.';
         this.sec5name9 = 'Tom';
-        this.sec5title9 = 'Self Chief Economist';
+        this.sec5title9 = 'Chief Economist';
 
         this.sec5intro10 =
           'Roger graduated with a degree in Electrical Engineering from National Taiwan University (NTU) and is currently studying Telecommunications as a graduate student at NTU under renowned professor Benson Yeh. Roger has worked in multiple telecommunications companies such as HTC, MediaTek, BoniQ, and is experienced with smart contract development and web design. Roger will assist SELF Chain in developing smart contracts and its integration with our SELF Dapp framework and SELF PAY system.';
         this.sec5name10 = 'Roger Wu';
-        this.sec5title10 = 'Project Manager';
+        this.sec5title10 = 'Self Dapp Project Manager';
 
         this.sec5intro11 =
-          'Eric is a renowned Cantonese actor, TV show personality, and filmmaker who also invests and participates in film production. Eric has won Best Actor at the 11th Hong Kong Film Awards for his role in Alan & Eric: Between Hello and Goodbye (1991), as well as Best Supporting Actor at the 36th and 53rd Golden Horse Awards for his roles in Mad World (2016)  and Hold You Tight (1998). Currently, Eric is the Vice Chairman of the Hong Kong Film Awards.';
+          'Eric is a renowned Cantonese actor, TV show personality, and filmmaker who also invests and participates in film production. Eric has won Best Actor at the 11th Hong Kong Film Awards for his role in Alan & Eric: Between Hello and Goodbye (1991), as well as Best Supporting Actor at the 36th and 53rd Golden Horse Awards for his roles in Mad World (2016) and Hold You Tight (1998). Currently, Eric is the Vice Chairman of the Hong Kong Film Awards.';
         this.sec5name11 = 'Eric';
-        this.sec5title11 = 'Self Alienation Executive Producer';
+        this.sec5title11 = 'The Last Thieves Executive Producer';
 
         this.sec5intro12 =
           'Yeh is a veteran producer with more than 20 years of experience and collaboration with directors in Taiwan and abroad. Yeh specializes in film resource integration, budget control, production, and has extensive experience in international cooperation. Yeh’s film Our Times (2015) won the 50th Golden Horse Awards for Outstanding Filmmaking and the 35th Hong Kong Film Awards for Best Film from Mainland and Taiwan. Yeh also received 8 nominations at the 53rd Golden Horse Awards, and her film Godspeed (2016) won Best Producer at the 36th Hong Kong Film Awards.';
         this.sec5name12 = 'Yeh';
-        this.sec5title12 = 'Self Alienation Executive Producer';
+        this.sec5title12 = 'The Last Thieves Executive Producer';
 
         this.sec5intro13 =
-          'Venk is an esteemed Golden Melody Award composer best known for writing Tien’s Insignificance (2013), Leave Me Alone (2010), and S.H.E’s Wings of My Words (2015). Vank is currently the Music Director at SELFPICK PRODUCTION and is a songwriter for HIM International Music Inc.';
+          'Venk is an esteemed Golden Melody Award composer best known for writing Tien’s Insignificance (2013), Leave Me Alone (2010), and S.H.E’s Wings of My Words (2015). Venk is currently the Music Director at SELFPICK PRODUCTION and is a songwriter for HIM International Music Inc.';
         this.sec5name13 = 'Venk';
-        this.sec5title13 = 'Self Alienation Music Producer';
+        this.sec5title13 = 'The Last Thieves Music Producer';
 
         this.sec5intro14 =
           'Sharon is a graduate from the University of Southern California and specializes in recruitment and social media marketing. In the past she has worked at KB Capital Management and worked as HR Director and translator at a crypto exchange. Currently, Sharon is the PR manager for SELF TOKEN, where she manages domestic and international promotions, publicity, and oversees information regarding blockchain and IEO projects from English-speaking countries.';
         this.sec5name14 = 'Sharon';
-        this.sec5title14 = 'PR manager';
+        this.sec5title14 = 'PR Manager';
 
         this.sec5intro15 =
           'Zying is an experienced graphic designer who specializes in graphics for music concerts, films, and posters. In the past, Zying has worked with esteemed Austrian illustrator, Lisbeth Zwerger, and is also known for creating the package design of a popular fruit beer brand. Currently, Zying is the Art Director for SELFPICK PRODUCTION and overseas production design, tie-in merchandising development, and corporate CIS design.';
@@ -364,14 +364,14 @@ var selftoken = new Vue({
         this.sec5title15 = 'Art Director';
 
         this.sec5intro16 =
-          'Jeff graduated top of his class from the Hong Kong University of Science and Technology (HKUST) and is the founder and CEO of Turing Singularity. Jeff is the current adjunct director of Blackbird.AI blockchain technology and the first HKUST student to intern at Silicon Valley where he worked on a medical system for Google Glass. After Jeff’s internship in Silicon Valley, he worked on an NLP Core at J.P. Morgan. Jeff has received countless accolades and won many awards, including: the Uber Elevator Pitch, Best Paper from Germany’s CryBlock Forum, Top 20 in the French Atos IT Challenge, runner-up for the Korean UpTown, as well as runner-up for Hong Kong Microsoft’s Imagine Cup and third place for the AI Cup.';
+          'Jeff graduated top of his class from the Hong Kong University of Science and Technology (HKUST) and is the founder and CEO of Turing Singularity. Jeff is the current adjunct director of Blackbird.AI blockchain technology and the first HKUST student to intern at Silicon Valley where he worked on a medical system for Google Glass. After Jeff’s internship in Silicon Valley, he worked on an NLP Core at J.P. Morgan. Jeff has received countless accolades and won many awards, including: the Uber Elevator Pitch, Best Paper from Germany’s CryBlock Forum, Top 20 in the French Atos IT Challenge, runner-up for the Korean UpTown, as well as runner-up for Hong Kong Microsoft’s Imagine Cup and third place for the AI Cup. Jeff will be assisting with the prototyping and development of SELF Dapp.';
         this.sec5name16 = 'Jeff';
-        this.sec5title16 = 'Smart Contract Developer';
+        this.sec5title16 = 'Self Dapp Developer & Blockchain Consultant ';
 
         this.sec5intro17 =
-          'Tina is currently an A.I. researcher at Microsoft Pacific, spanning Hong Kong, India, Guangzhou, and Shenzhen. Tina attended Hong Kong University of Science and Technology, and is now serving as the blockchain director of Turing Singularity. Tina has developed numerous ICO projects at Hong Kong’s Digitas and won the 2018 Munich CryBlock Best Paper with a paper on ERC860 - which has been invited for publication on international journal CPE. Tina was the former representative of Hong Kong blockchain at Canada’s ETHWaterloo, and is also a established Top Writer on Medium about cryptocurrency and Ethereum.';
+          'Tina is currently an A.I. researcher at Microsoft Pacific, spanning Hong Kong, India, Guangzhou, and Shenzhen. Tina attended Hong Kong University of Science and Technology, and is now serving as the blockchain director of Turing Singularity. Tina has developed numerous ICO projects at Hong Kong’s Digitas and won the 2018 Munich CryBlock Best Paper with a paper on ERC860 - which has been invited for publication on international journal CPE. Tina was the former representative of Hong Kong blockchain at Canada’s ETHWaterloo, and is also a established Top Writer on Medium about cryptocurrency and Ethereum. Tina will be assisting with the development of SELF Dapp.';
         this.sec5name17 = 'Tina';
-        this.sec5title17 = 'Smart Contract Developer';
+        this.sec5title17 = 'Self Dapp Developer & Blockchain Consultant';
         this.emailAlert =
           "Thanks for your interest, we've received your request and will get back to you shortly.";
       } else if (val === 'sc') {
