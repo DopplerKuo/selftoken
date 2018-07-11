@@ -130,7 +130,7 @@ var selftoken = new Vue({
           '由香港知名電影人曾志偉、《我的少女時代》總監製葉如芬共同監製，同時也是曾志偉睽違多年再次主演之台灣電影，而導演將由 SELFPICK PRODUCTION、SELF TOKEN 之創辦人 / 導演 徐嘉凱擔任，攜手打造出一個貼近世代潮流的全新華語商戰電影，開啟後《無間道》時代的全新鬥智類型片。';
         this.sec2Title3 = '全方位的娛樂生態系統';
         this.sec2Dsc3 =
-          '除了將支持 100 SELF  = 1 張台灣、香港可流通之電影票外，我們將以食、衣、住、行、育、樂六大面向簽訂知名的合作品牌，並設立由 SELFPICK、SELF TOKEN 所共同控股之沉浸式娛樂場域，預計將在 2020 年拓展經營五間不同性質之場域，包含但並不限於酒吧、咖啡廳、共同工作空間、民宿、複合性商場。';
+          '除了將支持 100 SELF  = 1 張台灣、香港可流通之電影票外，我們將以食、衣、住、行、育、樂六大面向簽訂知名的合作品牌，並設立由 SELFPICK、SELF TOKEN 所共同控股之沉浸式娛樂場域，預計將在2020年拓展經營五間不同性質之場域，包含但並不限於酒吧、咖啡廳、共同工作空間、民宿、複合性商場。';
         this.sec2Title4 = '全透明的獎勵機制';
         this.sec2Dsc4 =
           '透過團隊中的芝加哥大學經濟學博士林仲生所建立之區塊鏈經濟模型，我們將可以公平、透明的讓系統中所有的參與者成為受益者，並依據參與者每一次推動電影票房、直營店營收、生態系成長的行為，進行積分累積獲得實質獎勵，而首次的獎勵來源將是電影《聖人大盜》 100% 的台灣票房淨利。';
@@ -211,17 +211,17 @@ var selftoken = new Vue({
         this.sec5intro11 =
           '香港知名演員、電視節目主持和電影製作人。近年多為電視節目主持，偶為電影導演，他同時亦投資、策劃及參與電影製作。現代表香港演藝人協會任香港電影金像獎董事局副主席。曾榮獲 第11屆香港金像獎《雙城故事》榮獲最佳男主角、第36屆香港金像獎《一念無明》榮獲最佳男配角、第53屆金馬獎《愈快樂愈墮落》榮獲最佳男配角。';
         this.sec5name11 = '曾志偉';
-        this.sec5title11 = 'SELF 原創電影聖人大盜監製';
+        this.sec5title11 = 'SELF 原創電影《聖人大盜》監製';
 
         this.sec5intro12 =
           '台灣資深電影人，深耕電影逾二十載,合作對象皆為 享譽中外、作品題材各異的優秀導演。擅長電影資源整合、預算掌控與製作，具豐富的國際合作經驗。現擔任華文創總監制。曾獲得第 50 屆金馬獎年度台灣傑出電影工作者，並擔任第 35 屆香港金像獎提名最佳兩岸華語電影《我的少女時代》總監制以及第 53 屆金馬獎 8 項提名、第 36 屆香港金像獎最佳兩岸華語電影《一路順風》監制。';
         this.sec5name12 = '葉如芬';
-        this.sec5title12 = 'SELF 原創電影聖人大盜監製';
+        this.sec5title12 = 'SELF 原創電影《聖人大盜》監製';
 
         this.sec5intro13 =
           '渺小（歌手：田馥甄）、寂寞寂寞就好（歌手：田馥甄）、意外（歌手：薛之謙）、曾經是少年（歌手：SHE）等華語暢銷歌曲、電影原創主題曲作曲，曾獲得金曲獎、上海音樂風雲榜年度十大金曲等殊榮，現任 SELFPICK PRODUCTION 音樂總監、華研音樂專屬詞曲音樂作者。';
         this.sec5name13 = '楊子樸';
-        this.sec5title13 = 'SELF 原創電影聖人大盜音樂總監';
+        this.sec5title13 = 'SELF 原創電影《聖人大盜》音樂總監';
 
         this.sec5intro14 =
           '畢業於南加州大學大眾傳播系，曾有在美國生物科技產業招募人才與社群行銷經驗，同時在 KB Capital Management 協助投資管理 。近期回台也在虛擬貨幣產業公司擔任主導招募與翻譯，協助行銷團隊對國外用戶進行推廣教育。未來將協助與代表 Self Token 對外進行區塊鏈教育和對英語系國家進行IEO計畫的公關宣傳。';
@@ -251,50 +251,50 @@ var selftoken = new Vue({
         this.navLinkMedia = 'Media';
         this.navLinkContact = 'Contact';
         this.sec1Title =
-          'An immersive entertainment token<br>connecting virtuality and reality ';
-        this.sec2Title1 = 'WHAT IS SELF TOKEN';
+          'An immersive entertainment ecosystem<br>connecting virtuality and reality';
+        this.sec2Title1 = 'WHAT IS SELF';
         this.sec2Dsc1 =
-          'SELF TOKEN is a unique digital token that allows users to support movie productions and reap rewards from box office revenues. Our goal is to spearhead the movement of a decentralized autonomous ecosystem starting in the movie industry.';
+          'SELF is a unique digital asset that allows users to support movie productions and reap rewards from box office revenues. Our goal is to spearhead the movement of a decentralized autonomous ecosystem starting in the movie industry.';
         this.sec2Title2 = 'Immersive';
         this.sec2Dsc2 =
-          'From visiting the actual location of a scene in the film Self Alienation (2019) to supporting its making through SELF PAY, we are creating an immersive entertainment universe using smart contracts and blockchain technology.';
+          'From visiting the actual location of a scene in the film The Last Thieves (2019) to supporting its making through SELF PAY, we are creating an immersive entertainment universe using smart contracts and blockchain technology.';
         this.sec2Title3 = 'All Inclusive';
         this.sec2Dsc3 =
-          'SELF TOKEN bridges consumers to service providers of all fields of entertainment through one form of payment.';
+          'SELF bridges consumers to service providers of all fields of entertainment through one form of payment.';
         this.sec2Title4 = 'Transparent';
         this.sec2Dsc4 =
-          'At SELF TOKEN, box office revenue is converted to cryptocurrency and distributed back to users based on accumulated points. With blockchain technology, all information will be accessible to the public - building a relationship of trust.';
+          'With SELF, Box office revenue is converted to cryptocurrency and distributed back to users based on accumulated points. With blockchain technology, all information will be accessible to the public - building a relationship of trust.';
         this.sec2Title5 = 'Global';
         this.sec2Dsc5 =
-          'By collaborating with global exchanges, SELF TOKEN is a digital currency that can be used freely across borders.';
+          'By collaborating with global exchanges, SELF can be used freely across borders.';
         this.sec2Title6 =
           'Our mission is to foster an entertainment ecosystem, making it a transparent business where everyone can advocate, support, and benefit from direct involvement.';
         this.sec3Label = 'selftoken@example.com';
         this.sec4p1 =
           'Parent company SELFPICK PRODUCTION completes pre A round fundraising 15M NTD, and SELF TOKEN white paper plan.';
         this.sec4p2 =
-          'Compile resources to finish Self Alienation script. Complete business plan and model for SELF TOKEN.';
+          'Compile resources to finish The Last Thieves script. Complete business plan and model for SELF CHAIN and hire on additional team members.';
         this.sec4p3 =
-          'SELF TOKEN completes private round of 10M NTD and signs partnertship agreement with partner Exchange';
+          'Found SELF TOKEN with partners across the film circle, financial circle, and blockchain circle to jointly invest $12 million NTD and sign memorandum of cooperation with exchange.';
         this.sec4p4 =
-          'Self Alienation enters pre production, SELF WORKSHOP establishes it’s official entity.';
+          'Register film production fund “Self Alienation Co., Ltd.” (detailed production specifications and amount will be announced in the August press conference). and recruit internal staff to carry out technical research and development, marketing research, and public relation matters.';
         this.sec4p5 =
-          'SELFPICK PRODUCTION films teaser for Self Alienation (2019). SELF TOKEN begins off line pre IEO sale.';
+          'Sign with world-renowned restaurant chains, entertainment businesses to support SELF as a form of payment in Taiwan and begin research and development.';
         this.sec4p6 =
-          'Post production editing for Self Alienation teaser. SELF TOKEN starts whitelisting and preparation for IEO';
+          'Begin pre-production for The Last Thieves and open private sale, limited to those having passed KYC.';
         this.sec4p7 =
-          'Self Alienation teaser release. SELF TOKEN official IEO.';
+          'Hold press conference on 8/22 at Regent Taipei, publicly announce the immersive entertainment plan';
         this.sec4p8 =
-          'Self Alienation in filming. SELF TOKEN enters it’s technical development.';
+          'Begin 60 days of The Last Thieves production and SELF enters pre-commercial tech development';
         this.sec4p9 =
-          'Self Alienation trailor release. SELF TOKEN listed on partner exchange.';
+          'The Last Thieves teaser online and SELF is listed on exchange.';
         this.sec5intro1 =
           'Jack founded SELFPICK PRODUCTION in 2014 and SELF BAR in 2017. In addition to being an entrepreneur, he is also the director of well-known web-series Mr Bartender (2015-present), OBA (2016), and The Bar (2017-present). With over 10 million views on YouTube, Jack was named Top 10 Potential Manager at the 2017 Jubilee Awards, and SELFPICK PRODUCTION was named Outstanding Marketing Team at the 2017 Agency of the Year Awards.';
         this.sec5name1 = 'Jack';
-        this.sec5title1 = 'Self Founder';
+        this.sec5title1 = 'Self Founder & Director of The Last Thieves ';
 
         this.sec5intro2 =
-          'JC is an assistant professor at National Taipei University of Technology’s Department of Interactive Design, a consultant on VR/AR for the Ministry of Economic Affairs, and an ambassador for multiple blockchain companies such as Cobinhood, Ubitus Inc., and Blueprint Japan. With more than 10 years of experience in transnational and cross-disciplinary innovation and entrepreneurship, JC is one of the leading experts in China on emerging technology such as VR/AR, AI, and blockchain.';
+          'Born in 1981, JC received his PhD in Computer Science at National Taipei University and completed his postdoctoral research at Keio University. JC is the first Taiwanese student to attend Singularity University, has helped multiple companies win Red Dot Design Awards, and has invested in HTC. Currently, he is a professor of Interactive Design at Taipei Tech, an ambassador at Singularity University, a consultant on VR/AR for the Ministry of Economic Affairs, and a smart contract advisor for multiple blockchain companies such as Cobinhood, Ubitus Inc., and Blueprint Japan.';
         this.sec5name2 = 'JC';
         this.sec5title2 = 'Co Founder & Risk Blockchain Consultant';
 
@@ -324,7 +324,7 @@ var selftoken = new Vue({
         this.sec5title7 = 'Co Founder & Risk Advisor';
 
         this.sec5intro8 =
-          'Feihu is a former Google software engineer, and a respected smart contract developer. Feihu utilized smart contract to produce China’s first set of blockchain games such as Cyptomoe, Cyptohero, and 冥幣. These games have remained Top 3 in trading volume in its first 24 hours, and have mined a record of 780ETH in two weeks. Feihu will assist SELF TOKEN in developing, testing, and deploying new technology using smart contract.';
+          'Feihu is a former Google software engineer and a respected smart contract developer, having graduated from Harbin Institute of Technology, won first place in the 2015 Beauty of Programming, the Nebulas, and the BlockCity Hackathon. Feihu utilized smart contract to produce China’s first set of blockchain games such as Cyptomoe and Cyptohero. These games have remained Top 3 in trading volume in its first 24 hours, and have mined a record of 780ETH in two weeks. Feihu will assist SELF Chain in developing, testing, and deploying new technology using smart contract.';
         this.sec5name8 = 'Feihu';
         this.sec5title8 = 'Lead Smart Contract Developer';
 
@@ -334,7 +334,7 @@ var selftoken = new Vue({
         this.sec5title9 = 'Self Chief Economist';
 
         this.sec5intro10 =
-          'Roger graduated with a degree in Electrical Engineering from National Taiwan University (NTU) and is currently studying Telecommunications as a graduate student at NTU. Roger has worked in multiple telecommunications companies such as HTC, MediaTek, BoniQ, and is experienced with smart contract development and web design. Roger will assist SELF TOKEN in developing smart contracts and its integration with SELF PAY.';
+          'Roger graduated with a degree in Electrical Engineering from National Taiwan University (NTU) and is currently studying Telecommunications as a graduate student at NTU under renowned professor Benson Yeh. Roger has worked in multiple telecommunications companies such as HTC, MediaTek, BoniQ, and is experienced with smart contract development and web design. Roger will assist SELF Chain in developing smart contracts and its integration with our SELF Dapp framework and SELF PAY system.';
         this.sec5name10 = 'Roger Wu';
         this.sec5title10 = 'Project Manager';
 
@@ -364,15 +364,16 @@ var selftoken = new Vue({
         this.sec5title15 = 'Art Director';
 
         this.sec5intro16 =
-          'Jeff is a blockchain developer from Hong Kong with experience in the research and development of blockchain in South Korea, Hong Kong, and Taiwan. Jeff published the latest ERC 860 paper in June 2018 in Munich, Germany, and also published an article on a campus-based resource sharing blockchain at Hong Kong University of Science and Technology. Jeff is currently the blockchain technology director of Coining.ia and is at Silicon Valley to develop a medical system for Google Glass as well as an automated dialogue robot at J.P. Morgan in Hong Kong.';
+          'Jeff graduated top of his class from the Hong Kong University of Science and Technology (HKUST) and is the founder and CEO of Turing Singularity. Jeff is the current adjunct director of Blackbird.AI blockchain technology and the first HKUST student to intern at Silicon Valley where he worked on a medical system for Google Glass. After Jeff’s internship in Silicon Valley, he worked on an NLP Core at J.P. Morgan. Jeff has received countless accolades and won many awards, including: the Uber Elevator Pitch, Best Paper from Germany’s CryBlock Forum, Top 20 in the French Atos IT Challenge, runner-up for the Korean UpTown, as well as runner-up for Hong Kong Microsoft’s Imagine Cup and third place for the AI Cup.';
         this.sec5name16 = 'Jeff';
         this.sec5title16 = 'Smart Contract Developer';
 
         this.sec5intro17 =
-          'Tina is a blockchain developer from Hong Kong that works closely with Jeff. Tina has experience in the development in blockchain in South East Asia and co-published the ERC 860 paper in June with Jeff as well as the article regarding a campus-sourced sharing blockchain at Hong Kong University of Science and Technology. Currently, Tina is an intern in Microsoft’s artificial intelligence development team and has a following of more than 1,400 on Medium where she has a series of articles teaching Ethereum.';
+          'Tina is currently an A.I. researcher at Microsoft Pacific, spanning Hong Kong, India, Guangzhou, and Shenzhen. Tina attended Hong Kong University of Science and Technology, and is now serving as the blockchain director of Turing Singularity. Tina has developed numerous ICO projects at Hong Kong’s Digitas and won the 2018 Munich CryBlock Best Paper with a paper on ERC860 - which has been invited for publication on international journal CPE. Tina was the former representative of Hong Kong blockchain at Canada’s ETHWaterloo, and is also a established Top Writer on Medium about cryptocurrency and Ethereum.';
         this.sec5name17 = 'Tina';
         this.sec5title17 = 'Smart Contract Developer';
-        this.emailAlert = "Thanks for your interest, we've received your request and will get back to you shortly.";
+        this.emailAlert =
+          "Thanks for your interest, we've received your request and will get back to you shortly.";
       } else if (val === 'sc') {
         this.navLinkAboutUs = '关于我们';
         this.navLinkWhitePaper = '技术白皮书';

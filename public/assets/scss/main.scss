@@ -798,10 +798,6 @@ header.ani {
   justify-content: center;
   align-items: center;
 
-  span {
-  	cursor: pointer;
-  }
-
   @media screen and (max-width: 992px) {
     padding-top: 20px;
     display: block;
@@ -1388,45 +1384,23 @@ section {
 
 @keyframes load3 {
   0% {
+    -webkit-transform: rotate(0deg);
     transform: rotate(0deg);
   }
   100% {
+    -webkit-transform: rotate(360deg);
     transform: rotate(360deg);
   }
 }
 
-
 #success {
-	display: none;
-	position: fixed;
-	z-index: 999999999;
-	left: 0;
-	top: 0;
-	width: 100%;
-	bottom: 0;
-	right: 0;
-	justify-content: center;
-	align-items: center;
-	font-size: 15px;
-
-	div {
-		position: relative;
-		background-color: #fff;
-		color: $g;
-		font-weight: 600;
-		padding: 35px 60px;
-		box-shadow: 0 0 0 20px rgba(0, 0, 0, .15);
-
-		&:after {
-			content: '';
-			position: absolute;
-			right: 10px;
-			top: 10px;
-			background-image: url('../img/main/x.png');
-			width: 15px;
-			height: 15px;
-			background-size: cover;
-			cursor: pointer;
-		}
-	}
+  position: fixed;
+  width: 80%;
+  height: 80px;
+  margin: auto;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  display: flex;
 }
