@@ -241,7 +241,7 @@ var selftoken = new Vue({
         this.sec5intro17 =
           '現任微軟 Microsoft 亞太區人工智能研究員，橫跨香港、印度、廣州及深圳，於香港科技大學就學中，並擔任圖靈鍊科技公司區塊鏈總監。曾於香港 Digitas 開發數項知名ICO項目，2018年榮獲德國慕尼黑CryBlock論壇最佳論文，其著作 ERC860 將受邀於國際期刊 CPE 刊出。曾在加拿大 ETHWaterloo 盛會作為香港區塊鏈代表，同時也於知名寫作平台 Medium 撰寫加密貨幣與 Ethereum 專欄，獲選為 Top Writer。將協助 SELF Dapp 進行技術開發以及建置。';
         this.sec5name17 = '李婷婷';
-        this.sec5title17 = 'SELF DApp 合作開發者＆區塊鏈技術開發顧問';
+        this.sec5title17 = 'SELF DApp 合作開發者＆區塊鏈技術顧問';
         this.emailAlert = '已收到您的電子郵件，我們將盡快回覆您。';
       } else if (val === 'en') {
         this.navLinkAboutUs = 'About us';
@@ -257,7 +257,7 @@ var selftoken = new Vue({
           'SELF is a unique digital asset that allows users to support movie productions and reap rewards from box office revenues. Our goal is to spearhead the movement of a decentralized autonomous ecosystem starting in the movie industry.';
         this.sec2Title2 = 'Immersive';
         this.sec2Dsc2 =
-          'From visiting the actual location of a scene in the film The Last Thieves (2019) to supporting its making through SELF PAY, we are creating an immersive entertainment universe using smart contracts and blockchain technology.';
+          'From visiting the actual location of a scene in the film <i class="movie-name">The Last Thieves</i> (2019) to supporting its making through SELF PAY, we are creating an immersive entertainment universe using smart contracts and blockchain technology.';
         this.sec2Title3 = 'All Inclusive';
         this.sec2Dsc3 =
           'SELF bridges consumers to service providers of all fields of entertainment through one form of payment.';
@@ -273,7 +273,7 @@ var selftoken = new Vue({
         this.sec4p1 =
           'Parent company SELFPICK PRODUCTION completes pre A round fundraising 15M NTD, and SELF TOKEN white paper plan.';
         this.sec4p2 =
-          'Compile resources to finish The Last Thieves script. Complete business plan and model for SELF CHAIN and hire on additional team members.';
+          'Compile resources to finish <i class="movie-name">The Last Thieves</i> script. Complete business plan and model for SELF CHAIN and hire on additional team members.';
         this.sec4p3 =
           'SELF TOKEN is found with partners across the film, financial, and blockchain industries to jointly invest $12 million NTD and sign memorandum of cooperation with exchange.';
         this.sec4p4 =
@@ -281,13 +281,13 @@ var selftoken = new Vue({
         this.sec4p5 =
           'Sign with world-renowned restaurant chains, entertainment businesses to support SELF as a form of payment in Taiwan and begin research and development.';
         this.sec4p6 =
-          'Begin pre-production for The Last Thieves and start private sale, limited to those having passed KYC.';
+          'Begin pre-production for <i class="movie-name">The Last Thieves</i> and start private sale, limited to those having passed KYC.';
         this.sec4p7 =
           'Hold press conference on 8/22 at Regent Taipei, publicly announce the immersive entertainment plan.';
         this.sec4p8 =
-          'Begin 60 days of The Last Thieves production and SELF enters pre-commercial tech development.';
+          'Begin 60 days of <i class="movie-name">The Last Thieves</i> production and SELF enters pre-commercial tech development.';
         this.sec4p9 =
-          'Teaser for The Last Thieves is released online and SELF is listed on exchange.';
+          'Teaser for <i class="movie-name">The Last Thieves</i> is released online and SELF is listed on exchange.';
         this.sec5intro1 =
           'Jack founded SELFPICK PRODUCTION in 2014 and SELF BAR in 2017. In addition to being an entrepreneur, he is also the director of well-known web-series Mr Bartender (2015-present), OBA (2016), and The Bar (2017-present). With over 10 million views on YouTube, Jack was named Top 10 Potential Manager at the 2017 Jubilee Awards, and SELFPICK PRODUCTION was named Outstanding Marketing Team at the 2017 Agency of the Year Awards.';
         this.sec5name1 = 'Jack';
@@ -341,17 +341,20 @@ var selftoken = new Vue({
         this.sec5intro11 =
           'Eric is a renowned Cantonese actor, TV show personality, and filmmaker who also invests and participates in film production. Eric has won Best Actor at the 11th Hong Kong Film Awards for his role in Alan & Eric: Between Hello and Goodbye (1991), as well as Best Supporting Actor at the 36th and 53rd Golden Horse Awards for his roles in Mad World (2016) and Hold You Tight (1998). Currently, Eric is the Vice Chairman of the Hong Kong Film Awards.';
         this.sec5name11 = 'Eric';
-        this.sec5title11 = 'The Last Thieves Executive Producer';
+        this.sec5title11 =
+          '<i class="movie-name">The Last Thieves</i> Executive Producer';
 
         this.sec5intro12 =
           'Yeh is a veteran producer with more than 20 years of experience and collaboration with directors in Taiwan and abroad. Yeh specializes in film resource integration, budget control, production, and has extensive experience in international cooperation. Yeh’s film Our Times (2015) won the 50th Golden Horse Awards for Outstanding Filmmaking and the 35th Hong Kong Film Awards for Best Film from Mainland and Taiwan. Yeh also received 8 nominations at the 53rd Golden Horse Awards, and her film Godspeed (2016) won Best Producer at the 36th Hong Kong Film Awards.';
         this.sec5name12 = 'Yeh';
-        this.sec5title12 = 'The Last Thieves Executive Producer';
+        this.sec5title12 =
+          '<i class="movie-name">The Last Thieves</i> Executive Producer';
 
         this.sec5intro13 =
           'Venk is an esteemed Golden Melody Award composer best known for writing Tien’s Insignificance (2013), Leave Me Alone (2010), and S.H.E’s Wings of My Words (2015). Venk is currently the Music Director at SELFPICK PRODUCTION and is a songwriter for HIM International Music Inc.';
         this.sec5name13 = 'Venk';
-        this.sec5title13 = 'The Last Thieves Music Producer';
+        this.sec5title13 =
+          '<i class="movie-name">The Last Thieves</i> Music Producer';
 
         this.sec5intro14 =
           'Sharon is a graduate from the University of Southern California and specializes in recruitment and social media marketing. In the past she has worked at KB Capital Management and worked as HR Director and translator at a crypto exchange. Currently, Sharon is the PR manager for SELF TOKEN, where she manages domestic and international promotions, publicity, and oversees information regarding blockchain and IEO projects from English-speaking countries.';
@@ -502,7 +505,7 @@ var selftoken = new Vue({
         this.sec5intro17 =
           '现任微软 Microsoft 亚太区人工智能研究员，横跨香港、印度、广州及深圳，于香港科技大学就学中，并担任图灵链科技公司区块链总监。曾于香港 Digitas 开发数项知名ICO项目，2018年荣获德国慕尼黑CryBlock论坛最佳论文，其著作 ERC860 将受邀于国际期刊 CPE 刊出。曾在加拿大 ETHWaterloo 盛会作为香港区块链代表，同时也于知名写作平台 Medium 撰写加密货币与 Ethereum 专栏，获选为 Top Writer。将协助 SELF Dapp 进行技术开发以及建置。 ';
         this.sec5name17 = '李婷婷';
-        this.sec5title17 = 'SELF DApp 合作开发者＆区块链技术开发顾问';
+        this.sec5title17 = 'SELF DApp 合作开发者＆区块链技术顾问';
 
         this.emailAlert = '已收到您的电子邮件，我们将尽快回覆您。 ';
       }

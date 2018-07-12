@@ -1626,3 +1626,6 @@ section {
   transition: 0.3s ease; }
   #submit:hover {
     color: #d6a838; }
+
+.movie-name {
+  font-style: italic; }

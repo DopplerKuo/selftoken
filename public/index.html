@@ -161,9 +161,7 @@
     </div>
     <div class="content">
       <h3 class="reveal">{{ sec2Title2 }}</h3>
-      <p class="reveal">
-        {{ sec2Dsc2 }}
-      </p>
+      <p class="reveal" v-html="sec2Dsc2"></p>
     </div>
     <div class="content">
       <h3 class="reveal">{{ sec2Title3 }}</h3>
@@ -232,7 +230,7 @@
 
         <div class="road active">
           <h3>2017 JUNE</h3>
-          <p>{{ sec4p2 }}</p>
+          <p v-html="sec4p2"></p>
         </div>
 
         <div class="road active">
@@ -252,7 +250,7 @@
 
         <div class="road active">
           <h3>2018 JUNE-JULY</h3>
-          <p>{{ sec4p6 }}</p>
+          <p v-html="sec4p6"></p>
         </div>
 
         <div class="road active">
@@ -262,12 +260,12 @@
 
         <div class="road active">
           <h3>2018 SEP-NOV</h3>
-          <p>{{ sec4p8 }}</p>
+          <p v-html="sec4p8"></p>
         </div>
 
         <div class="road active">
-          <h3>2018 DECENBER</h3>
-          <p>{{ sec4p9 }}</p>
+          <h3>2018 DECEMBER</h3>
+          <p v-html="sec4p9"></p>
         </div>
       </div>
     </div>
@@ -284,7 +282,7 @@
           </div>
           <div class="text">
             <div class="name">{{ sec5name11 }}</div>
-            <div class="sub_title">{{ sec5title11 }}</div>
+            <div class="sub_title" v-html="sec5title11"></div>
             <div class="intro">
               {{ sec5intro11 }}
             </div>
@@ -297,7 +295,7 @@
           </div>
           <div class="text">
             <div class="name">{{ sec5name12 }}</div>
-            <div class="sub_title">{{ sec5title12 }}</div>
+            <div class="sub_title" v-html="sec5title12"></div>
             <div class="intro">
               {{ sec5intro12 }}
             </div>
@@ -479,7 +477,7 @@
           </div>
           <div class="text">
             <div class="name">{{ sec5name13 }}</div>
-            <div class="sub_title">{{ sec5title13 }}</div>
+            <div class="sub_title" v-html="sec5title13"></div>
             <div class="intro">
               {{ sec5intro13 }}
             </div>
