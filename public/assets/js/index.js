@@ -334,7 +334,7 @@ var selftoken = new Vue({
         this.sec5title9 = 'Chief Economist';
 
         this.sec5intro10 =
-          'Roger graduated with a degree in Electrical Engineering from National Taiwan University (NTU) and is currently studying Telecommunications as a graduate student at NTU under renowned professor Benson Yeh. Roger has worked in multiple telecommunications companies such as HTC, MediaTek, BoniQ, and is experienced with smart contract development and web design. Roger will assist SELF Chain in developing smart contracts and its integration with our SELF Dapp framework and SELF PAY system.';
+          'Roger graduated with a degree in Electrical Engineering from National Taiwan University (NTU) and is currently studying Telecommunications as a graduate student at NTU. Roger has worked in multiple telecommunications companies such as HTC, MediaTek, BoniQ, and is experienced with smart contract development and web design. Roger will assist SELF Chain in developing smart contracts and its integration with our SELF Dapp framework and SELF PAY system.';
         this.sec5name10 = 'Roger Wu';
         this.sec5title10 = 'Self Dapp Project Manager';
 
