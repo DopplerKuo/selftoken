@@ -204,7 +204,7 @@ var selftoken = new Vue({
         this.sec5title9 = 'SELF 首席經濟學家';
 
         this.sec5intro10 =
-          '台大電機系畢業，目前是台大電信所碩士生，師從知名教授葉丙成老師。曾在 HTC、聯發科、Ubitus等公司工作實習。擁有多年智能合約開發經驗與網頁前端開發經驗。將協助 SELF CHAIN 進行智能合約研發、測試與佈建，亦著重智能合約與 SELF PAY 前後端的整合，未來亦將協助探索 SELF Dapps 架構設計與實作研發。';
+          '台大電機系畢業，目前是台大電信所碩士生。曾在 HTC、聯發科、Ubitus等公司工作實習。擁有多年智能合約開發經驗與網頁前端開發經驗。將協助 SELF CHAIN 進行智能合約研發、測試與佈建，亦著重智能合約與 SELF PAY 前後端的整合，未來亦將協助探索 SELF Dapps 架構設計與實作研發。';
         this.sec5name10 = '吳冠融';
         this.sec5title10 = 'SELF DApp 專案經理';
 
@@ -468,7 +468,7 @@ var selftoken = new Vue({
         this.sec5title9 = 'SELF 首席经济学家';
 
         this.sec5intro10 =
-          '台大电机系毕业，目前是台大电信所硕士生，师从知名教授叶丙成老师。曾在 HTC、联发科、Ubitus等公司工作实习。拥有多年智能合约开发经验与网页前端开发经验。将协助 SELF CHAIN 进行智能合约研发、测试与布建，亦着重智能合约与 SELF PAY 前后端的整合，未来亦将协助探索 SELF Dapps 架构设计与实作研发。 ';
+          '台大电机系毕业，目前是台大电信所硕士生。曾在 HTC、联发科、Ubitus等公司工作实习。拥有多年智能合约开发经验与网页前端开发经验。将协助 SELF CHAIN 进行智能合约研发、测试与布建，亦着重智能合约与 SELF PAY 前后端的整合，未来亦将协助探索 SELF Dapps 架构设计与实作研发。 ';
         this.sec5name10 = '吴冠融';
         this.sec5title10 = 'SELF DApp 专案经理';
 
