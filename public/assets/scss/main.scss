@@ -1488,3 +1488,78 @@ section {
 .movie-name {
   font-style: italic;
 }
+
+.w-download {
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;;
+  max-width: 700px;
+  margin: 60px auto 0;
+
+  @media screen and (max-width: 992px) {
+    display: block;
+  }
+
+  .right {
+    width: 165px;
+    flex: 0 0 165px;
+    background-repeat: no-repeat;
+    height: 165px;
+    background-size: contain;
+    position: relative;
+    margin-right: 25px;
+    margin-left: 40px;
+
+    @media screen and (max-width: 992px) {
+      margin: auto;
+      margin-top: 20px;
+      margin-bottom: 60px;
+    }
+
+    div {
+      position: absolute;
+      right: -25px;
+      top: 43px;
+      font-size: 22px;
+      letter-spacing: 4px;
+    }
+  }
+
+  .left {
+    width: calc(100% - 240px);
+    flex: 0 0 calc(100% - 240px);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 35px;
+    box-shadow: 0 1px 0 0 #fff;
+    margin-bottom: 20px;
+
+    @media screen and (max-width: 992px) {
+      width: 100%;
+      flex: 0 0 100%;
+      margin-top: 100px;
+      padding-bottom: 20px;
+    }
+
+    a {
+      flex: 0 0 auto;
+      width: auto;
+      font-size: 17px;
+      transition: 0.3s ease;
+      margin: 0 5px;
+
+      @media screen and (max-width: 992px) {
+        font-size: 12px;
+      }
+
+      &:hover {
+        color: $sup;
+      }
+
+      i {
+        margin-right: 20px;
+      }
+    }
+  }
+}

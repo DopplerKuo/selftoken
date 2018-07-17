@@ -1629,3 +1629,84 @@ section {
 
 .movie-name {
   font-style: italic; }
+
+.w-download {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: end;
+  -ms-flex-align: end;
+  align-items: flex-end;
+  max-width: 700px;
+  margin: 60px auto 0; }
+  @media screen and (max-width: 992px) {
+    .w-download {
+      display: block; } }
+  .w-download .right {
+    width: 165px;
+    -webkit-box-flex: 0;
+    -ms-flex: 0 0 165px;
+    flex: 0 0 165px;
+    background-repeat: no-repeat;
+    height: 165px;
+    background-size: contain;
+    position: relative;
+    margin-right: 25px;
+    margin-left: 40px; }
+    @media screen and (max-width: 992px) {
+      .w-download .right {
+        margin: auto;
+        margin-top: 20px;
+        margin-bottom: 60px; } }
+    .w-download .right div {
+      position: absolute;
+      right: -25px;
+      top: 43px;
+      font-size: 22px;
+      letter-spacing: 4px; }
+  .w-download .left {
+    width: calc(100% - 240px);
+    -webkit-box-flex: 0;
+    -ms-flex: 0 0 calc(100% - 240px);
+    flex: 0 0 calc(100% - 240px);
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    padding-bottom: 35px;
+    -webkit-box-shadow: 0 1px 0 0 #fff;
+    box-shadow: 0 1px 0 0 #fff;
+    margin-bottom: 20px; }
+    @media screen and (max-width: 992px) {
+      .w-download .left {
+        width: 100%;
+        -webkit-box-flex: 0;
+        -ms-flex: 0 0 100%;
+        flex: 0 0 100%;
+        margin-top: 100px;
+        padding-bottom: 20px; } }
+    .w-download .left a {
+      -webkit-box-flex: 0;
+      -ms-flex: 0 0 auto;
+      flex: 0 0 auto;
+      width: auto;
+      font-size: 17px;
+      -webkit-transition: 0.3s ease;
+      -o-transition: 0.3s ease;
+      transition: 0.3s ease;
+      margin: 0 5px; }
+      @media screen and (max-width: 992px) {
+        .w-download .left a {
+          font-size: 12px; } }
+      .w-download .left a:hover {
+        color: #d6a838; }
+      .w-download .left a i {
+        margin-right: 20px; }
