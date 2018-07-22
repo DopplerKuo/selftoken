@@ -224,7 +224,7 @@ var selftoken = new Vue({
         this.sec5title13 = 'SELF 原創電影《聖人大盜》音樂總監';
 
         this.sec5intro14 =
-          '畢業於南加州大學大眾傳播系，曾有在美國生物科技產業招募人才與社群行銷經驗，同時在 KB Capital Management 協助投資管理 。近期回台也在虛擬貨幣產業公司擔任主導招募與翻譯，協助行銷團隊對國外用戶進行推廣教育。未來將協助與代表 Self Token 對外進行區塊鏈教育和對英語系國家進行IEO計畫的公關宣傳。';
+          '畢業於南加州大學大眾傳播系，曾有在美國生物科技產業招募人才與社群行銷經驗，同時在恆心資本 (Perseverance Capital Management LLC) 協助投資管理 。近期回台也在虛擬貨幣產業公司擔任主導招募與翻譯，協助行銷團隊對國外用戶進行推廣教育。未來將協助與代表 Self Token 對外進行區塊鏈教育和對英語系國家進行IEO計畫的公關宣傳。';
         this.sec5name14 = '許家瑄';
         this.sec5title14 = 'SELF 公關經理';
 
@@ -357,7 +357,7 @@ var selftoken = new Vue({
           '<i class="movie-name">The Last Thieves</i> Music Producer';
 
         this.sec5intro14 =
-          'Sharon is a graduate from the University of Southern California and specializes in recruitment and social media marketing. In the past she has worked at KB Capital Management and worked as HR Director and translator at a crypto exchange. Currently, Sharon is the PR manager for SELF TOKEN, where she manages domestic and international promotions, publicity, and oversees information regarding blockchain and IEO projects from English-speaking countries.';
+          'Sharon is a graduate from the University of Southern California and specializes in recruitment and social media marketing. In the past she has worked at Perseverance Capital Management LLC and worked as HR Director and translator at a crypto exchange. Currently, Sharon is the PR manager for SELF TOKEN, where she manages domestic and international promotions, publicity, and oversees information regarding blockchain and IEO projects from English-speaking countries.';
         this.sec5name14 = 'Sharon';
         this.sec5title14 = 'PR Manager';
 
@@ -488,7 +488,7 @@ var selftoken = new Vue({
         this.sec5title13 = 'SELF 原创电影《圣人大盗》音乐总监';
 
         this.sec5intro14 =
-          '毕业于南加州大学大众传播系，曾有在美国生物科技产业招募人才与社群行销经验，同时在 KB Capital Management 协助投资管理 。近期回台也在虚拟货币产业公司担任主导招募与翻译，协助行销团队对国外用户进行推广教育。未来将协助与代表 Self Token 对外进行区块链教育和对英语系国家进行IEO计画的公关宣传。 ';
+          '毕业于南加州大学大众传播系，曾有在美国生物科技产业招募人才与社群行销经验，同时在恒心资本（Perseverance Capital Management LLC) 协助投资管理 。近期回台也在虚拟货币产业公司担任主导招募与翻译，协助行销团队对国外用户进行推广教育。未来将协助与代表 Self Token 对外进行区块链教育和对英语系国家进行IEO计画的公关宣传。 ';
         this.sec5name14 = '许家瑄';
         this.sec5title14 = 'SELF 公关经理';
 
