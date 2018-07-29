@@ -169,7 +169,7 @@ var selftoken = new Vue({
         this.sec5title2 = 'SELF 聯合創始人＆區塊鏈技術顧問';
 
         this.sec5intro3 =
-          '為華人著名組織百人會下一代領袖成員，私募基金 Perseverance Capital Management LLC 共同合夥人，也擔任被投公司 Cold Genesys, Inc 執行長，共募資兩千五百萬美金，同時也是資深虛擬貨幣投資人，未來將透過豐沛的人脈資源協助SELF TOKEN往國際的市場推進，達成整合綜效。';
+          '為美國永恆生技（Cold Genesys Inc.）執行長，為全美最年輕的生技公司負責人，擁有掌管十億台幣資本額，募資超過兩千五百萬美元的實力！關心同時為資深虛擬貨幣投資人，並創辦以投資區塊鏈為重點之一的恆心資本（Perseverance Capital Management LLC) 。 精準的眼光與豐沛的人脈資源，未來必定能協助SELF TOKEN往國際市場推進，達成整合綜效。';
         this.sec5name3 = '關心';
         this.sec5title3 = 'SELF 聯合創始人＆風險管理委員';
 
@@ -433,7 +433,7 @@ var selftoken = new Vue({
         this.sec5title2 = 'SELF 联合创始人＆区块链技术顾问';
 
         this.sec5intro3 =
-          '为华人著名组织百人会下一代领袖成员，私募基金Perseverance Capital Management LLC 共同合伙人，也担任被投公司Cold Genesys, Inc 执行长，共募资两千五百万美金，同时也是资深虚拟货币投资人，未来将透过丰沛的人脉资源协助SELF TOKEN往国际的市场推进，达成整合综效。 ';
+          '为美国永恒生技（Cold Genesys Inc.）执行长，为全美最年轻的生技公司负责人，拥有掌管十亿台币资本额，募资超过两千五百万美元的实力！关心同时为资深虚拟货币投资人，并创办以投资区块链为重点之一的恒心资本（Perseverance Capital Management LLC）。精准的眼光与丰沛的人脉资源，未来必定能协助SELF TOKEN往国际市场推进，达成整合综效。';
         this.sec5name3 = '关心';
         this.sec5title3 = 'SELF 联合创始人＆风险管理委员';
 
