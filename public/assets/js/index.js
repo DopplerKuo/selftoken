@@ -299,7 +299,7 @@ var selftoken = new Vue({
         this.sec5title2 = 'Co Founder & Risk Blockchain Consultant';
 
         this.sec5intro3 =
-          'Arthur is a partner at private equity firm Perseverance Capital Management LLC and the CEO of Cold Genesys, Inc - where he raised over $25 million. As a senior cryptocurrency investor with extensive knowledge and network, Arthur will assist SELF TOKEN in entering the global market.';
+          'Arthur is the CEO of Cold Genesys Inc., the youngest biotech company in the United States with over $1 billion in capital and raised more than $25 million. Arthur is also a veteran cryptocurrency investor, having founded Perseverance Capital Management LLC, which focuses on blockchain investments. With a precise vision and abundant network resources, he will help SELF TOKEN advance to the international market and achieve complete integration.';
         this.sec5name3 = 'Arthur';
         this.sec5title3 = 'Co Founder & Risk Advisor';
 
