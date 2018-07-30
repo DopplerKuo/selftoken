@@ -153,7 +153,7 @@ var selftoken = new Vue({
         this.sec4p6 =
           '電影《聖人大盜》前導影片拍攝，並同時進行非公開之私募，限定必須通過 KYC 或是邀請制度參與。';
         this.sec4p7 =
-          '8/22 將於晶華酒店舉辦記者會，正式對外公布沉浸式娛樂計畫。';
+          '8/22 將於舉辦記者會，正式對外公布沉浸式娛樂計畫。';
         this.sec4p8 = '電影聖人大盜進入 60 天拍攝期、SELF 進入商轉前技術開發。';
         this.sec4p9 =
           '電影正式預告上線、SELF 上線合作交易所。後續進程請詳參白皮書。';
@@ -283,7 +283,7 @@ var selftoken = new Vue({
         this.sec4p6 =
           'Begin pre-production for <i class="movie-name">The Last Thieves</i> and start private sale, limited to those having passed KYC.';
         this.sec4p7 =
-          'Hold press conference on 8/22 at Regent Taipei, publicly announce the immersive entertainment plan.';
+          'Hold press conference on 8/22, publicly announce the immersive entertainment plan.';
         this.sec4p8 =
           'Begin 60 days of <i class="movie-name">The Last Thieves</i> production and SELF enters pre-commercial tech development.';
         this.sec4p9 =
@@ -416,7 +416,7 @@ var selftoken = new Vue({
         this.sec4p6 =
           '电影《圣人大盗》前导影片拍摄，并同时进行非公开之私募，限定必须通过 KYC 或是邀请制度参与。 ';
         this.sec4p7 =
-          '8/22 将于晶华酒店举办记者会，正式对外公布沉浸式娱乐计画。 ';
+          '8/22 将于举办记者会，正式对外公布沉浸式娱乐计画。 ';
         this.sec4p8 =
           '电影圣人大盗进入 60 天拍摄期、SELF 进入商转前技术开发。 ';
         this.sec4p9 =
