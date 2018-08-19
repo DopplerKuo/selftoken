@@ -1606,3 +1606,25 @@ section {
     display: block;
   }
 }
+
+.yb-box {
+  width: 100%;
+  max-width: 900px;
+  margin: auto;
+  margin-bottom: 20%;
+}
+
+.yb-main {
+  position: relative;
+  padding-top: 52.25%;
+  width: 100%;
+
+  iframe {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+  }
+}
+
