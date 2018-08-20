@@ -166,7 +166,7 @@ var selftoken = new Vue({
         this.sec5intro2 =
           '1981年生，國立臺灣大學資訊工程學博士，日本慶応大學博士後研究員，美國奇點大學首位臺灣學員，創辦多家公司曾獲紅點設計獎與 HTC 投資。現任教於北科大互動設計系，亦為奇點大學台灣大使，替多家跨國公司及政府單位如經濟部、北市府，COBINHOOD, Ubitus Inc., Blueprint Japan 等跨國企業提供區塊鏈智能合約開發之研究協助。';
         this.sec5name2 = '葛如鈞';
-        this.sec5title2 = 'SELF 聯合創始人＆區塊鏈技術顧問';
+        this.sec5title2 = 'SELF 共同發起人＆區塊鏈技術顧問';
 
         this.sec5intro3 =
           '為美國永恆生技（Cold Genesys Inc.）執行長，為全美最年輕的生技公司負責人，擁有掌管十億台幣資本額，募資超過兩千五百萬美元的實力！關心同時為資深虛擬貨幣投資人，並創辦以投資區塊鏈為重點之一的恆心資本（Perseverance Capital Management LLC) 。 精準的眼光與豐沛的人脈資源，未來必定能協助SELF TOKEN往國際市場推進，達成整合綜效。';
@@ -430,7 +430,7 @@ var selftoken = new Vue({
         this.sec5intro2 =
           '1981年生，国立台湾大学资讯工程学博士，日本庆応大学博士后研究员，美国奇点大学首位台湾学员，创办多家公司曾获红点设计奖与 HTC 投资。现任教于北科大互动设计系，亦为奇点大学台湾大使，替多家跨国公司及政府单位如经济部、北市府，COBINHOOD, Ubitus Inc., Blueprint Japan 等跨国企业提供区块链智能合约开发之研究协助。 ';
         this.sec5name2 = '葛如钧';
-        this.sec5title2 = 'SELF 联合创始人＆区块链技术顾问';
+        this.sec5title2 = 'SELF 共同發起人＆区块链技术顾问';
 
         this.sec5intro3 =
           '为美国永恒生技（Cold Genesys Inc.）执行长，为全美最年轻的生技公司负责人，拥有掌管十亿台币资本额，募资超过两千五百万美元的实力！关心同时为资深虚拟货币投资人，并创办以投资区块链为重点之一的恒心资本（Perseverance Capital Management LLC）。精准的眼光与丰沛的人脉资源，未来必定能协助SELF TOKEN往国际市场推进，达成整合综效。';
