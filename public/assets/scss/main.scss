@@ -1603,6 +1603,10 @@ section {
   max-width: 900px;
   margin: auto;
   margin-bottom: 20%;
+
+  @media screen and (max-width: 768px) {
+    margin-bottom: 50%;
+  }
 }
 
 .yb-main {

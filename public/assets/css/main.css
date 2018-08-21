@@ -1746,6 +1746,9 @@ section {
   max-width: 900px;
   margin: auto;
   margin-bottom: 20%; }
+  @media screen and (max-width: 768px) {
+    .yb-box {
+      margin-bottom: 50%; } }
 
 .yb-main {
   position: relative;
