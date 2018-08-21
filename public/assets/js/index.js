@@ -159,7 +159,7 @@ var selftoken = new Vue({
           '電影正式預告上線、SELF 上線合作交易所。後續進程請詳參白皮書。';
 
         this.sec5intro1 =
-          '1991 年生，2014 年創立 SELFPICK PRODUCTION、2017 年創立 SELF BAR，擔任 Mr.BArtender、我們是歐爸、私室等知名網劇導演，在網路上創造了千萬點擊，並成功帶領 SELFPICK PRODUCTION 榮獲 2017 年行銷傳播貢獻獎年度傑出行銷創意團隊、2017 年金炬獎年度傑出十大潛力經理人。';
+          '1991 年生，2014 年創立 SELFPICK PRODUCTION、2017 年創立 SELF BAR，擔任 Mr.Bartender、我們是歐爸、私室等知名網劇導演，在網路上創造了千萬點擊，並成功帶領 SELFPICK PRODUCTION 榮獲 2017 年行銷傳播貢獻獎年度傑出行銷創意團隊、2017 年金炬獎年度傑出十大潛力經理人。';
         this.sec5name1 = '徐嘉凱';
         this.sec5title1 = 'SELF 創始人 ＆ 電影《聖人大盜》導演';
 
@@ -423,7 +423,7 @@ var selftoken = new Vue({
           '电影正式预告上线、SELF 上线合作交易所。后续进程请详参白皮书。 ';
 
         this.sec5intro1 =
-          '1991 年生，2014 年创立SELFPICK PRODUCTION、2017 年创立SELF BAR，担任Mr.BArtender、我们是欧爸、私室等知名网剧导演，在网路上创造了千万点击，并成功带领SELFPICK PRODUCTION 荣获2017年行销传播贡献奖年度杰出行销创意团队、2017 年金炬奖年度杰出十大潜力经理人。 ';
+          '1991 年生，2014 年创立SELFPICK PRODUCTION、2017 年创立SELF BAR，担任Mr.Bartender、我们是欧爸、私室等知名网剧导演，在网路上创造了千万点击，并成功带领SELFPICK PRODUCTION 荣获2017年行销传播贡献奖年度杰出行销创意团队、2017 年金炬奖年度杰出十大潜力经理人。 ';
         this.sec5name1 = '徐嘉凯';
         this.sec5title1 = 'SELF 创始人 ＆ 电影《圣人大盗》导演';
 
