@@ -1740,16 +1740,6 @@ section {
   -ms-transform: translateX(-50%);
   transform: translateX(-50%);
   max-width: 500px; }
-  @media screen and (max-width: 992px) {
-    #video {
-      display: none; } }
-
-.canvas-block {
-  display: none; }
-
-@media screen and (max-width: 992px) {
-  .canvas-block {
-    display: block; } }
 
 .yb-box {
   width: 100%;

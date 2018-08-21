@@ -149,10 +149,10 @@
         <video id="video" autoplay muted playsinline loop>
           <source src="assets/video/S_alpha.webm" type="video/webm">
         </video>
-        <div class="canvas-block" style="height:200px;left:0px;" >
+        <div class="canvas-block" id="header-c" style="height:200px;left:0px;" >
           <canvas id="myCanvas5" style="position: absolute; left: 50%; margin-left: -185px; transform: translateX(-3.8%);" width="200px" height="200px"></canvas>
         </div>
-        <!-- <img src="assets/img/main/cover-S.PNG" alt=""> -->
+        <img id="header-i" src="assets/img/main/cover-S.PNG" alt="">
         <div class="header-model-bg"></div>
       </div>
       <div class="header-title">
@@ -597,23 +597,23 @@
         <a href="https://www.gvm.com.tw/article.html?id=45304" target="_blank">
           <img style="width: 70%" src="assets/img/main/logos/遠見.png" alt="">
         </a>
-        <a href="" target="_blank">
+        <a href="" target="_blank" style="pointer-events: none;">
           <img style="width: 70%" src="assets/img/main/logos/區塊客.png" alt="">
         </a>
-        <a href="" target="_blank">
+        <a href="" target="_blank" style="pointer-events: none;">
           <img style="width: 70%" src="assets/img/main/logos/BLOCK_TEMPO.png" alt="">
         </a>
-        <a href="https://mp.weixin.qq.com/s/gQ1ljvOrh_T_o9PSJ7PQDg" target="_blank">
+        <a href="http://www.mittrchina.com/news/2613" target="_blank">
           <img style="width: 70%" src="assets/img/main/logos/MIT.png" alt="">
         </a>
         <a href="https://www.inside.com.tw/2018/08/14/selfpick-develope-blockchain-and-entertainment" target="_blank">
           <img style="width: 70%" src="assets/img/main/logos/INSIDE.png" alt="">
         </a>
-        <a href="" target="_blank">
+        <a href="" target="_blank" style="pointer-events: none;">
           <img style="width: 70%" src="assets/img/main/logos/眾新聞.png" alt="">
         </a>
-        <a href="" target="_blank">
-          <img style="width: 70%" src="http://jensencandy.com/wp-content/themes/room09/core/assets/images/no-featured-175.jpg" alt="">
+        <a href="" target="_blank" style="pointer-events: none;">
+          <img style="width: 70%" src="assets/img/main/logos/COINVOICE.png" alt="">
         </a>
         <a href="https://www.bnext.com.tw/article/50122/selfpick-blockchain-movie" target="_blank">
           <img style="width: 70%" src="assets/img/main/logos/數為時代.png" alt="">
@@ -621,31 +621,39 @@
         <a href="https://mp.weixin.qq.com/s/gQ1ljvOrh_T_o9PSJ7PQDg" target="_blank">
           <img style="width: 70%" src="assets/img/main/logos/深科技.png" alt="">
         </a>
-        <a href="https://udn.com/news/story/7238/3284689" target="_blank">
-          <img style="width: 70%" src="assets/img/main/logos/聯合新聞.png" alt="">
+
+        <a href="https://new.qq.com/omn/20180816/20180816A13MGT.html" target="_blank">
+          <img style="width: 70%" src="assets/img/main/logos/騰訊QQ.png" alt="">
         </a>
+        <a href="http://tech.ifeng.com/a/20180816/45126632_0.shtml" target="_blank">
+          <img style="width: 70%" src="assets/img/main/logos/鳳凰.png" alt="">
+        </a>
+        <a href="https://t.cj.sina.com.cn/articles/view/1738690784/67a250e0001009xi4" target="_blank">
+          <img style="width: 70%" src="assets/img/main/logos/sina 新浪.png" alt="">
+        </a>
+        <a href="https://www.mirrormedia.mg/story/20180817mit001" target="_blank">
+          <img style="width: 70%" src="assets/img/main/logos/鏡週刊.png" alt="">
+        </a>
+
         <a href="https://tw.news.yahoo.com/%E5%8F%B0%E7%81%A3%E5%B9%B4%E8%BC%95%E4%BA%BA%E8%81%AF%E6%89%8B%E6%9B%BE%E5%BF%97%E5%81%89%E7%99%BC%E8%99%9B%E6%93%AC%E8%B2%A8%E5%B9%A3-%E6%90%B6%E6%95%91%E5%BD%B1%E8%A6%96%E6%A5%AD-091600672.html" target="_blank">
           <img style="width: 70%" src="assets/img/main/logos/yahoo_news.png" alt="">
         </a>
         <a href="https://money.udn.com/money/story/6709/3282388" target="_blank">
-          <img style="width: 70%" src="http://jensencandy.com/wp-content/themes/room09/core/assets/images/no-featured-175.jpg" alt="">
-        </a>
-        <a href="https://udn.com/news/story/7238/3284689" target="_blank">
           <img style="width: 70%" src="assets/img/main/logos/經濟日報.png" alt="">
         </a>
-        <a href="http://www.chinatimes.com/realtimenews/20171110001144-260405" target="_blank">
+        <a href="https://udn.com/news/story/7238/3284689" target="_blank">
           <img style="width: 70%" src="assets/img/main/logos/聯合新聞.png" alt="">
         </a>
-        <a href="https://news.tvbs.com.tw/politics/716452" target="_blank">
+        <a href="http://www.chinatimes.com/realtimenews/20171110001144-260405" target="_blank">
           <img style="width: 70%" src="assets/img/main/logos/中時電子報.png" alt="">
         </a>
-        <a href="https://technews.tw/2017/05/03/selfpick-has-raised-pre-series-a-funding-of-over-10-million-ntd/" target="_blank">
+        <a href="https://news.tvbs.com.tw/politics/716452" target="_blank">
           <img style="width: 70%" src="assets/img/main/logos/TVBS.png" alt="">
         </a>
-        <a href="http://www.storm.mg/lifestyle/124708" target="_blank">
+        <a href="https://technews.tw/2017/05/03/selfpick-has-raised-pre-series-a-funding-of-over-10-million-ntd/" target="_blank">
           <img style="width: 70%" src="assets/img/main/logos/科技新報.png" alt="">
         </a>
-        <a href="https://chewpeople.com.tw/selfpick-the-bar/" target="_blank">
+        <a href="http://www.storm.mg/lifestyle/124708" target="_blank">
           <img style="width: 70%" src="assets/img/main/logos/風傳媒.png" alt="">
         </a>
         <a href="https://chewpeople.com.tw/selfpick-the-bar/" target="_blank">
@@ -680,19 +688,25 @@
           <img style="width: 80%" src="assets/img/main/logos/中環.png" alt="">
         </div>
         <div>
-          <img style="width: 50%" src="assets/img/main/logos/首席.png" alt="">
+          <img style="width: 80%" src="assets/img/main/logos/得利.png" alt="">
         </div>
         <div>
-            <img style="width: 50%" src="assets/img/main/logos/follow.png" alt="">
+          <img style="width: 80%" src="assets/img/main/logos/KHL.png" alt="">
         </div>
-        <div>                    
-          <img style="width: 80%" src="assets/img/main/logos/恆心.png" alt="">
+        <div v-if="lang === 'en'">
+          <img style="width: 80%" src="assets/img/main/logos/恆心_EN.png" alt="">
+        </div>
+        <div v-else>
+          <img style="width: 80%" src="assets/img/main/logos/恆心_CH.png" alt="">
+        </div>
+        <div>
+          <img style="width: 50%" src="assets/img/main/logos/follow.png" alt="">
         </div>
         <div>
           <img style="width: 80%" src="assets/img/main/logos/先勢.png" alt="">
         </div>
         <div>
-          <img style="width: 80%" src="assets/img/main/logos/首席.png" alt="">
+          <img style="width: 30%" src="assets/img/main/logos/首席.png" alt="">
         </div>
       </div>
       <h2>PARTNERSHIP</h2>
@@ -776,6 +790,33 @@
 </body>
 <script src="/assets/js/vendor/vue.min.js"></script>
 <script src="/assets/js/vendor/jquery-2.1.4.min.js"></script>
+<script >
+    var userAgent = navigator.userAgent;
+    var isSafari = userAgent.indexOf("Safari") > -1 && userAgent.indexOf("Chrome") < 1 ;
+    var isChrome = userAgent.indexOf("Chrome") > -1 ;
+     
+    if (isSafari && $(window).width() > 992) { 
+      $('#header-c').show();
+      $('#video').hide();
+      $('#header-i').hide();
+    } else if (isSafari && $(window).width() <= 992) { 
+      $('#header-c').hide();
+      $('#video').hide();
+      $('#header-i').show();
+    } else if (isChrome && $(window).width() > 992) { 
+      $('#header-c').hide();
+      $('#video').show();
+      $('#header-i').hide();
+    }  else if (isChrome && $(window).width() <= 992) {
+      $('#header-c').hide();
+      $('#video').hide();
+      $('#header-i').show();
+    } else {
+      $('#header-c').hide();
+      $('#video').hide();
+      $('#header-i').show();
+    }
+</script>
 <script src="/assets/js/animateNumber.js"></script>
 <script src="/assets/js/vendor/scrollreveal/scrollreveal.min.js"></script>
 <script src="/assets/js/aboutScroll.js"></script>
