@@ -262,7 +262,7 @@ var selftoken = new Vue({
           'SELF bridges consumers to service providers of all fields of entertainment through one form of payment.';
         this.sec2Title4 = 'Transparent';
         this.sec2Dsc4 =
-          'With SELF, Box office revenue is converted to cryptocurrency and distributed back to users based on accumulated points. With blockchain technology, all information will be accessible to the public - building a relationship of trust.';
+          'With SELF, contributions and accumulated mining rewards will lead to more exclusive VIP opportunities. With blockchain technology, all information will be accessible to the public - building a relationship of trust.';
         this.sec2Title5 = 'Global';
         this.sec2Dsc5 =
           'By collaborating with global exchanges, SELF can be used freely across borders.';
