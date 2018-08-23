@@ -149,8 +149,9 @@
         <video id="video" autoplay muted playsinline loop>
           <source src="assets/video/S_alpha.webm" type="video/webm">
         </video>
-        <div class="canvas-block" id="header-c" style="height:200px;left:0px;" >
-          <canvas id="myCanvas5" style="position: absolute; left: 50%; margin-left: -185px; transform: translateX(-3.8%);" width="200px" height="200px"></canvas>
+        <div class="canvas-block" id="header-c" style="height:200px;left:0px;">
+          <canvas id="myCanvas5" style="position: absolute; left: 50%; margin-left: -185px; transform: translateX(-3.8%);" width="200px"
+            height="200px"></canvas>
         </div>
         <img id="header-i" src="assets/img/main/cover-S.PNG" alt="">
         <div class="header-model-bg"></div>
@@ -165,8 +166,10 @@
     <div class="content">
       <div class="yb-box">
         <div class="yb-main">
-          <iframe v-if="lang === 'en'" src="https://www.youtube.com/embed/dtg6rOFmc_Q?rel=0&amp;controls=0&amp;showinfo=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
-          <iframe v-else src="https://www.youtube.com/embed/P5dfhCSygUE?rel=0&amp;controls=0&amp;showinfo=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+          <iframe v-if="lang === 'en'" src="https://www.youtube.com/embed/dtg6rOFmc_Q?rel=0&amp;controls=0&amp;showinfo=0" frameborder="0"
+            allow="autoplay; encrypted-media" allowfullscreen></iframe>
+          <iframe v-else src="https://www.youtube.com/embed/P5dfhCSygUE?rel=0&amp;controls=0&amp;showinfo=0" frameborder="0" allow="autoplay; encrypted-media"
+            allowfullscreen></iframe>
         </div>
       </div>
       <h2>ABOUT US</h2>
@@ -246,23 +249,6 @@
       </form>
       <script type='text/javascript' src='//s3.amazonaws.com/downloads.mailchimp.com/js/mc-validate.js'></script>
       <script type='text/javascript'>(function ($) { window.fnames = new Array(); window.ftypes = new Array(); fnames[0] = 'EMAIL'; ftypes[0] = 'email'; }(jQuery)); var $mcj = jQuery.noConflict(true);</script>
-      
-      <div class="w-download">
-        <div class="left">
-          <a href="assets/img/main/whitepaper/自元_onepager.pdf" download>
-            <i class="fas fa-download"></i>繁體中文</a>
-          <a href="assets/img/main/whitepaper/簡_自元_onepager .PDF" download>
-            <i class="fas fa-download"></i>简体中文</a>
-          <a href="assets/img/main/whitepaper/Selftoken_onepager.pdf" download>
-            <i class="fas fa-download"></i>ENGLISH</a>
-        </div>
-        <div class="right img-bg-cover" style="background-image: url('assets/img/main/onepager小方框.png')">
-          <div>
-            ONEPAGER
-            <br> DOWNLOAD
-          </div>
-        </div>
-      </div>
     </div>
   </section>
 
@@ -632,7 +618,8 @@
           <img style="width: 70%" src="assets/img/main/logos/鏡週刊.png" alt="">
         </a>
 
-        <a href="https://tw.news.yahoo.com/%E5%8F%B0%E7%81%A3%E5%B9%B4%E8%BC%95%E4%BA%BA%E8%81%AF%E6%89%8B%E6%9B%BE%E5%BF%97%E5%81%89%E7%99%BC%E8%99%9B%E6%93%AC%E8%B2%A8%E5%B9%A3-%E6%90%B6%E6%95%91%E5%BD%B1%E8%A6%96%E6%A5%AD-091600672.html" target="_blank">
+        <a href="https://tw.news.yahoo.com/%E5%8F%B0%E7%81%A3%E5%B9%B4%E8%BC%95%E4%BA%BA%E8%81%AF%E6%89%8B%E6%9B%BE%E5%BF%97%E5%81%89%E7%99%BC%E8%99%9B%E6%93%AC%E8%B2%A8%E5%B9%A3-%E6%90%B6%E6%95%91%E5%BD%B1%E8%A6%96%E6%A5%AD-091600672.html"
+          target="_blank">
           <img style="width: 70%" src="assets/img/main/logos/yahoo_news.png" alt="">
         </a>
         <a href="https://money.udn.com/money/story/6709/3282388" target="_blank">
@@ -715,7 +702,7 @@
           <img style="width: 80%" src="assets/img/main/logos/SUTS.png" alt="">
         </div>
         <div>
-            <img style="width: 80%" src="assets/img/main/logos/比特兔.png" alt="">
+          <img style="width: 80%" src="assets/img/main/logos/比特兔.png" alt="">
         </div>
         <div>
           <img style="width: 80%" src="assets/img/main/logos/basechain.png" alt="">
@@ -730,7 +717,7 @@
           <img style="width: 80%" src="assets/img/main/logos/HOYII.png" alt="">
         </div>
         <div>
-            <img style="width: 80%" src="assets/img/main/logos/LOONGTAIL.png" alt="">
+          <img style="width: 80%" src="assets/img/main/logos/LOONGTAIL.png" alt="">
         </div>
         <div>
           <img style="width: 80%" src="assets/img/main/logos/珍寶.png" alt="">
@@ -787,32 +774,32 @@
 </body>
 <script src="/assets/js/vendor/vue.min.js"></script>
 <script src="/assets/js/vendor/jquery-2.1.4.min.js"></script>
-<script >
-    var userAgent = navigator.userAgent;
-    var isSafari = userAgent.indexOf("Safari") > -1 && userAgent.indexOf("Chrome") < 1 ;
-    var isChrome = userAgent.indexOf("Chrome") > -1 ;
-     
-    if (isSafari && $(window).width() > 992) { 
-      $('#header-c').show();
-      $('#video').hide();
-      $('#header-i').hide();
-    } else if (isSafari && $(window).width() <= 992) { 
-      $('#header-c').hide();
-      $('#video').hide();
-      $('#header-i').show();
-    } else if (isChrome && $(window).width() > 992) { 
-      $('#header-c').hide();
-      $('#video').show();
-      $('#header-i').hide();
-    }  else if (isChrome && $(window).width() <= 992) {
-      $('#header-c').hide();
-      $('#video').hide();
-      $('#header-i').show();
-    } else {
-      $('#header-c').hide();
-      $('#video').hide();
-      $('#header-i').show();
-    }
+<script>
+  var userAgent = navigator.userAgent;
+  var isSafari = userAgent.indexOf("Safari") > -1 && userAgent.indexOf("Chrome") < 1;
+  var isChrome = userAgent.indexOf("Chrome") > -1;
+
+  if (isSafari && $(window).width() > 992) {
+    $('#header-c').show();
+    $('#video').hide();
+    $('#header-i').hide();
+  } else if (isSafari && $(window).width() <= 992) {
+    $('#header-c').hide();
+    $('#video').hide();
+    $('#header-i').show();
+  } else if (isChrome && $(window).width() > 992) {
+    $('#header-c').hide();
+    $('#video').show();
+    $('#header-i').hide();
+  } else if (isChrome && $(window).width() <= 992) {
+    $('#header-c').hide();
+    $('#video').hide();
+    $('#header-i').show();
+  } else {
+    $('#header-c').hide();
+    $('#video').hide();
+    $('#header-i').show();
+  }
 </script>
 <script src="/assets/js/animateNumber.js"></script>
 <script src="/assets/js/vendor/scrollreveal/scrollreveal.min.js"></script>
