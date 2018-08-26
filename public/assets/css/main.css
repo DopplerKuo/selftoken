@@ -1386,7 +1386,7 @@ section {
 .sec7 .right {
   font-size: 15px;
   position: relative;
-  height: 200px;
+  height: 225px;
   -webkit-transform: translateX(70px);
   -ms-transform: translateX(70px);
   transform: translateX(70px); }
