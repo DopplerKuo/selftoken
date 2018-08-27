@@ -1746,7 +1746,7 @@ section {
   width: 100%;
   max-width: 900px;
   margin: auto;
-  margin-bottom: 20%; }
+  margin-bottom: 30%; }
   @media screen and (max-width: 768px) {
     .yb-box {
       margin-bottom: 50%; } }

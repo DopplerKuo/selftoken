@@ -100,7 +100,19 @@ var selftoken = new Vue({
     sec5name17: '',
     sec5title17: '',
 
-    emailAlert: ''
+    emailAlert: '',
+
+    // Progress Bar
+    crowdsale: '',
+    total_raised: '',
+    buy_with_eth: '',
+    buy_with_ntd: '',
+    phase1: '',
+    cornerstone: '',
+    softcap: '',
+    hardcap: '',
+    phase2: '',
+    phase3: '',
   },
 
   computed: {
@@ -242,6 +254,19 @@ var selftoken = new Vue({
         this.sec5name17 = '李婷婷';
         this.sec5title17 = 'SELF DApp 合作開發者＆區塊鏈技術顧問';
         this.emailAlert = '已收到您的電子郵件，我們將盡快回覆您。';
+
+        // Progress Bar
+        this.crowdsale = '群募認購倒數';
+        this.total_raised = '目前集資';
+        this.buy_with_eth = '以太幣購買';
+        this.buy_with_ntd = '新台幣購買';
+        this.phase1 = '第一階段';
+        this.cornerstone = '基石倫';
+        this.softcap = '軟頂';
+        this.hardcap = '硬頂';
+        this.phase2 = '第二階段';
+        this.phase3 = '第三階段';
+
       } else if (val === 'en') {
         this.navLinkAboutUs = 'About us';
         this.navLinkWhitePaper = 'White Paper';
@@ -376,6 +401,19 @@ var selftoken = new Vue({
         this.sec5title17 = 'Self Dapp Developer & Blockchain Consultant';
         this.emailAlert =
           "Thanks for your interest, we've received your request and will get back to you shortly.";
+
+        // Progress Bar
+        this.crowdsale = 'CROWDSALE STARTS IN';
+        this.total_raised = 'TOTAL RAISED';
+        this.buy_with_eth = 'BUY WITH ETH';
+        this.buy_with_ntd = 'BUY WITH NTD';
+        this.phase1 = 'PHASE1';
+        this.cornerstone = 'CORNERSTONE';
+        this.softcap = 'SOFTCAP';
+        this.hardcap = 'HARDCAP';
+        this.phase2 = 'PHASE2';
+        this.phase3 = 'PHASE3';
+
       } else if (val === 'sc') {
         this.navLinkAboutUs = '关于我们';
         this.navLinkWhitePaper = '技术白皮书';
@@ -506,6 +544,19 @@ var selftoken = new Vue({
         this.sec5title17 = 'SELF DApp 合作开发者＆区块链技术顾问';
 
         this.emailAlert = '已收到您的电子邮件，我们将尽快回覆您。 ';
+
+
+        // 进度条
+        this.crowdsale ='群募认购倒数';
+        this.total_raised ='目前集资';
+        this.buy_with_eth ='以太币购买';
+        this.buy_with_ntd ='新台币购买';
+        this.phase1 ='第一阶段';
+        this.cornerstone ='基石伦';
+        this.softcap ='软顶';
+        this.hardcap ='硬顶';
+        this.phase2 ='第二阶段';
+        this.phase3 ='第三阶段';
       }
     }
   },

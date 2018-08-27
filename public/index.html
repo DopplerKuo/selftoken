@@ -163,6 +163,103 @@
   </header>
 
   <section class="sec2" id="about">
+    <style v-if="lang === 'en'">
+      #countdown * {
+        letter-spacing: 3px;
+      }
+    </style>
+    <div class="content" id="countdown">
+      <div class="top flex-l2-m1-">
+        <div class="left">
+          <div class="border">
+              {{crowdsale}}
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+          </div>
+          <div class="timer" id="timer">
+            00:00:00
+          </div>
+          <div class="border">
+            {{total_raised}} <b>$50,000,000 NTD</b>
+            <span></span><span></span><span></span><span></span>
+          </div>
+        </div>
+        <div class="right">
+          <a href="" target="_blank" class="border" style="pointer-events: none;">{{buy_with_eth}}<span></span><span></span><span></span><span></span></a>
+          <a href="https://www.self.games/" target="_blank" class="border">{{buy_with_ntd}}<span></span><span></span><span></span><span></span></a>
+        </div>
+      </div>
+      <div class="bottom">
+        <div class="bar">
+          <div class="bar-main" style="width: 62.5%"></div>
+          <div class="bar-bg">
+            <div class="mark">
+              <div class="leftup pc">
+                {{phase1}}
+              </div>
+              <div class="up">{{cornerstone}}</div>
+              <div class="down">35<span class="pc">,000,000</span><span class="m">M</span></div>
+            </div>
+            <div class="mark">
+              <div class="up">{{softcap}}</div>
+              <div class="down">50<span class="pc">,000,000</span><span class="m">M</span></div>
+            </div>
+            <div class="mark">
+              <div class="up">{{hardcap}}</div>
+              <div class="down">250<span class="pc">,000,000</span><span class="m">M</span></div>
+            </div>
+            <div class="mark lock">
+              <div class="up pc">{{phase2}}</div>
+              <div class="down"><i class="fas fa-lock"></i></div>
+            </div>
+            <div class="mark lock">
+              <div class="up pc">{{phase3}}</div>
+              <div class="down"><i class="fas fa-lock"></i></div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <script>
+        var countDownDate = new Date("Sep 1, 2018 12:00:00").getTime();
+
+        // Update the count down every 1 second
+        var x = setInterval(function() {
+
+          // Get todays date and time
+          var now = new Date().getTime();
+
+          // Find the distance between now and the count down date
+          var distance = countDownDate - now;
+
+          // Time calculations for days, hours, minutes and seconds
+          var days = Math.floor(distance / (1000 * 60 * 60 * 24)) * 24;
+          var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60)) + days;
+          var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+          var seconds = Math.floor((distance % (1000 * 60)) / 1000);
+
+          // filled with 0 if single num
+          function fillZero(num) {
+            if (num <= 9) {
+              return '0' + num
+            } else {
+              return num
+            }
+          }
+
+          // Display the result in the element with id="demo"
+          document.getElementById("timer").innerHTML = fillZero(hours) + ":"
+          + fillZero(minutes) + ":" + fillZero(seconds);
+
+          // If the count down is finished, write some text 
+          if (distance < 0) {
+            clearInterval(x);
+            document.getElementById("timer").innerHTML = "NOW";
+          }
+        }, 1000);
+      </script>
+    </div>
     <div class="content">
       <div class="yb-box">
         <div class="yb-main">
@@ -208,89 +305,6 @@
       <div class="e"></div>
       <div class="f"></div>
       <h3 class="reveal" v-html="sec2Title6"></h3>
-    </div>
-    <div class="content" id="countdown">
-      <div class="top flex-l2-m1-">
-        <div class="left">
-          <div class="border">
-            群募認購倒數
-            <span></span>
-            <span></span>
-            <span></span>
-            <span></span>
-          </div>
-          <div class="timer" id="timer">
-            00:00:00
-          </div>
-          <div class="border">
-            目前集資 <b>$500,000,000NTD</b>
-            <span></span><span></span><span></span><span></span>
-          </div>
-        </div>
-        <div class="right">
-          <a href="" target="_blank" class="border" style="pointer-events: none;">以太幣購買<span></span><span></span><span></span><span></span></a>
-          <a href="https://www.self.games/" target="_blank" class="border">新台幣購買<span></span><span></span><span></span><span></span></a>
-        </div>
-      </div>
-      <div class="bottom">
-        <div class="bar">
-          <div class="bar-main" style="width: 62.5%"></div>
-          <div class="bar-bg">
-            <div class="mark">
-              <div class="leftup pc">
-                第一階段
-              </div>
-              <div class="up">基石輪</div>
-              <div class="down">35<span class="pc">,000,000</span><span class="m">M</span></div>
-            </div>
-            <div class="mark">
-              <div class="up">軟頂</div>
-              <div class="down">50<span class="pc">,000,000</span><span class="m">M</span></div>
-            </div>
-            <div class="mark">
-              <div class="up">硬頂</div>
-              <div class="down">250<span class="pc">,000,000</span><span class="m">M</span></div>
-            </div>
-            <div class="mark lock">
-              <div class="up pc">第二階段</div>
-              <div class="down"><i class="fas fa-lock"></i></div>
-            </div>
-            <div class="mark lock">
-              <div class="up pc">第三階段</div>
-              <div class="down"><i class="fas fa-lock"></i></div>
-            </div>
-          </div>
-        </div>
-      </div>
-      <script>
-        var countDownDate = new Date("Sep 1, 2018 00:00:00").getTime();
-
-        // Update the count down every 1 second
-        var x = setInterval(function() {
-
-          // Get todays date and time
-          var now = new Date().getTime();
-
-          // Find the distance between now and the count down date
-          var distance = countDownDate - now;
-
-          // Time calculations for days, hours, minutes and seconds
-          var days = Math.floor(distance / (1000 * 60 * 60 * 24)) * 24;
-          var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60)) + days;
-          var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
-          var seconds = Math.floor((distance % (1000 * 60)) / 1000);
-
-          // Display the result in the element with id="demo"
-          document.getElementById("timer").innerHTML = hours + ":"
-          + minutes + ":" + seconds;
-
-          // If the count down is finished, write some text 
-          if (distance < 0) {
-            clearInterval(x);
-            document.getElementById("timer").innerHTML = "NOW";
-          }
-        }, 1000);
-      </script>
     </div>
   </section>
 
