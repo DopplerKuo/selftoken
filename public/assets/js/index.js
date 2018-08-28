@@ -112,7 +112,7 @@ var selftoken = new Vue({
     softcap: '',
     hardcap: '',
     phase2: '',
-    phase3: '',
+    phase3: ''
   },
 
   computed: {
@@ -261,12 +261,11 @@ var selftoken = new Vue({
         this.buy_with_eth = '以太幣購買';
         this.buy_with_ntd = '新台幣購買';
         this.phase1 = '第一階段';
-        this.cornerstone = '基石倫';
+        this.cornerstone = '基石輪';
         this.softcap = '軟頂';
         this.hardcap = '硬頂';
         this.phase2 = '第二階段';
         this.phase3 = '第三階段';
-
       } else if (val === 'en') {
         this.navLinkAboutUs = 'About us';
         this.navLinkWhitePaper = 'White Paper';
@@ -413,7 +412,6 @@ var selftoken = new Vue({
         this.hardcap = 'HARDCAP';
         this.phase2 = 'PHASE2';
         this.phase3 = 'PHASE3';
-
       } else if (val === 'sc') {
         this.navLinkAboutUs = '关于我们';
         this.navLinkWhitePaper = '技术白皮书';
@@ -545,18 +543,17 @@ var selftoken = new Vue({
 
         this.emailAlert = '已收到您的电子邮件，我们将尽快回覆您。 ';
 
-
         // 进度条
-        this.crowdsale ='群募认购倒数';
-        this.total_raised ='目前集资';
-        this.buy_with_eth ='以太币购买';
-        this.buy_with_ntd ='新台币购买';
-        this.phase1 ='第一阶段';
-        this.cornerstone ='基石伦';
-        this.softcap ='软顶';
-        this.hardcap ='硬顶';
-        this.phase2 ='第二阶段';
-        this.phase3 ='第三阶段';
+        this.crowdsale = '群募认购倒数';
+        this.total_raised = '目前集资';
+        this.buy_with_eth = '以太币购买';
+        this.buy_with_ntd = '新台币购买';
+        this.phase1 = '第一阶段';
+        this.cornerstone = '基石轮';
+        this.softcap = '软顶';
+        this.hardcap = '硬顶';
+        this.phase2 = '第二阶段';
+        this.phase3 = '第三阶段';
       }
     }
   },
