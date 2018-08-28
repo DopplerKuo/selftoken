@@ -1465,22 +1465,13 @@ section {
       background-size: 40px;
       top: 0; } }
 
-.sec2 .content:nth-of-type(1) p:before {
-  background-image: url("../img/main/關於我們01.png"); }
-
 .sec2 .content:nth-of-type(2) p:before {
-  background-size: 150px;
-  left: -30px;
-  background-image: url("../img/main/關於我們02.png"); }
-  @media screen and (max-width: 992px) {
-    .sec2 .content:nth-of-type(2) p:before {
-      background-size: 65px;
-      left: -5px; } }
+  background-image: url("../img/main/關於我們01.png"); }
 
 .sec2 .content:nth-of-type(3) p:before {
   background-size: 150px;
   left: -30px;
-  background-image: url("../img/main/關於我們03.png"); }
+  background-image: url("../img/main/關於我們02.png"); }
   @media screen and (max-width: 992px) {
     .sec2 .content:nth-of-type(3) p:before {
       background-size: 65px;
@@ -1489,7 +1480,7 @@ section {
 .sec2 .content:nth-of-type(4) p:before {
   background-size: 150px;
   left: -30px;
-  background-image: url("../img/main/關於我們04.png"); }
+  background-image: url("../img/main/關於我們03.png"); }
   @media screen and (max-width: 992px) {
     .sec2 .content:nth-of-type(4) p:before {
       background-size: 65px;
@@ -1498,9 +1489,18 @@ section {
 .sec2 .content:nth-of-type(5) p:before {
   background-size: 150px;
   left: -30px;
-  background-image: url("../img/main/關於我們05.png"); }
+  background-image: url("../img/main/關於我們04.png"); }
   @media screen and (max-width: 992px) {
     .sec2 .content:nth-of-type(5) p:before {
+      background-size: 65px;
+      left: -5px; } }
+
+.sec2 .content:nth-of-type(6) p:before {
+  background-size: 150px;
+  left: -30px;
+  background-image: url("../img/main/關於我們05.png"); }
+  @media screen and (max-width: 992px) {
+    .sec2 .content:nth-of-type(6) p:before {
       background-size: 65px;
       left: -5px; } }
 
