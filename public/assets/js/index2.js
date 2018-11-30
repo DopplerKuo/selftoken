@@ -110,6 +110,14 @@ var selftoken = new Vue({
     sec5name17: '',
     sec5title17: '',
 
+    sec5intro18: '',
+    sec5name18: '',
+    sec5title18: '',
+
+    sec5intro19: '',
+    sec5name19: '',
+    sec5title19: '',
+
     emailAlert: '',
 
     // Progress Bar
@@ -285,6 +293,17 @@ var selftoken = new Vue({
           '現任微軟 Microsoft 亞太區人工智能研究員，橫跨香港、印度、廣州及深圳，於香港科技大學就學中，並擔任圖靈鍊科技公司區塊鏈總監。曾於香港 Digitas 開發數項知名ICO項目，2018年榮獲德國慕尼黑CryBlock論壇最佳論文，其著作 ERC860 將受邀於國際期刊 CPE 刊出。曾在加拿大 ETHWaterloo 盛會作為香港區塊鏈代表，同時也於知名寫作平台 Medium 撰寫加密貨幣與 Ethereum 專欄，獲選為 Top Writer。將協助 SELF Dapp 進行技術開發以及建置。';
         this.sec5name17 = '李婷婷';
         this.sec5title17 = 'SELF DApp 合作開發者＆區塊鏈技術顧問';
+
+        this.sec5intro18 =
+          '生於1992年，台大資管系碩士畢業。網頁後端工程師出生，亦於奧美公關、台灣愛立信從事行銷，畢業後於大數據分析新創MoBagel任職資料分析師並在三年內晉升為大中華區營運長，協助公司完成過億台幣募資並有過管理三十人團隊之經驗。';
+        this.sec5name18 = '陳采青';
+        this.sec5title18 = '營運長暨 SELF 共同創辦人';
+
+        this.sec5intro19 =
+          '畢業於台灣大學資訊管理系，為Ptt 站長以及共同創辦人、陽光沙灘BBS創辦人。深耕網路資訊與行動商務領域二十餘年，參與KKBOX、Omusic、Richi、TechOrange等知名團隊的草創時期，也曾貢獻於HP、中華電信、Yahoo等大型企業，是一名駭客、連續創業家、全端工程師。';
+        this.sec5name19 = '戴志洋';
+        this.sec5title19 = '技術長暨 SELF 共同創辦人';
+
         this.emailAlert = '已收到您的電子郵件，我們將盡快回覆您。';
 
         // Progress Bar
@@ -458,6 +477,17 @@ var selftoken = new Vue({
           'Tina is currently an A.I. researcher at Microsoft Pacific, spanning Hong Kong, India, Guangzhou, and Shenzhen. Tina attended Hong Kong University of Science and Technology, and is now serving as the blockchain director of Turing Chain. Tina has developed numerous ICO projects at Hong Kong’s Digitas and won the 2018 Munich CryBlock Best Paper with a paper on ERC860 - which has been invited for publication on international journal CPE. Tina was the former representative of Hong Kong blockchain at Canada’s ETHWaterloo, and is also a established Top Writer on Medium about cryptocurrency and Ethereum. Tina will be assisting with the development of SELF Dapp.';
         this.sec5name17 = 'Tina';
         this.sec5title17 = 'Self Dapp Developer & Blockchain Consultant';
+
+        this.sec5intro18 =
+          'Sam holds a masters for MIS at the National Taiwan University. Sam started off as a back-end development intern at a startup. She then joined Ogilvy PR and Ericsson Taiwan Marketing where she gained experience in the PR field. After graduation she went to MoBagel as a data scientist for big data, and was later promoted to the Greater China Regional COO within three years. She assisted the company in a billion-dollar fundraising and has experience managing a team of 30.';
+        this.sec5name18 = 'Sam';
+        this.sec5title18 = 'COO & Co Founder';
+
+        this.sec5intro19 =
+          'Kaede graduated with a degree in information management from NTU, is the co-founder of Ptt, and founder of Sun of Beach (SOB.BBS). He has twenty years of experience in network information and mobile businesses. Kaede has participated in grass-root stages of well-known teams such as KKBOX, Omusic, Richi, and TechOrange. He has also assisted larger enterprises such as HP, Chunghua Telecom, and Yahoo. He is a triple threat: a hacker, entrepreneur, and full-stack developer.';
+        this.sec5name19 = 'Kaede';
+        this.sec5title19 = 'Self Dapp Developer & Blockchain Consultant';
+
         this.emailAlert =
           "Thanks for your interest, we've received your request and will get back to you shortly.";
 
@@ -626,6 +656,16 @@ var selftoken = new Vue({
           '现任微软 Microsoft 亚太区人工智能研究员，横跨香港、印度、广州及深圳，于香港科技大学就学中，并担任图灵链科技公司区块链总监。曾于香港 Digitas 开发数项知名ICO项目，2018年荣获德国慕尼黑CryBlock论坛最佳论文，其著作 ERC860 将受邀于国际期刊 CPE 刊出。曾在加拿大 ETHWaterloo 盛会作为香港区块链代表，同时也于知名写作平台 Medium 撰写加密货币与 Ethereum 专栏，获选为 Top Writer。将协助 SELF Dapp 进行技术开发以及建置。 ';
         this.sec5name17 = '李婷婷';
         this.sec5title17 = 'SELF DApp 合作开发者＆区块链技术顾问';
+
+        this.sec5intro18 =
+          '生于1992年，台大资管系硕士毕业。网页后端工程师出生，亦于奥美公关、台湾爱立信从事行销，毕业后于大数据分析新创MoBagel任职资料分析师并在三年内晋升为大中华区营运长，协助公司完成过亿台币募资并有过管理三十人团队之经验。';
+        this.sec5name18 = '陈采青';
+        this.sec5title18 = '营运长暨 SELF 共同创办人';
+
+        this.sec5intro19 =
+          '毕业于台湾大学资讯管理系，为Ptt 站长以及共同创办人、阳光沙滩BBS创办人。深耕网路资讯与行动商务领域二十馀年，参与KKBOX、Omusic、Richi、TechOrange等知名团队的草创时期，也曾贡献于HP、中华电信、Yahoo等大型企业，是一名骇客、连续创业家、全端工程师。';
+        this.sec5name19 = '戴志洋';
+        this.sec5title19 = '技术長暨 SELF 共同创办人';
 
         this.emailAlert = '已收到您的电子邮件，我们将尽快回覆您。 ';
 
