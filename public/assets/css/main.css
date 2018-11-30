@@ -882,7 +882,7 @@ header.ani .sq-ani-right span {
     padding: 5% 2.5%; }
     @media screen and (max-width: 992px) {
       .sec2 .content {
-        padding: 10% 5%; } }
+        padding: 5% 5%; } }
   .sec2 .content:nth-last-child(1) {
     padding: 50px 0;
     max-width: 600px;
