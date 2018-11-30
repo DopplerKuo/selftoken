@@ -879,7 +879,7 @@ header.ani .sq-ani-right span {
 .sec2 {
   display: block; }
   .sec2 .content {
-    padding: 10% 2.5%; }
+    padding: 5% 2.5%; }
     @media screen and (max-width: 992px) {
       .sec2 .content {
         padding: 10% 5%; } }
