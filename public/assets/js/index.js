@@ -1,4 +1,3 @@
-//test
 var selftoken = new Vue({
   el: '#vue-app',
   data: {
