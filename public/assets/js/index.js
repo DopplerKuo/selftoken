@@ -31,6 +31,16 @@ var selftoken = new Vue({
     sec4p7: '',
     sec4p8: '',
     sec4p9: '',
+    sec4p10: '',
+    sec4p11: '',
+    sec4p12: '',
+    sec4p13: '',
+    sec4p14: '',
+    sec4p15: '',
+    sec4p16: '',
+    sec4p17: '',
+    sec4p18: '',
+    sec4p19: '',
 
     sec5intro1: '',
     sec5name1: '',
@@ -165,9 +175,31 @@ var selftoken = new Vue({
         this.sec4p6 =
           '電影《聖人大盜》前導影片拍攝，並同時進行非公開之私募，限定必須通過 KYC 或是邀請制度參與。';
         this.sec4p7 = '8/22 將於舉辦記者會，正式對外公布沉浸式娛樂計畫。';
-        this.sec4p8 = '電影聖人大盜進入 60 天拍攝期、SELF 進入商轉前技術開發。';
+        // 2018 SEP-NOV
+        this.sec4p8 = '電影聖人大盜進入前置工作，群募開始，SELF TOKEN 發幣開始，SELF dApp 進入商轉前技術開發期。';
         this.sec4p9 =
-          '電影正式預告上線、SELF 上線合作交易所。後續進程請詳參白皮書。';
+          '電影《聖人大盜》開拍，遊戲 SELFER STATE 《自城世界》封測版上線，SELF dApp 技術開發期。';
+        this.sec4p10 =
+          '電影《聖人大盜》拍攝期，區塊鏈遊戲 SELFER STATE 《自城世界》第一版正式上線，實景娛樂場域合作洽談。';
+        this.sec4p11 =
+          '電影《聖人大盜》後製期，SELF dApp 封測版上線。';
+        this.sec4p12 =
+          '電影《聖人大盜》預告片上映。';
+        this.sec4p13 =
+          '電影《聖人大盜》上映，SELF dApp 第一版正式上線。';
+        this.sec4p14 =
+          '實景娛樂場域部署虛實整合技術，拓展 SELF dApp 全球化策略合作夥伴。';
+        this.sec4p15 =
+          '';
+        this.sec4p16 =
+          '';
+        this.sec4p17 =
+          '';
+        this.sec4p18 =
+          '';
+        this.sec4p19 =
+          '';
+
 
         this.sec5intro1 =
           '1991 年生，2014 年創立 SELFPICK PRODUCTION、2017 年創立 SELF BAR，擔任 Mr.Bartender、我們是歐爸、私室等知名網劇導演，在網路上創造了千萬點擊，並成功帶領 SELFPICK PRODUCTION 榮獲 2017 年行銷傳播貢獻獎年度傑出行銷創意團隊、2017 年金炬獎年度傑出十大潛力經理人。';
@@ -307,10 +339,38 @@ var selftoken = new Vue({
           'Begin pre-production for <i class="movie-name">The Last Thieves</i> and start private sale, limited to those having passed KYC.';
         this.sec4p7 =
           'Hold press conference on 8/22, publicly announce the immersive entertainment plan.';
-        this.sec4p8 =
-          'Begin 60 days of <i class="movie-name">The Last Thieves</i> production and SELF enters pre-commercial tech development.';
+        // 2018 SEP-NOV
+        this.sec4p8 = '<i class="movie-name">The Last Thieves</i> enters pre production, crowdsale begins. Participants receive SELF, SELF dApp enters tech development.';
+        // 2018 DECEMBER
         this.sec4p9 =
-          'Teaser for <i class="movie-name">The Last Thieves</i> is released online and SELF is listed on exchange.';
+          '<i class="movie-name">The Last Thieves</i> enters production, blockchain game SELFER STATE runs beta testing,tech team continues to focus on dApp development.';
+        // 2019 JANUARY
+          this.sec4p10 =
+          '<i class="movie-name">The Last Thieves</i> continues to film, SELFER STATE runs it\'s version I official release. BD with potential entertainment collaborators to join SELF\'s immersive ecosystem.';
+        // 2019 FEB - MAR
+        this.sec4p11 =
+          '<i class="movie-name">The Last Thieves</i> enters post production, SELF dApp runs tests.';
+        // 2019 APRIL
+        this.sec4p12 =
+          'Trailor for <i class="movie-name">The Last Thieves</i> is publicly released.';
+        // 2019 MAY
+        this.sec4p13 =
+          '<i class="movie-name">The Last Thieves</i> premiers, SELF dApp version I releases.';
+        // 2019 Q3
+        this.sec4p14 =
+          'The global integration and deployment of SELF dApp in major entertainment locations.';
+        this.sec4p15 =
+          '';
+        this.sec4p16 =
+          '';
+        this.sec4p17 =
+          '';
+        this.sec4p18 =
+          '';
+        this.sec4p19 =
+          '';
+
+
         this.sec5intro1 =
           'Jack founded SELFPICK PRODUCTION in 2014 and SELF BAR in 2017. In addition to being an entrepreneur, he is also the director of well-known web-series Mr Bartender (2015-present), OBA (2016), and The Bar (2017-present). With over 10 million views on YouTube, Jack was named Top 10 Potential Manager at the 2017 Jubilee Awards, and SELFPICK PRODUCTION was named Outstanding Marketing Team at the 2017 Agency of the Year Awards.';
         this.sec5name1 = 'Jack';
@@ -357,7 +417,7 @@ var selftoken = new Vue({
         this.sec5title9 = 'Chief Economist';
 
         this.sec5intro10 =
-          'Roger graduated with a degree in Electrical Engineering from National Taiwan University (NTU) and is currently studying Telecommunications as a graduate student at NTU. Roger has worked in multiple telecommunications companies such as HTC, MediaTek, BoniQ, and is experienced with smart contract development and web design. Roger will assist SELF Chain in developing smart contracts and its integration with our SELF Dapp framework and SELF PAY system.';
+          'Roger graduated with a degree in Electrical Engineering from National Taiwan University (NTU) and is currently studying Telecommunications as a graduate student at NTU. Roger has worked in multiple telecommunications companies such as HTC, MediaTek, BoniO, and is experienced with smart contract development and web design. Roger will assist SELF Chain in developing smart contracts and its integration with our SELF Dapp framework and SELF PAY system.';
         this.sec5name10 = 'Roger Wu';
         this.sec5title10 = 'Self Dapp Project Manager';
 
@@ -451,10 +511,36 @@ var selftoken = new Vue({
         this.sec4p6 =
           '电影《圣人大盗》前导影片拍摄，并同时进行非公开之私募，限定必须通过 KYC 或是邀请制度参与。 ';
         this.sec4p7 = '8/22 将于举办记者会，正式对外公布沉浸式娱乐计画。 ';
-        this.sec4p8 =
-          '电影圣人大盗进入 60 天拍摄期、SELF 进入商转前技术开发。 ';
+        // 2018 SEP-NOV
+        this.sec4p8 = '电影圣人大盗进入前置工作，群募开始，SELF TOKEN 发币开始，SELF dApp 进入商转前技术开发期。';
+        // 2018 DECEMBER
         this.sec4p9 =
-          '电影正式预告上线、SELF 上线合作交易所。后续进程请详参白皮书。 ';
+          '电影《圣人大盗》开拍，游戏 SELFER STATE 《自城世界》封测版上线，SELF dApp 技术开发期。';
+        // 2019 JANUARY
+        this.sec4p10 =
+          '电影《圣人大盗》拍摄期，区块链游戏 SELFER STATE 《自城世界》第一版正式上线，实景娱乐场域合作洽谈。';
+        // 2019 FEB - MAR
+        this.sec4p11 =
+          '电影《圣人大盗》后制期，SELF dApp 封测版上线。';
+        // 2019 APRIL
+        this.sec4p12 =
+          '电影《圣人大盗》预告片上映。';
+        // 2019 MAY
+        this.sec4p13 =
+          '电影《圣人大盗》上映，SELF dApp 第一版正式上线。';
+        // 2019 Q3
+        this.sec4p14 =
+          '实景娱乐场域部署虚实整合技术，拓展 SELF dApp 全球化策略合作伙伴。';
+        this.sec4p15 =
+          '';
+        this.sec4p16 =
+          '';
+        this.sec4p17 =
+          '';
+        this.sec4p18 =
+          '';
+        this.sec4p19 =
+          '';
 
         this.sec5intro1 =
           '1991 年生，2014 年创立SELFPICK PRODUCTION、2017 年创立SELF BAR，担任Mr.Bartender、我们是欧爸、私室等知名网剧导演，在网路上创造了千万点击，并成功带领SELFPICK PRODUCTION 荣获2017年行销传播贡献奖年度杰出行销创意团队、2017 年金炬奖年度杰出十大潜力经理人。 ';
