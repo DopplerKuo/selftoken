@@ -100,8 +100,7 @@
     <div class="top-right flex-ac-jc-">
       <label for="lang">LANG</label>
       <select id="lang" v-model="lang">
-        <option value="tc">繁中</option>
-        <option value="sc">簡中</option>
+        <option value="tc">中文</option>
         <option value="en">EN</option>
       </select>
     </div>
@@ -151,7 +150,7 @@
             frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
         </div>
       </div>
-      <div class="header-title" style="padding-top: 100px;">
+      <div class="header-title" style="padding-top: 30px;">
         <h2 :class="lang" v-html="sec1Title"></h2>
       </div>
     </div>
