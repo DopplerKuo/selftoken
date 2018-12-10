@@ -110,6 +110,14 @@ var selftoken = new Vue({
     sec5name17: '',
     sec5title17: '',
 
+    sec5intro18: '',
+    sec5name18: '',
+    sec5title18: '',
+
+    sec5intro19: '',
+    sec5name19: '',
+    sec5title19: '',
+
     emailAlert: '',
 
     // Progress Bar
@@ -247,9 +255,9 @@ var selftoken = new Vue({
         this.sec5title9 = 'SELF 首席經濟學家';
 
         this.sec5intro10 =
-          '台大電機系畢業，目前是台大電信所碩士生。曾在 HTC、聯發科、Ubitus等公司工作實習。擁有多年智能合約開發經驗與網頁前端開發經驗。將協助 SELF CHAIN 進行智能合約研發、測試與佈建，亦著重智能合約與 SELF PAY 前後端的整合，未來亦將協助探索 SELF Dapps 架構設計與實作研發。';
+          '台大電機系畢業，目前是台大電信所碩士生。2018 開源人年會 Blockchain 議程的講者。曾在 HTC、聯發科、Ubitus等公司工作實習。擁有多年智能合約開發經驗與網頁前端開發經驗。將協助 SELF CHAIN 進行智能合約研發、測試與佈建，亦著重智能合約與 SELF PAY 前後端的整合，未來亦將協助探索 SELF Dapps 架構設計與實作研發。';
         this.sec5name10 = '吳冠融';
-        this.sec5title10 = 'SELF DApp 專案經理';
+        this.sec5title10 = 'SELF 首席區塊鏈工程師';
 
         this.sec5intro11 =
           '香港知名演員、電視節目主持和電影製作人。近年多為電視節目主持，偶為電影導演，他同時亦投資、策劃及參與電影製作。現代表香港演藝人協會任香港電影金像獎董事局副主席。曾榮獲 第11屆香港金像獎《雙城故事》榮獲最佳男主角、第36屆香港金像獎《一念無明》榮獲最佳男配角、第53屆金馬獎《愈快樂愈墮落》榮獲最佳男配角。';
@@ -285,6 +293,17 @@ var selftoken = new Vue({
           '現任微軟 Microsoft 亞太區人工智能研究員，橫跨香港、印度、廣州及深圳，於香港科技大學就學中，並擔任圖靈鍊科技公司區塊鏈總監。曾於香港 Digitas 開發數項知名ICO項目，2018年榮獲德國慕尼黑CryBlock論壇最佳論文，其著作 ERC860 將受邀於國際期刊 CPE 刊出。曾在加拿大 ETHWaterloo 盛會作為香港區塊鏈代表，同時也於知名寫作平台 Medium 撰寫加密貨幣與 Ethereum 專欄，獲選為 Top Writer。將協助 SELF Dapp 進行技術開發以及建置。';
         this.sec5name17 = '李婷婷';
         this.sec5title17 = 'SELF DApp 合作開發者＆區塊鏈技術顧問';
+
+        this.sec5intro18 =
+          '生於1992年，台大資管系碩士畢業。網頁後端工程師出生，亦於奧美公關、台灣愛立信從事行銷，畢業後於大數據分析新創MoBagel任職資料分析師並在三年內晉升為大中華區營運長，協助公司完成過億台幣募資並有過管理三十人團隊之經驗。';
+        this.sec5name18 = '陳采青';
+        this.sec5title18 = '營運長暨 SELF 共同創辦人';
+
+        this.sec5intro19 =
+          '畢業於台灣大學資訊管理系，為Ptt 站長以及共同創辦人、陽光沙灘BBS創辦人。深耕網路資訊與行動商務領域二十餘年，參與KKBOX、Omusic、Richi、TechOrange等知名團隊的草創時期，也曾貢獻於HP、中華電信、Yahoo等大型企業，是一名駭客、連續創業家、全端工程師。';
+        this.sec5name19 = '戴志洋';
+        this.sec5title19 = '技術長暨 SELF 共同創辦人';
+
         this.emailAlert = '已收到您的電子郵件，我們將盡快回覆您。';
 
         // Progress Bar
@@ -417,9 +436,9 @@ var selftoken = new Vue({
         this.sec5title9 = 'Chief Economist';
 
         this.sec5intro10 =
-          'Roger graduated with a degree in Electrical Engineering from National Taiwan University (NTU) and is currently studying Telecommunications as a graduate student at NTU. Roger has worked in multiple telecommunications companies such as HTC, MediaTek, BoniO, and is experienced with smart contract development and web design. Roger will assist SELF Chain in developing smart contracts and its integration with our SELF Dapp framework and SELF PAY system.';
+          'Roger graduated with a degree in Electrical Engineering from National Taiwan University (NTU) and is currently studying Telecommunications as a graduate student at NTU. Roger is one of the blockchain speakers in COSCUP 2018. He has worked in multiple telecommunications companies such as HTC, MediaTek, BoniO, and is experienced with smart contract development and web design. Roger will assist SELF Chain in developing smart contracts and its integration with our SELF Dapp framework and SELF PAY system.';
         this.sec5name10 = 'Roger Wu';
-        this.sec5title10 = 'Self Dapp Project Manager';
+        this.sec5title10 = 'Lead Blockchain Engineer';
 
         this.sec5intro11 =
           'Eric is a renowned Cantonese actor, TV show personality, and filmmaker who also invests and participates in film production. Eric has won Best Actor at the 11th Hong Kong Film Awards for his role in Alan & Eric: Between Hello and Goodbye (1991), as well as Best Supporting Actor at the 36th and 53rd Golden Horse Awards for his roles in Mad World (2016) and Hold You Tight (1998). Currently, Eric is the Vice Chairman of the Hong Kong Film Awards.';
@@ -458,6 +477,17 @@ var selftoken = new Vue({
           'Tina is currently an A.I. researcher at Microsoft Pacific, spanning Hong Kong, India, Guangzhou, and Shenzhen. Tina attended Hong Kong University of Science and Technology, and is now serving as the blockchain director of Turing Chain. Tina has developed numerous ICO projects at Hong Kong’s Digitas and won the 2018 Munich CryBlock Best Paper with a paper on ERC860 - which has been invited for publication on international journal CPE. Tina was the former representative of Hong Kong blockchain at Canada’s ETHWaterloo, and is also a established Top Writer on Medium about cryptocurrency and Ethereum. Tina will be assisting with the development of SELF Dapp.';
         this.sec5name17 = 'Tina';
         this.sec5title17 = 'Self Dapp Developer & Blockchain Consultant';
+
+        this.sec5intro18 =
+          'Sam holds a masters for MIS at the National Taiwan University. Sam started off as a back-end development intern at a startup. She then joined Ogilvy PR and Ericsson Taiwan Marketing where she gained experience in the PR field. After graduation she went to MoBagel as a data scientist for big data, and was later promoted to the Greater China Regional COO within three years. She assisted the company in a billion-dollar fundraising and has experience managing a team of 30.';
+        this.sec5name18 = 'Sam';
+        this.sec5title18 = 'COO & Co Founder';
+
+        this.sec5intro19 =
+          'Kaede graduated with a degree in information management from NTU, is the co-founder of Ptt, and founder of Sun of Beach (SOB.BBS). He has twenty years of experience in network information and mobile businesses. Kaede has participated in grass-root stages of well-known teams such as KKBOX, Omusic, Richi, and TechOrange. He has also assisted larger enterprises such as HP, Chunghua Telecom, and Yahoo. He is a triple threat: a hacker, entrepreneur, and full-stack developer.';
+        this.sec5name19 = 'Kaede';
+        this.sec5title19 = 'CTO & Co Founder';
+
         this.emailAlert =
           "Thanks for your interest, we've received your request and will get back to you shortly.";
 
@@ -588,9 +618,9 @@ var selftoken = new Vue({
         this.sec5title9 = 'SELF 首席经济学家';
 
         this.sec5intro10 =
-          '台大电机系毕业，目前是台大电信所硕士生。曾在 HTC、联发科、Ubitus等公司工作实习。拥有多年智能合约开发经验与网页前端开发经验。将协助 SELF CHAIN 进行智能合约研发、测试与布建，亦着重智能合约与 SELF PAY 前后端的整合，未来亦将协助探索 SELF Dapps 架构设计与实作研发。 ';
+          '台大电机系毕业，目前是台大电信所硕士生。2018 开源人年会 Blockchain 议程的讲者。曾在 HTC、联发科、Ubitus等公司工作实习。拥有多年智能合约开发经验与网页前端开发经验。将协助 SELF CHAIN 进行智能合约研发、测试与布建，亦着重智能合约与 SELF PAY 前后端的整合，未来亦将协助探索 SELF Dapps 架构设计与实作研发。 ';
         this.sec5name10 = '吴冠融';
-        this.sec5title10 = 'SELF DApp 专案经理';
+        this.sec5title10 = 'SELF 首席区块链工程师';
 
         this.sec5intro11 =
           '香港知名演员、电视节目主持和电影制作人。近年多为电视节目主持，偶为电影导演，他同时亦投资、策划及参与电影制作。现代表香港演艺人协会任香港电影金像奖董事局副主席。曾荣获第11届香港金像奖《双城故事》荣获最佳男主角、第36届香港金像奖《一念无明》荣获最佳男配角、第53届金马奖《愈快乐愈堕落》荣获最佳男配角。 ';
@@ -626,6 +656,16 @@ var selftoken = new Vue({
           '现任微软 Microsoft 亚太区人工智能研究员，横跨香港、印度、广州及深圳，于香港科技大学就学中，并担任图灵链科技公司区块链总监。曾于香港 Digitas 开发数项知名ICO项目，2018年荣获德国慕尼黑CryBlock论坛最佳论文，其著作 ERC860 将受邀于国际期刊 CPE 刊出。曾在加拿大 ETHWaterloo 盛会作为香港区块链代表，同时也于知名写作平台 Medium 撰写加密货币与 Ethereum 专栏，获选为 Top Writer。将协助 SELF Dapp 进行技术开发以及建置。 ';
         this.sec5name17 = '李婷婷';
         this.sec5title17 = 'SELF DApp 合作开发者＆区块链技术顾问';
+
+        this.sec5intro18 =
+          '生于1992年，台大资管系硕士毕业。网页后端工程师出生，亦于奥美公关、台湾爱立信从事行销，毕业后于大数据分析新创MoBagel任职资料分析师并在三年内晋升为大中华区营运长，协助公司完成过亿台币募资并有过管理三十人团队之经验。';
+        this.sec5name18 = '陈采青';
+        this.sec5title18 = '营运长暨 SELF 共同创办人';
+
+        this.sec5intro19 =
+          '毕业于台湾大学资讯管理系，为Ptt 站长以及共同创办人、阳光沙滩BBS创办人。深耕网路资讯与行动商务领域二十馀年，参与KKBOX、Omusic、Richi、TechOrange等知名团队的草创时期，也曾贡献于HP、中华电信、Yahoo等大型企业，是一名骇客、连续创业家、全端工程师。';
+        this.sec5name19 = '戴志洋';
+        this.sec5title19 = '技术長暨 SELF 共同创办人';
 
         this.emailAlert = '已收到您的电子邮件，我们将尽快回覆您。 ';
 
