@@ -1,4 +1,4 @@
-var selftoken = new Vue({
+var selftoken = new Vue ({
   el: '#vue-app',
   data: {
     lang: '',
@@ -130,20 +130,20 @@ var selftoken = new Vue({
     softcap: '',
     hardcap: '',
     phase2: '',
-    phase3: ''
+    phase3: '',
   },
 
   computed: {
-    pointsHeader1: function() {
-      var width = $('header .content').width();
-      var height = $('header').height();
+    pointsHeader1: function () {
+      var width = $ ('header .content').width ();
+      var height = $ ('header').height ();
       var string = `${width / 4},0 0,${width / 4} ${width / 4},${width / 2}`;
       return string;
-    }
+    },
   },
 
   watch: {
-    lang: function(val) {
+    lang: function (val) {
       if (val === 'tc') {
         this.navLinkAboutUs = '關於我們';
         this.navLinkWhitePaper = '技術白皮書';
@@ -167,47 +167,31 @@ var selftoken = new Vue({
         this.sec2Title5 = '全球流通的應用代幣';
         this.sec2Dsc5 =
           '除了作為生態系統中的應用代幣，並可到台、港之影城、合作娛樂場域進行消費外，我們也將跟交易所進行合作，成為可在全球流通、自由交易的代幣。同時隨著電影、生態系的成長，預計在2021年時，我們也將擴展支持到全球影城的消費支付，並建立起全球各地預計十家以上的沉浸式娛樂空間以及百家以上的合作夥伴。';
-        this.sec2Title6 =
-          '讓人人都可以是電影娛樂生態中<br>推廣者、支持者、觀眾、受益者，<br>創造一個共好的娛樂生態系。';
+        this.sec2Title6 = '讓人人都可以是電影娛樂生態中<br>推廣者、支持者、觀眾、受益者，<br>創造一個共好的娛樂生態系。';
         this.sec3Label = '輸入您的郵件地址：';
         this.sec4p1 =
           '母公司 SELFPICK PRODUCTION 完成 Pre A 輪一千五百萬元增資，並推出沉浸式娛樂計畫，正式啟動區塊鏈電影、白皮書開發計畫。';
-        this.sec4p2 =
-          '整合各界資源推動《聖人大盜》電影劇本、企劃以及技術白皮書、團隊組建。';
+        this.sec4p2 = '整合各界資源推動《聖人大盜》電影劇本、企劃以及技術白皮書、團隊組建。';
         this.sec4p3 =
           '與橫跨電影圈、金融圈、鏈圈之夥伴組成聯合創始團隊，共同出資一千兩百萬元新台幣，登記設立區塊鏈項目之執行公司 SELF TOKEN，並與合作交易所簽訂合作備忘錄。';
         this.sec4p4 =
           '電影製作基金「聖人大盜電影有限合夥」進行登記（詳細製作規格、金額將在八月記者會公布），同時間啟動 SELF TOKEN 正式商轉，並招聘內部工程、營運人員進行技術研發。';
-        this.sec4p5 =
-          '簽訂將在電影中曝光並實際支援 SELF 進行消費的台灣、國際知名餐飲集團、娛樂應用合作方，並同步進行技術研發。';
-        this.sec4p6 =
-          '電影《聖人大盜》前導影片拍攝，並同時進行非公開之私募，限定必須通過 KYC 或是邀請制度參與。';
+        this.sec4p5 = '簽訂將在電影中曝光並實際支援 SELF 進行消費的台灣、國際知名餐飲集團、娛樂應用合作方，並同步進行技術研發。';
+        this.sec4p6 = '電影《聖人大盜》前導影片拍攝，並同時進行非公開之私募，限定必須通過 KYC 或是邀請制度參與。';
         this.sec4p7 = '8/22 將於舉辦記者會，正式對外公布沉浸式娛樂計畫。';
         // 2018 SEP-NOV
         this.sec4p8 = '電影聖人大盜進入前置工作，群募開始，SELF TOKEN 發幣開始，SELF dApp 進入商轉前技術開發期。';
-        this.sec4p9 =
-          '電影《聖人大盜》開拍，遊戲 SELFER STATE 《自城世界》封測版上線，SELF dApp 技術開發期。';
-        this.sec4p10 =
-          '電影《聖人大盜》拍攝期，區塊鏈遊戲 SELFER STATE 《自城世界》第一版正式上線，實景娛樂場域合作洽談。';
-        this.sec4p11 =
-          '電影《聖人大盜》後製期，SELF dApp 封測版上線。';
-        this.sec4p12 =
-          '電影《聖人大盜》預告片上映。';
-        this.sec4p13 =
-          '電影《聖人大盜》上映，SELF dApp 第一版正式上線。';
-        this.sec4p14 =
-          '實景娛樂場域部署虛實整合技術，拓展 SELF dApp 全球化策略合作夥伴。';
-        this.sec4p15 =
-          '';
-        this.sec4p16 =
-          '';
-        this.sec4p17 =
-          '';
-        this.sec4p18 =
-          '';
-        this.sec4p19 =
-          '';
-
+        this.sec4p9 = '電影《聖人大盜》開拍，SELF dApp 技術開發期。';
+        this.sec4p10 = '電影《聖人大盜》拍攝期，實景娛樂場域合作洽談。';
+        this.sec4p11 = '電影《聖人大盜》後製期，SELF dApp 技術開發期，店家測試。';
+        this.sec4p12 = '電影《聖人大盜》預告片釋出，SELF dApp 封測版上線，店家啟用 SELF dApp。';
+        this.sec4p13 = 'SELF dApp 第一版正式上線。';
+        this.sec4p14 = '電影《聖人大盜》首映，實景娛樂場域部署虛實整合技術。';
+        this.sec4p15 = '拓展 SELF dApp 全球化策略合作夥伴。';
+        this.sec4p16 = '';
+        this.sec4p17 = '';
+        this.sec4p18 = '';
+        this.sec4p19 = '';
 
         this.sec5intro1 =
           '1991 年生，2014 年創立 SELFPICK PRODUCTION、2017 年創立 SELF BAR，擔任 Mr.Bartender、我們是歐爸、私室等知名網劇導演，在網路上創造了千萬點擊，並成功帶領 SELFPICK PRODUCTION 榮獲 2017 年行銷傳播貢獻獎年度傑出行銷創意團隊、2017 年金炬獎年度傑出十大潛力經理人。';
@@ -359,36 +343,31 @@ var selftoken = new Vue({
         this.sec4p7 =
           'Hold press conference on 8/22, publicly announce the immersive entertainment plan.';
         // 2018 SEP-NOV
-        this.sec4p8 = '<i class="movie-name">The Last Thieves</i> enters pre production, crowdsale begins. Participants receive SELF, SELF dApp enters tech development.';
+        this.sec4p8 =
+          '<i class="movie-name">The Last Thieves</i> enters pre production, crowdsale begins. Participants receive SELF, SELF dApp enters tech development.';
         // 2018 DECEMBER
         this.sec4p9 =
-          '<i class="movie-name">The Last Thieves</i> enters production, blockchain game SELFER STATE runs beta testing,tech team continues to focus on dApp development.';
+          '<i class="movie-name">The Last Thieves</i> enters production, tech team continues to focus on dApp development.';
         // 2019 JANUARY
-          this.sec4p10 =
-          '<i class="movie-name">The Last Thieves</i> continues to film, SELFER STATE runs it\'s version I official release. BD with potential entertainment collaborators to join SELF\'s immersive ecosystem.';
-        // 2019 FEB - MAR
+        this.sec4p10 =
+          '<i class="movie-name">The Last Thieves</i> continues to film. Business Development focuses on potential entertainment collaborators to join SELF\'s immersive ecosystem.';
+        // 2019 FEB - MAY
         this.sec4p11 =
-          '<i class="movie-name">The Last Thieves</i> enters post production, SELF dApp runs tests.';
-        // 2019 APRIL
+          '<i class="movie-name">The Last Thieves</i> enters post-production, SELF dApp continues development, dApp testing at SELF-locations.';
+        // 2019 JUNE
         this.sec4p12 =
           'Trailor for <i class="movie-name">The Last Thieves</i> is publicly released.';
-        // 2019 MAY
+        // 2019 JULY
         this.sec4p13 =
-          '<i class="movie-name">The Last Thieves</i> premiers, SELF dApp version I releases.';
+          'SELF dApp version I releases.';
         // 2019 Q3
         this.sec4p14 =
-          'The global integration and deployment of SELF dApp in major entertainment locations.';
-        this.sec4p15 =
-          '';
-        this.sec4p16 =
-          '';
-        this.sec4p17 =
-          '';
-        this.sec4p18 =
-          '';
-        this.sec4p19 =
-          '';
-
+          '<i class="movie-name">The Last Thieves</i> premieres, full immersive integration online and offline.';
+        this.sec4p15 = 'The global integration and deployment of SELF dApp in major entertainment locations.';
+        this.sec4p16 = '';
+        this.sec4p17 = '';
+        this.sec4p18 = '';
+        this.sec4p19 = '';
 
         this.sec5intro1 =
           'Jack founded SELFPICK PRODUCTION in 2014 and SELF BAR in 2017. In addition to being an entrepreneur, he is also the director of well-known web-series Mr Bartender (2015-present), OBA (2016), and The Bar (2017-present). With over 10 million views on YouTube, Jack was named Top 10 Potential Manager at the 2017 Jubilee Awards, and SELFPICK PRODUCTION was named Outstanding Marketing Team at the 2017 Agency of the Year Awards.';
@@ -525,52 +504,33 @@ var selftoken = new Vue({
         this.sec2Title5 = '全球流通的应用代币';
         this.sec2Dsc5 =
           '除了作为生态系统中的应用代币，并可到台、港之影城、合作娱乐场域进行消费外，我们也将跟交易所进行合作，成为可在全球流通、自由交易的代币。同时随着电影、生态系的成长，预计在2021年时，我们也将扩展支持到全球影城的消费支付，并建立起全球各地预计十家以上的沉浸式娱乐空间以及百家以上的合作伙伴。 ';
-        this.sec2Title6 =
-          '让人人都可以是电影娱乐生态中<br>推广者、支持者、观众、受益者，<br>创造一个共好的娱乐生态系。 ';
+        this.sec2Title6 = '让人人都可以是电影娱乐生态中<br>推广者、支持者、观众、受益者，<br>创造一个共好的娱乐生态系。 ';
         this.sec3Label = '输入您的邮件地址：';
         this.sec4p1 =
           '母公司 SELFPICK PRODUCTION 完成 Pre A 轮一千五百万元增资，并推出沉浸式娱乐计画，正式启动区块链电影、白皮书开发计画。 ';
-        this.sec4p2 =
-          '整合各界资源推动《圣人大盗》电影剧本、企划以及技术白皮书、团队组建。 ';
+        this.sec4p2 = '整合各界资源推动《圣人大盗》电影剧本、企划以及技术白皮书、团队组建。 ';
         this.sec4p3 =
           '与横跨电影圈、金融圈、链圈之伙伴组成联合创始团队，共同出资一千两百万元新台币，登记设立区块链项目之执行公司SELF TOKEN，并与合作交易所签订合作备忘录。 ';
         this.sec4p4 =
           '电影制作基金「圣人大盗电影有限合伙」进行登记（详细制作规格、金额将在八月记者会公布），同时间启动 SELF TOKEN 正式商转，并招聘内部工程、营运人员进行技术研发。 ';
         this.sec4p5 =
           '签订将在电影中曝光并实际支援 SELF 进行消费的台湾、国际知名餐饮集团、娱乐应用合作方，并同步进行技术研发。 ';
-        this.sec4p6 =
-          '电影《圣人大盗》前导影片拍摄，并同时进行非公开之私募，限定必须通过 KYC 或是邀请制度参与。 ';
+        this.sec4p6 = '电影《圣人大盗》前导影片拍摄，并同时进行非公开之私募，限定必须通过 KYC 或是邀请制度参与。 ';
         this.sec4p7 = '8/22 将于举办记者会，正式对外公布沉浸式娱乐计画。 ';
         // 2018 SEP-NOV
         this.sec4p8 = '电影圣人大盗进入前置工作，群募开始，SELF TOKEN 发币开始，SELF dApp 进入商转前技术开发期。';
         // 2018 DECEMBER
-        this.sec4p9 =
-          '电影《圣人大盗》开拍，游戏 SELFER STATE 《自城世界》封测版上线，SELF dApp 技术开发期。';
-        // 2019 JANUARY
-        this.sec4p10 =
-          '电影《圣人大盗》拍摄期，区块链游戏 SELFER STATE 《自城世界》第一版正式上线，实景娱乐场域合作洽谈。';
-        // 2019 FEB - MAR
-        this.sec4p11 =
-          '电影《圣人大盗》后制期，SELF dApp 封测版上线。';
-        // 2019 APRIL
-        this.sec4p12 =
-          '电影《圣人大盗》预告片上映。';
-        // 2019 MAY
-        this.sec4p13 =
-          '电影《圣人大盗》上映，SELF dApp 第一版正式上线。';
-        // 2019 Q3
-        this.sec4p14 =
-          '实景娱乐场域部署虚实整合技术，拓展 SELF dApp 全球化策略合作伙伴。';
-        this.sec4p15 =
-          '';
-        this.sec4p16 =
-          '';
-        this.sec4p17 =
-          '';
-        this.sec4p18 =
-          '';
-        this.sec4p19 =
-          '';
+        this.sec4p9 = '电影《圣人大盗》开拍，SELF dApp 技术开发期。 ';
+        this.sec4p10 = '电影《圣人大盗》拍摄期，实景娱乐场域合作洽谈。 ';
+        this.sec4p11 = '电影《圣人大盗》后制期，SELF dApp 技术开发期，店家测试。 ';
+        this.sec4p12 = '电影《圣人大盗》预告片释出，SELF dApp 封测版上线，店家启用 SELF dApp。 ';
+        this.sec4p13 = 'SELF dApp 第一版正式上线。 ';
+        this.sec4p14 = '电影《圣人大盗》首映，实景娱乐场域部署虚实整合技术。 ';
+        this.sec4p15 = '拓展 SELF dApp 全球化策略合作伙伴。 ';
+        this.sec4p16 = '';
+        this.sec4p17 = '';
+        this.sec4p18 = '';
+        this.sec4p19 = '';
 
         this.sec5intro1 =
           '1991 年生，2014 年创立SELFPICK PRODUCTION、2017 年创立SELF BAR，担任Mr.Bartender、我们是欧爸、私室等知名网剧导演，在网路上创造了千万点击，并成功带领SELFPICK PRODUCTION 荣获2017年行销传播贡献奖年度杰出行销创意团队、2017 年金炬奖年度杰出十大潜力经理人。 ';
@@ -681,11 +641,11 @@ var selftoken = new Vue({
         this.phase2 = '第二阶段';
         this.phase3 = '第三阶段';
       }
-    }
+    },
   },
 
-  ready: function() {
+  ready: function () {
     this.lang = 'tc';
-    $('.loading').removeClass('loading');
-  }
+    $ ('.loading').removeClass ('loading');
+  },
 });
