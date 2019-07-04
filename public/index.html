@@ -126,6 +126,9 @@
         <a href="https://discordapp.com/channels/453448709368315916" target="_blank">
           <i class="fab fa-discord"></i>
         </a>
+        <a href="https://linkedin.com/company/self-token" target="_blank">
+          <i class="fab fa-linkedin-in"></i>
+        </a>
       </div>
     </div>
 
@@ -145,11 +148,15 @@
       <polyline class="header_svg" points="{{pointsHeader1}}" style="fill: none; stroke: #fff; stroke-width: 3" />
     </svg>
     <div class="content">
-      <div style="top: 100px;">
-        <div class="yb-main">
-          <iframe src="https://www.youtube.com/embed/ow7Hth5k7ko?rel=0&amp;controls=0&amp;showinfo=0"
-            frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+      <div class="header-model">
+        <video id="video" autoplay="autoplay" muted loop>
+          <source src="assets/video/S_alpha.webm" type="video/webm">
+        </video>
+        <div class="canvas-block" style="height:200px;left:0px;" >
+          <canvas id="myCanvas5" style="position: absolute; left: 50%; margin-left: -185px; transform: translateX(-3.8%);" width="200px" height="200px"></canvas>
         </div>
+        <!-- <div class="header-model-bg"></div> -->
+        <!-- <img src="assets/img/main/cover-S.PNG" alt=""> -->
       </div>
       <div class="header-title" style="padding-top: 30px;">
         <h2 :class="lang" v-html="sec1Title"></h2>
@@ -158,103 +165,6 @@
   </header>
 
   <section class="sec2" id="about">
-    <style v-if="lang === 'en'">
-      #countdown * {
-        letter-spacing: 3px;
-      }
-    </style>
-    <div class="content" id="countdown">
-      <div class="top flex-l2-m1-">
-        <div class="left">
-          <div class="border">
-            {{crowdsale}}
-            <span></span>
-            <span></span>
-            <span></span>
-            <span></span>
-          </div>
-          <div class="timer" id="timer">
-            00:00:00
-          </div>
-          <div class="border">
-            {{total_raised}} <b>$50,000,000 NTD</b>
-            <span></span><span></span><span></span><span></span>
-          </div>
-        </div>
-        <div class="right">
-          <a href="https://buy.selftoken.co/" target="_blank" class="border">{{buy_with_eth}}<span></span><span></span><span></span><span></span></a>
-          <a href="http://bit.ly/2DEmRNW" target="_blank" class="border">{{buy_with_ntd}}<span></span><span></span><span></span><span></span></a>
-        </div>
-      </div>
-      <div class="bottom">
-        <div class="bar">
-          <div class="bar-main" style="width: 62.5%"></div>
-          <div class="bar-bg">
-            <div class="mark">
-              <div class="leftup pc">
-                {{phase1}}
-              </div>
-              <div class="up">{{cornerstone}}</div>
-              <div class="down">35<span class="pc">,000,000</span><span class="m">M</span></div>
-            </div>
-            <div class="mark">
-              <div class="up">{{softcap}}</div>
-              <div class="down">50<span class="pc">,000,000</span><span class="m">M</span></div>
-            </div>
-            <div class="mark">
-              <div class="up">{{hardcap}}</div>
-              <div class="down">250<span class="pc">,000,000</span><span class="m">M</span></div>
-            </div>
-            <div class="mark lock">
-              <div class="up pc">{{phase2}}</div>
-              <div class="down"><i class="fas fa-lock"></i></div>
-            </div>
-            <div class="mark lock">
-              <div class="up pc">{{phase3}}</div>
-              <div class="down"><i class="fas fa-lock"></i></div>
-            </div>
-          </div>
-        </div>
-      </div>
-      <script>
-        var countDownDate = new Date("Sep 4, 2018 21:00:00").getTime();
-
-        // Update the count down every 1 second
-        var x = setInterval(function () {
-
-          // Get todays date and time
-          var now = new Date().getTime();
-
-          // Find the distance between now and the count down date
-          var distance = countDownDate - now;
-
-          // Time calculations for days, hours, minutes and seconds
-          var days = Math.floor(distance / (1000 * 60 * 60 * 24)) * 24;
-          var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60)) + days;
-          var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
-          var seconds = Math.floor((distance % (1000 * 60)) / 1000);
-
-          // filled with 0 if single num
-          function fillZero(num) {
-            if (num <= 9) {
-              return '0' + num
-            } else {
-              return num
-            }
-          }
-
-          // Display the result in the element with id="demo"
-          document.getElementById("timer").innerHTML = fillZero(hours) + ":"
-            + fillZero(minutes) + ":" + fillZero(seconds);
-
-          // If the count down is finished, write some text
-          if (distance < 0) {
-            clearInterval(x);
-            document.getElementById("timer").innerHTML = "NOW";
-          }
-        }, 1000);
-      </script>
-    </div>
     <div class="content">
       <div class="yb-box">
         <div class="yb-main">
@@ -292,6 +202,12 @@
         {{ sec2Dsc5 }}
       </p>
     </div>
+    <div class="content">
+        <h3 class="reveal">{{ sec2Title55 }}</h3>
+        <p class="reveal">
+          {{ sec2Dsc55 }}
+        </p>
+      </div>
     <div class="content last active">
       <div class="a"></div>
       <div class="b"></div>
@@ -438,6 +354,11 @@
           <h3>2019 Q4</h3>
           <p v-html="sec4p15"></p>
         </div>
+
+        <div class="road active">
+            <h3>2020</h3>
+            <p v-html="sec4p16"></p>
+          </div>
       </div>
     </div>
   </section>
@@ -860,6 +781,12 @@
         <div>
           <img style="width: 80%" src="assets/img/main/logos/FU.png" alt="">
         </div>
+        <div>
+          <img style="width: 100%" src="assets/img/main/logos/coinmarketcap_white.png" alt="">
+        </div>
+        <div>
+          <img style="width: 42%" src="assets/img/main/logos/++yo.png" alt="">
+        </div>
         <a href="https://coinmaster.page.link/self" target="_blank" style="display: block">
           <img style="width: 80%" src="assets/img/main/logos/coinMaster.png" alt="">
         </a>
@@ -912,25 +839,20 @@
   var isChrome = userAgent.indexOf("Chrome") > -1;
 
   if (isSafari && $(window).width() > 992) {
-    $('#header-c').show();
-    $('#video').hide();
-    $('#header-i').hide();
-  } else if (isSafari && $(window).width() <= 992) {
-    $('#header-c').hide();
-    $('#video').hide();
-    $('#header-i').show();
-  } else if (isChrome && $(window).width() > 992) {
-    $('#header-c').hide();
     $('#video').show();
-    $('#header-i').hide();
+    $('.canvas-block').hide();
+  } else if (isSafari && $(window).width() <= 992) {
+    $('#video').hide();
+    $('.canvas-block').show();
+  } else if (isChrome && $(window).width() > 992) {
+    $('#video').show();
+    $('.canvas-block').hide();
   } else if (isChrome && $(window).width() <= 992) {
-    $('#header-c').hide();
     $('#video').hide();
-    $('#header-i').show();
+    $('.canvas-block').show();
   } else {
-    $('#header-c').hide();
     $('#video').hide();
-    $('#header-i').show();
+    $('.canvas-block').show();
   }
 </script>
 <script src="/assets/js/animateNumber.js"></script>

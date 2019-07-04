@@ -20,6 +20,8 @@ var selftoken = new Vue ({
     sec2Dsc4: '',
     sec2Title5: '',
     sec2Dsc5: '',
+    sec2Title55: '',
+    sec2Dsc55: '',
     sec2Title6: '',
     sec3Label: '',
     sec4p1: '',
@@ -151,26 +153,28 @@ var selftoken = new Vue ({
         this.navLinkTeamMembers = '團隊成員';
         this.navLinkMedia = '媒體報導';
         this.navLinkContact = '聯絡我們';
-        this.sec1Title = '鏈接虛擬與現實的<br>沉浸式娛樂';
+        this.sec1Title = 'IN SELF WE TRUST';
         this.sec2Title1 = '什麼是 SELF';
         this.sec2Dsc1 =
-          '透過以太坊智能合約所創建的代幣，同時也是開啟「沉浸式娛樂」體驗的關鍵鑰匙，將在電影《聖人大盜》與現實世界同步發行，邀請群眾跟我們共同創造一個打破現實、虛擬疆界的新世界。';
+          'SELF 是透過以太坊智能合約所創建的區塊鏈數位資產，同時也是開啟「沉浸式娛樂」體驗的關鍵鑰匙，並將在我們身處的現實世界與電影《聖人大盜》中的平行世界同步上線，邀請群眾共創一個打破虛擬與現實疆界的沉浸式娛樂新世界。';
         this.sec2Title2 = '全球第一部華語區塊鏈電影《聖人大盜》';
         this.sec2Dsc2 =
-          '由香港知名電影人曾志偉、《我的少女時代》總監製葉如芬共同監製，同時也是曾志偉睽違多年再次主演之台灣電影，而導演將由 SELFPICK PRODUCTION、SELF TOKEN 之創辦人 / 導演 徐嘉凱擔任，攜手打造出一個貼近世代潮流的全新華語商戰電影，開啟後《無間道》時代的全新鬥智類型片。';
+          '由華人世界知名電影人曾志偉與《我的少女時代》總監製葉如芬全力支持，而導演徐嘉凱同時也是 SELF PICK PRODUCTION 和 SELF TOKEN 之創始人兼執行長，攜手打造貼近世代潮流與開啟後《無間道》時代的全新鬥智類型商戰電影。';
         this.sec2Title3 = '全方位的娛樂生態系統';
         this.sec2Dsc3 =
-          '除了將支持 100 SELF  = 1 張台灣、香港可流通之電影票外，我們將以食、衣、住、行、育、樂六大面向簽訂知名的合作品牌，並設立由 SELFPICK、SELF TOKEN 所共同控股之沉浸式娛樂場域，預計將在2020年拓展經營五間不同性質之場域，包含但並不限於酒吧、咖啡廳、共同工作空間、民宿、複合性商場。';
+          '支持 100 SELF 可兌換 1 張台灣、香港可流通之電影票，並設立由 SELF 團隊（SELF GROUP 包括：SELF PICK PRODUCTION、SELF TOKEN、SELF SPACE）所共同控股之沉浸式娛樂場域，預計將在未來以食、衣、住、行、育、樂等六大面向簽訂多家知名合作品牌，同時經營拓展多種不同性質之場域，包含酒吧、咖啡廳、共創空間、民宿、複合型商場等。';
         this.sec2Title4 = '全透明的獎勵機制';
         this.sec2Dsc4 =
-          '透過團隊中的芝加哥大學經濟學博士林仲生所建立之區塊鏈經濟模型，我們將可以公平、透明的讓系統中所有的參與者成為受益者，並依據參與者每一次推動電影票房、直營店營收、生態系成長的行為，進行積分累積獲得實質獎勵。';
+          '透過聯合創始人芝加哥大學經濟學博士林仲生所建立之區塊鏈生態經濟模型，我們將可以公平、透明、靈活的讓系統中所有的參與者皆成為受益者，並依據參與者每一次推動電影票房、場域營收、生態系成長等行為，進行積分累積與獲得獎勵回饋。';
         this.sec2Title5 = '全球流通的應用代幣';
         this.sec2Dsc5 =
-          '除了作為生態系統中的應用代幣，並可到台、港之影城、合作娛樂場域進行消費外，我們也將跟交易所進行合作，成為可在全球流通、自由交易的代幣。同時隨著電影、生態系的成長，預計在2021年時，我們也將擴展支持到全球影城的消費支付，並建立起全球各地預計十家以上的沉浸式娛樂空間以及百家以上的合作夥伴。';
+          '除了作為生態系統中的應用數位資產，並可到台、港之影城與合作娛樂場域進行使用外，我們也將和交易所進行合作，成為可在全球流通、自由交易的代幣。同時隨著電影、生態系的成長，我們預計在 2025 年也將會擴展到支持全球影城消費，並建立起世界各地數十家以上的沉浸式娛樂場域與數百家以上的合作夥伴生態網絡。';
+        this.sec2Title55 = '全新的區塊鏈角色卡牌遊戲';
+        this.sec2Dsc55 = 'SELFER Card 是一款新型態的區塊鏈角色卡牌遊戲，將與電影《聖人大盜》以及沉浸式娛樂場域緊密結合，擁有者可透過消費、互動與積分累積，進而提升角色卡牌等級與行為挖礦回饋，並享有更多專屬體驗以及特別權益。';
         this.sec2Title6 = '讓人人都可以是電影娛樂生態中<br>推廣者、支持者、觀眾、受益者，<br>創造一個共好的娛樂生態系。';
         this.sec3Label = '輸入您的郵件地址：';
         this.sec4p1 =
-          '母公司 SELFPICK PRODUCTION 完成 Pre A 輪一千五百萬元增資，並推出沉浸式娛樂計畫，正式啟動區塊鏈電影、白皮書開發計畫。';
+          '母公司 SELF PICK PRODUCTION 完成 Pre A 輪一千五百萬元增資，並推出沉浸式娛樂計畫，正式啟動區塊鏈電影、白皮書開發計畫。';
         this.sec4p2 = '整合各界資源推動《聖人大盜》電影劇本、企劃以及技術白皮書、團隊組建。';
         this.sec4p3 =
           '與橫跨電影圈、金融圈、鏈圈之夥伴組成聯合創始團隊，共同出資一千兩百萬元新台幣，登記設立區塊鏈項目之執行公司 SELF TOKEN，並與合作交易所簽訂合作備忘錄。';
@@ -180,15 +184,15 @@ var selftoken = new Vue ({
         this.sec4p6 = '電影《聖人大盜》前導影片拍攝，並同時進行非公開之私募，限定必須通過 KYC 或是邀請制度參與。';
         this.sec4p7 = '8/22 將於舉辦記者會，正式對外公布沉浸式娛樂計畫。';
         // 2018 SEP-NOV
-        this.sec4p8 = '電影聖人大盜進入前置工作，群募開始，SELF TOKEN 發幣開始，SELF dApp 進入商轉前技術開發期。';
-        this.sec4p9 = '電影《聖人大盜》開拍，SELF dApp 技術開發期。';
+        this.sec4p8 = '電影聖人大盜進入前置工作，群募開始，SELF 發幣開始，SELF Dapp 進入商轉前技術開發期。';
+        this.sec4p9 = '電影《聖人大盜》開拍，SELF Dapp 技術開發準備期。';
         this.sec4p10 = '電影《聖人大盜》拍攝期，實景娛樂場域合作洽談。';
-        this.sec4p11 = '電影《聖人大盜》後製期，SELF dApp 技術開發期，店家測試。';
-        this.sec4p12 = '電影《聖人大盜》預告片釋出，SELF dApp 封測版上線，店家啟用 SELF dApp。';
-        this.sec4p13 = 'SELF dApp 第一版正式上線。';
-        this.sec4p14 = '電影《聖人大盜》首映，實景娛樂場域部署虛實整合技術。';
-        this.sec4p15 = '拓展 SELF dApp 全球化策略合作夥伴。';
-        this.sec4p16 = '';
+        this.sec4p11 = '電影《聖人大盜》後製期，SELF 上線準備，SELF Dapp 整合技術開發期。';
+        this.sec4p12 = 'SELF Dapp 功能與頁面整合，店家測試。';
+        this.sec4p13 = 'SELF Dapp 封測版上線，店家啟用 SELF Dapp。';
+        this.sec4p14 = '電影《聖人大盜》前導預告片、正式預告片釋出，SELF Dapp 第一版正式上線。';
+        this.sec4p15 = '電影《聖人大盜》首映，SELF 正式上線，實景娛樂場域部署虛實整合技術。拓展 SELF Dapp 全球化策略合作夥伴。';
+        this.sec4p16 = '拓展 SELF Dapp 全球化策略合作夥伴。';
         this.sec4p17 = '';
         this.sec4p18 = '';
         this.sec4p19 = '';
@@ -309,62 +313,64 @@ var selftoken = new Vue ({
         this.navLinkMedia = 'Media';
         this.navLinkContact = 'Contact';
         this.sec1Title =
-          'An immersive entertainment ecosystem<br>connecting virtuality and reality';
+          'IN SELF WE TRUST';
         this.sec2Title1 = 'WHAT IS SELF';
         this.sec2Dsc1 =
-          'SELF is a unique digital asset that allows users to support movie productions and reap rewards from box office revenues. Our goal is to spearhead the movement of a decentralized autonomous ecosystem starting in the movie industry.';
+          'SELF is a cryptocurrency built under Ethereum smart contract architecture allows users to support entertainment industry and reap rewards from box office revenues. Our goal is to spearhead the movement of a decentralized autonomous ecosystem starting in the movie industry.';
         this.sec2Title2 = 'Immersive';
         this.sec2Dsc2 =
           'From visiting the actual location of a scene in the film <i class="movie-name">The Last Thieves</i> (2019) to supporting its making through SELF PAY, we are creating an immersive entertainment universe using smart contracts and blockchain technology.';
         this.sec2Title3 = 'All Inclusive';
         this.sec2Dsc3 =
-          'SELF bridges consumers to service providers of all fields of entertainment through one form of payment.';
+          'SELF bridges consumers to service providers in all fields of immersive entertainment through a new form of the payment system.';
         this.sec2Title4 = 'Transparent';
         this.sec2Dsc4 =
-          'With SELF, contributions and accumulated mining rewards will lead to more exclusive VIP opportunities. With blockchain technology, all information will be accessible to the public - building a relationship of trust.';
+          'SELF economic model is established by the economist Dr. Tom Lam who is also the co-founders of SELF TOKEN. Through this economic model, the participants could accumulate SELF SCORE to obtain exclusive rewards through their actions and contributions that help the store\'s revenue and the growth of the immersive entertainment ecosystem. Every participants in this community can truly become beneficiaries.';
         this.sec2Title5 = 'Global';
         this.sec2Dsc5 =
-          'By collaborating with global exchanges, SELF can be used freely across borders.';
+          'Collaborating with global exchanges make SELF can be used freely across borders.';
+        this.sec2Title55 = 'SELFER Card Game';
+        this.sec2Dsc55 = 'SELFER Card Game is a blockchain game, also known as a Crypto Game utilizing a form of decentralized application (Dapp). SELFER Cards are blockchain non-fungible cards used within the game. The film The Last Thieves and SELFER Card are designed to integrate with reality. Through the card holder\'s actions, the character card will increase levels which will also affect the effectiveness and speed generate SELF SCORE';
         this.sec2Title6 =
           'Our mission is to foster an entertainment ecosystem, making it a transparent business where everyone can advocate, support, and benefit from direct involvement.';
         this.sec3Label = 'selftoken@example.com';
         this.sec4p1 =
-          'Parent company SELFPICK PRODUCTION completes pre A round fundraising 15M NTD, and SELF TOKEN white paper plan.';
+          'Parent company SELF PICK PRODUCTION completed pre A round fundraising for 15M NTD, and SELF TOKEN white paper plan.';
         this.sec4p2 =
-          'Compile resources to finish <i class="movie-name">The Last Thieves</i> script. Complete business plan and model for SELF CHAIN and hire on additional team members.';
+          'Compiled resources to finish The Last Thieves script. Completed business plan and model for project: SELF CHAIN and hired team members.';
         this.sec4p3 =
-          'SELF TOKEN is found with partners across the film, financial, and blockchain industries to jointly invest $12 million NTD and sign memorandum of cooperation with exchange.';
+          'SELF TOKEN is found with partners across the film, financial, and blockchain industries to jointly invest $12 million NTD and signed memorandum of cooperation with exchange.';
         this.sec4p4 =
-          'Register film production fund “Self Alienation Co., Ltd.” (detailed production specifications and amount will be announced in the August press conference) and recruit internal staff to carry out technical development, marketing research, and public relation matters.';
+          'Registered film production fund “Self Alienation Co., Ltd.” (detailed production specifications and amount will be announced in the August press conference) and recruit internal staff to carry out technical development, marketing research, and public relation matters.';
         this.sec4p5 =
-          'Sign with world-renowned restaurant chains, entertainment businesses to support SELF as a form of payment in Taiwan and begin research and development.';
+          'Signed with world-renowned restaurant chains, entertainment businesses to support SELF payment system in Taiwan and began to research and development.';
         this.sec4p6 =
-          'Begin pre-production for <i class="movie-name">The Last Thieves</i> and start private sale, limited to those having passed KYC.';
+          '<i class="movie-name">The Last Thieves</i> is in the pre-production process and started private sale, limited to those having passed KYC.';
         this.sec4p7 =
-          'Hold press conference on 8/22, publicly announce the immersive entertainment plan.';
+          'Held press conference on 8/22. Announced the immersive entertainment plan in public for the first time.';
         // 2018 SEP-NOV
         this.sec4p8 =
-          '<i class="movie-name">The Last Thieves</i> enters pre production, crowdsale begins. Participants receive SELF, SELF dApp enters tech development.';
+          '<i class="movie-name">The Last Thieves</i> entered pre production process. Crowdfunding began. SELF Dapp started technical development.';
         // 2018 DECEMBER
         this.sec4p9 =
-          '<i class="movie-name">The Last Thieves</i> enters production, tech team continues to focus on dApp development.';
+          '<i class="movie-name">The Last Thieves</i> entered production process. R&D team continued focusing on Dapp development.';
         // 2019 JANUARY
         this.sec4p10 =
-          '<i class="movie-name">The Last Thieves</i> continues to film. Business Development focuses on potential entertainment collaborators to join SELF\'s immersive ecosystem.';
+          'Continued filming <i class="movie-name">The Last Thieves</i>. Created partnerships with potential entertainment collaborators to join SELF\'s immersive ecosystem.';
         // 2019 FEB - MAY
         this.sec4p11 =
-          '<i class="movie-name">The Last Thieves</i> enters post-production, SELF dApp continues development, dApp testing at SELF-locations.';
+          '<i class="movie-name">The Last Thieves</i> entered post-production. SELF Dapp in the final stage of development.';
         // 2019 JUNE
         this.sec4p12 =
-          'Trailor for <i class="movie-name">The Last Thieves</i> is publicly released.';
+          'Integrating SELF Dapp’s features and user interface.';
         // 2019 JULY
         this.sec4p13 =
-          'SELF dApp version I releases.';
+          'SELF Dapp begins beta testing at SELF SPACE.';
         // 2019 Q3
         this.sec4p14 =
-          '<i class="movie-name">The Last Thieves</i> premieres, full immersive integration online and offline.';
-        this.sec4p15 = 'The global integration and deployment of SELF dApp in major entertainment locations.';
-        this.sec4p16 = '';
+          'Release official trailer for <i class="movie-name">The Last Thieves</i> and the first version SELF Dapp.';
+        this.sec4p15 = 'The Last Thieves official and SELF wide-release achieving the goal that connecting online and offline experiences.';
+        this.sec4p16 = 'Expanding SELF Dapp global strategy partners.';
         this.sec4p17 = '';
         this.sec4p18 = '';
         this.sec4p19 = '';
@@ -483,163 +489,163 @@ var selftoken = new Vue ({
         this.phase3 = 'PHASE3';
       } else if (val === 'sc') {
         this.navLinkAboutUs = '关于我们';
-        this.navLinkWhitePaper = '技术白皮书';
-        this.navLinkRoadMap = '计画发展';
-        this.navLinkTeamMembers = '团队成员';
-        this.navLinkMedia = '媒体报导';
-        this.navLinkContact = '联络我们';
-        this.sec1Title = '链接虚拟与现实的<br>沉浸式娱乐';
-        this.sec2Title1 = '什么是 SELF';
-        this.sec2Dsc1 =
-          '透过以太坊智能合约所创建的代币，同时也是开启「沉浸式娱乐」体验的关键钥匙，将在电影《圣人大盗》与现实世界同步发行，邀请群众跟我们共同创造一个打破现实、虚拟疆界的新世界。 ';
-        this.sec2Title2 = '全球第一部华语区块链电影《圣人大盗》';
-        this.sec2Dsc2 =
-          '由香港知名电影人曾志伟、《我的少女时代》总监制叶如芬共同监制，同时也是曾志伟睽违多年再次主演之台湾电影，而导演将由SELFPICK PRODUCTION、SELF TOKEN 之创办人/ 导演徐嘉凯担任，携手打造出一个贴近世代潮流的全新华语商战电影，开启后《无间道》时代的全新斗智类型片。 ';
-        this.sec2Title3 = '全方位的娱乐生态系统';
-        this.sec2Dsc3 =
-          '除了将支持100 SELF = 1 张台湾、香港可流通之电影票外，我们将以食、衣、住、行、育、乐六大面向签订知名的合作品牌，并设立由SELFPICK、SELF TOKEN 所共同控股之沉浸式娱乐场域，预计将在2020年拓展经营五间不同性质之场域，包含但并不限于酒吧、咖啡厅、共同工作空间、民宿、复合性商场。 ';
-        this.sec2Title4 = '全透明的奖励机制';
-        this.sec2Dsc4 =
-          '透过团队中的芝加哥大学经济学博士林仲生所建立之区块链经济模型，我们将可以公平、透明的让系统中所有的参与者成为受益者，并依据参与者每一次推动电影票房、直营店营收、生态系成长的行为，进行积分累积获得实质奖励。';
-        this.sec2Title5 = '全球流通的应用代币';
-        this.sec2Dsc5 =
-          '除了作为生态系统中的应用代币，并可到台、港之影城、合作娱乐场域进行消费外，我们也将跟交易所进行合作，成为可在全球流通、自由交易的代币。同时随着电影、生态系的成长，预计在2021年时，我们也将扩展支持到全球影城的消费支付，并建立起全球各地预计十家以上的沉浸式娱乐空间以及百家以上的合作伙伴。 ';
-        this.sec2Title6 = '让人人都可以是电影娱乐生态中<br>推广者、支持者、观众、受益者，<br>创造一个共好的娱乐生态系。 ';
-        this.sec3Label = '输入您的邮件地址：';
-        this.sec4p1 =
-          '母公司 SELFPICK PRODUCTION 完成 Pre A 轮一千五百万元增资，并推出沉浸式娱乐计画，正式启动区块链电影、白皮书开发计画。 ';
-        this.sec4p2 = '整合各界资源推动《圣人大盗》电影剧本、企划以及技术白皮书、团队组建。 ';
-        this.sec4p3 =
-          '与横跨电影圈、金融圈、链圈之伙伴组成联合创始团队，共同出资一千两百万元新台币，登记设立区块链项目之执行公司SELF TOKEN，并与合作交易所签订合作备忘录。 ';
-        this.sec4p4 =
-          '电影制作基金「圣人大盗电影有限合伙」进行登记（详细制作规格、金额将在八月记者会公布），同时间启动 SELF TOKEN 正式商转，并招聘内部工程、营运人员进行技术研发。 ';
-        this.sec4p5 =
-          '签订将在电影中曝光并实际支援 SELF 进行消费的台湾、国际知名餐饮集团、娱乐应用合作方，并同步进行技术研发。 ';
-        this.sec4p6 = '电影《圣人大盗》前导影片拍摄，并同时进行非公开之私募，限定必须通过 KYC 或是邀请制度参与。 ';
-        this.sec4p7 = '8/22 将于举办记者会，正式对外公布沉浸式娱乐计画。 ';
-        // 2018 SEP-NOV
-        this.sec4p8 = '电影圣人大盗进入前置工作，群募开始，SELF TOKEN 发币开始，SELF dApp 进入商转前技术开发期。';
-        // 2018 DECEMBER
-        this.sec4p9 = '电影《圣人大盗》开拍，SELF dApp 技术开发期。 ';
-        this.sec4p10 = '电影《圣人大盗》拍摄期，实景娱乐场域合作洽谈。 ';
-        this.sec4p11 = '电影《圣人大盗》后制期，SELF dApp 技术开发期，店家测试。 ';
-        this.sec4p12 = '电影《圣人大盗》预告片释出，SELF dApp 封测版上线，店家启用 SELF dApp。 ';
-        this.sec4p13 = 'SELF dApp 第一版正式上线。 ';
-        this.sec4p14 = '电影《圣人大盗》首映，实景娱乐场域部署虚实整合技术。 ';
-        this.sec4p15 = '拓展 SELF dApp 全球化策略合作伙伴。 ';
-        this.sec4p16 = '';
-        this.sec4p17 = '';
-        this.sec4p18 = '';
-        this.sec4p19 = '';
+        this.navLinkWhitePaper = '技术白皮书';
+        this.navLinkRoadMap = '计画发展';
+        this.navLinkTeamMembers = '团队成员';
+        this.navLinkMedia = '媒体报导';
+        this.navLinkContact = '联络我们';
+        this.sec1Title = 'IN SELF WE TRUST';
+        this.sec2Title1 = '什么是 SELF';
+        this.sec2Dsc1 =
+          'SELF 是透过以太坊智能合约所创建的区块链数位资产，同时也是开启「沉浸式娱乐」体验的关键钥匙，并将在我们身处的现实世界与电影《圣人大盗》中的平行世界同步上线，邀请群众共创一个打破虚拟与现实疆界的沉浸式娱乐新世界。 ';
+        this.sec2Title2 = '全球第一部华语区块链电影《圣人大盗》';
+        this.sec2Dsc2 =
+          '由华人世界知名电影人曾志伟与《我的少女时代》总监制叶如芬全力支持，而导演徐嘉凯同时也是SELF PICK PRODUCTION 和SELF TOKEN 之创始人兼执行长，携手打造贴近世代潮流与开启后《无间道》时代的全新斗智类型商战电影。 ';
+        this.sec2Title3 = '全方位的娱乐生态系统';
+        this.sec2Dsc3 =
+          '支持100 SELF 可兑换1 张台湾、香港可流通之电影票，并设立由SELF 团队（SELF GROUP 包括：SELF PICK PRODUCTION、SELF TOKEN、SELF SPACE）所共同控股之沉浸式娱乐场域，预计将在未来以食、衣、住、行、育、乐等六大面向签订多家知名合作品牌，同时经营拓展多种不同性质之场域，包含酒吧、咖啡厅、共创空间、民宿、复合型商场等。 ';
+        this.sec2Title4 = '全透明的奖励机制';
+        this.sec2Dsc4 =
+          '透过联合创始人芝加哥大学经济学博士林仲生所建立之区块链生态经济模型，我们将可以公平、透明、灵活的让系统中所有的参与者皆成为受益者，并依据参与者每一次推动电影票房、场域营收、生态系成长等行为，进行积分累积与获得奖励回馈。 ';
+        this.sec2Title5 = '全球流通的应用代币';
+        this.sec2Dsc5 =
+          '除了作为生态系统中的应用数位资产，并可到台、港之影城与合作娱乐场域进行使用外，我们也将和交易所进行合作，成为可在全球流通、自由交易的代币。同时随着电影、生态系的成长，我们预计在2025 年也将会扩展到支持全球影城消费，并建立起世界各地数十家以上的沉浸式娱乐场域与数百家以上的合作伙伴生态网络。 ';
+        this.sec2Title55 = '全新的区块链角色卡牌游戏';
+        this.sec2Dsc55 = 'SELFER Card 是一款新型态的区块链角色卡牌游戏，将与电影《圣人大盗》以及沉浸式娱乐场域紧密结合，拥有者可透过消费、互动与积分累积，进而提升角色卡牌等级与行为挖矿回馈，并享有更多专属体验以及特别权益。 ';
+        this.sec2Title6 = '让人人都可以是电影娱乐生态中<br>推广者、支持者、观众、受益者，<br>创造一个共好的娱乐生态系。 ';
+        this.sec3Label = '输入您的邮件地址：';
+        this.sec4p1 =
+          '母公司 SELF PICK PRODUCTION 完成 Pre A 轮一千五百万元增资，并推出沉浸式娱乐计画，正式启动区块链电影、白皮书开发计画。 ';
+        this.sec4p2 = '整合各界资源推动《圣人大盗》电影剧本、企划以及技术白皮书、团队组建。 ';
+        this.sec4p3 =
+          '与横跨电影圈、金融圈、链圈之伙伴组成联合创始团队，共同出资一千两百万元新台币，登记设立区块链项目之执行公司SELF TOKEN，并与合作交易所签订合作备忘录。 ';
+        this.sec4p4 =
+          '电影制作基金「圣人大盗电影有限合伙」进行登记（详细制作规格、金额将在八月记者会公布），同时间启动 SELF TOKEN 正式商转，并招聘内部工程、营运人员进行技术研发。 ';
+        this.sec4p5 = '签订将在电影中曝光并实际支援 SELF 进行消费的台湾、国际知名餐饮集团、娱乐应用合作方，并同步进行技术研发。 ';
+        this.sec4p6 = '电影《圣人大盗》前导影片拍摄，并同时进行非公开之私募，限定必须通过 KYC 或是邀请制度参与。 ';
+        this.sec4p7 = '8/22 将于举办记者会，正式对外公布沉浸式娱乐计画。 ';
+        // 2018 SEP-NOV
+        this.sec4p8 = '电影圣人大盗进入前置工作，群募开始，SELF 发币开始，SELF Dapp 进入商转前技术开发期。 ';
+        this.sec4p9 = '电影《圣人大盗》开拍，SELF Dapp 技术开发准备期。 ';
+        this.sec4p10 = '电影《圣人大盗》拍摄期，实景娱乐场域合作洽谈。 ';
+        this.sec4p11 = '电影《圣人大盗》后制期，SELF 上线准备，SELF Dapp 整合技术开发期。 ';
+        this.sec4p12 = 'SELF Dapp 功能与页面整合，店家测试。 ';
+        this.sec4p13 = 'SELF Dapp 封测版上线，店家启用 SELF Dapp。 ';
+        this.sec4p14 = '电影《圣人大盗》前导预告片、正式预告片释出，SELF Dapp 第一版正式上线。 ';
+        this.sec4p15 = '电影《圣人大盗》首映，SELF 正式上线，实景娱乐场域部署虚实整合技术。拓展 SELF Dapp 全球化策略合作伙伴。 ';
+        this.sec4p16 = '拓展 SELF Dapp 全球化策略合作伙伴。 ';
+        this.sec4p17 = '';
+        this.sec4p18 = '';
+        this.sec4p19 = '';
 
-        this.sec5intro1 =
-          '1991 年生，2014 年创立SELFPICK PRODUCTION、2017 年创立SELF BAR，担任Mr.Bartender、我们是欧爸、私室等知名网剧导演，在网路上创造了千万点击，并成功带领SELFPICK PRODUCTION 荣获2017年行销传播贡献奖年度杰出行销创意团队、2017 年金炬奖年度杰出十大潜力经理人。 ';
-        this.sec5name1 = '徐嘉凯';
-        this.sec5title1 = 'SELF 创始人 ＆ 电影《圣人大盗》导演';
+        this.sec5intro1 =
+          '1991 年生，2014 年创立SELFPICK PRODUCTION、2017 年创立SELF BAR，担任Mr.Bartender、我们是欧爸、私室等知名网剧导演，在网路上创造了千万点击，并成功带领SELFPICK PRODUCTION 荣获2017年行销传播贡献奖年度杰出行销创意团队、2017 年金炬奖年度杰出十大潜力经理人。 ';
+        this.sec5name1 = '徐嘉凯';
+        this.sec5title1 = 'SELF 创始人 ＆ 电影《圣人大盗》导演';
 
-        this.sec5intro2 =
-          '1981年生，国立台湾大学资讯工程学博士，日本庆応大学博士后研究员，美国奇点大学首位台湾学员，创办多家公司曾获红点设计奖与 HTC 投资。现任教于北科大互动设计系，亦为奇点大学台湾大使，替多家跨国公司及政府单位如经济部、北市府，COBINHOOD, Ubitus Inc., Blueprint Japan 等跨国企业提供区块链智能合约开发之研究协助。 ';
-        this.sec5name2 = '葛如钧';
-        this.sec5title2 = 'SELF 共同创始人＆区块链技术顾问';
+        this.sec5intro2 =
+          '1981年生，国立台湾大学资讯工程学博士，日本庆応大学博士后研究员，美国奇点大学首位台湾学员，创办多家公司曾获红点设计奖与 HTC 投资。现任教于北科大互动设计系，亦为奇点大学台湾大使，替多家跨国公司及政府单位如经济部、北市府，COBINHOOD, Ubitus Inc., Blueprint Japan 等跨国企业提供区块链智能合约开发之研究协助。 ';
+        this.sec5name2 = '葛如钧';
+        this.sec5title2 = 'SELF 共同创始人＆区块链技术顾问';
 
-        this.sec5intro3 =
-          '为美国永恒生技（Cold Genesys Inc.）执行长，为全美最年轻的生技公司负责人，拥有掌管十亿台币资本额，募资超过两千五百万美元的实力！关心同时为资深虚拟货币投资人，并创办以投资区块链为重点之一的恒心资本（Perseverance Capital Management LLC）。精准的眼光与丰沛的人脉资源，未来必定能协助SELF TOKEN往国际市场推进，达成整合综效。';
-        this.sec5name3 = '关心';
-        this.sec5title3 = 'SELF 创始人＆风险管理委员';
+        this.sec5intro3 =
+          '为美国永恒生技（Cold Genesys Inc.）执行长，为全美最年轻的生技公司负责人，拥有掌管十亿台币资本额，募资超过两千五百万美元的实力！关心同时为资深虚拟货币投资人，并创办以投资区块链为重点之一的恒心资本（Perseverance Capital Management LLC) 。精准的眼光与丰沛的人脉资源，未来必定能协助SELF TOKEN往国际市场推进，达成整合综效。 ';
+        this.sec5name3 = '关心';
+        this.sec5title3 = 'SELF 创始人＆风险管理委员';
 
-        this.sec5intro4 =
-          '两岸三地的著名制片人，也是电影制作公司影市堂的负责人，制作、出品知名华语电影九降风、杀手欧阳盆栽、变身、看不见的台湾等优秀作品，更获得了台湾、香港金马奖的多项肯定，未来将透过SELF TOKEN 让影视圈与区块链科技更紧密结合，并共创出更多优秀的电影、网路影视内容。 ';
-        this.sec5name4 = '曾国骏';
-        this.sec5title4 = 'SELF 联合创始人＆风险管理委员';
+        this.sec5intro4 =
+          '两岸三地的著名制片人，也是电影制作公司影市堂的负责人，制作、出品知名华语电影九降风、杀手欧阳盆栽、变身、看不见的台湾等优秀作品，更获得了台湾、香港金马奖的多项肯定，未来将透过SELF TOKEN 让影视圈与区块链科技更紧密结合，并共创出更多优秀的电影、网路影视内容。 ';
+        this.sec5name4 = '曾国骏';
+        this.sec5title4 = 'SELF 联合创始人＆风险管理委员';
 
-        this.sec5intro5 =
-          '曾任资策会产推处副处长、经济部中小企业执行国家级对接欧美加速器的计画主持人，曾协助全球第五大特效公司- Rhythm & Hues (李安导演Life of Pi 后制特效）在台募资含国发基金等投资2100 万美金，未来将协助SELF TOKEN 在技术发展上有更稳固的基础，并协同整合两岸、国际资源，逐步落实各项应用。 ';
-        this.sec5name5 = '洪雯娟';
-        this.sec5title5 = 'SELF 联合创始人＆风险管理委员';
+        this.sec5intro5 =
+          '曾任资策会产推处副处长、经济部中小企业执行国家级对接欧美加速器的计画主持人，曾协助全球第五大特效公司- Rhythm & Hues (李安导演Life of Pi 后制特效）在台募资含国发基金等投资2100 万美金，未来将协助SELF TOKEN 在技术发展上有更稳固的基础，并协同整合两岸、国际资源，逐步落实各项应用。 ';
+this.sec5name5 = '洪雯娟';
+        this.sec5title5 = 'SELF 创始人＆风险管理委员';
 
-        this.sec5intro6 =
-          '曾任澳商红点行销之行销总监，协助VISA 和中信金、日盛金推动异业结盟合作以及红利点数回馈机制，现为大砚建筑品牌行销暨客户关系总监、新竹县不动产开发公会副理事长，创办第一届住宅博览会，创造超过两亿新台币的现场交易量，未来将协助SELF TOKEN 落实与在地商家连接、拓展SELF PAY 的多样化娱乐餐饮商机，并建造完整的品牌形象。 ';
-        this.sec5name6 = '林帝沅';
-        this.sec5title6 = 'SELF 创始人＆风险管理委员';
+        this.sec5intro6 =
+          '曾任澳商红点行销之行销总监，协助VISA 和中信金、日盛金推动异业结盟合作以及红利点数回馈机制，现为大砚建筑品牌行销暨客户关系总监、新竹县不动产开发公会副理事长，创办第一届住宅博览会，创造超过两亿新台币的现场交易量，未来将协助SELF TOKEN 落实与在地商家连接、拓展SELF PAY 的多样化娱乐餐饮商机，并建造完整的品牌形象。 ';
+        this.sec5name6 = '林帝沅';
+        this.sec5title6 = 'SELF 创始人＆风险管理委员';
 
-        this.sec5intro7 =
-          '资深的企业财务顾问、天使投资人，曾协助四家公司在台湾主板上市、渣打银行董事总经理以及汇丰环球投资银行大中华区董事总经理进行相关投资工作，同时也是资深虚拟货币投资人，将协助SELF TOKEN 在未来营运上取得更多不同的币圈内外互利合作的机会以及架构完整金融交易生态圈。 ';
-        this.sec5name7 = '邱瑞文';
-        this.sec5title7 = 'SELF 创始人＆风险管理委员';
+        this.sec5intro7 =
+          '资深的企业财务顾问、天使投资人，曾协助四家公司在台湾主板上市、渣打银行董事总经理以及汇丰环球投资银行大中华区董事总经理进行相关投资工作，同时也是资深虚拟货币投资人，将协助SELF TOKEN 在未来营运上取得更多不同的币圈内外互利合作的机会以及架构完整金融交易生态圈。 ';
+        this.sec5name7 = '邱瑞文';
+        this.sec5title7 = 'SELF 联合创始人＆风险管理委员';
 
-        this.sec5intro8 =
-          '前Google 软体工程师，哈工大毕业，2015年微软编程之美竞赛总冠军，包括星云链、BlockCity Hackthon 等竞赛获奖，传奇智能合约工程师，制作并协助发行2018年中国第一款区块链游戏「以太萌王」、「以太水浒」、「冥币」等七款智能合约游戏，曾创下24小时全球交易量Top#3，两周总流水780ETH 的记录。协助 SELF CHAIN 进行智能合约的研发、测试与布建。 ';
-        this.sec5name8 = '唐飞虎';
-        this.sec5title8 = 'SELF 智能合约开发团队总监';
+        this.sec5intro8 =
+          '前Google 软体工程师，哈工大毕业，2015年微软编程之美竞赛总冠军，包括星云链、BlockCity Hackthon 等竞赛获奖，传奇智能合约工程师，制作并协助发行2018年中国第一款区块链游戏「以太萌王」、「以太水浒」、「冥币」等七款智能合约游戏，曾创下24小时全球交易量Top#3，两周总流水780ETH 的记录。协助 SELF CHAIN 进行智能合约的研发、测试与布建。 ';
+        this.sec5name8 = '唐飞虎';
+        this.sec5title8 = 'SELF 智能合约开发团队总监';
 
-        this.sec5intro9 =
-          '芝加哥大学经济学博士，现任美国 Clemson University 经济学助理教授，専精于网路经济学，数位经济学。 Tom 的研究包含共享经济，电商评分系统，游戏产业，工程招标及诱因合约设计。于上海、香港及美国等地主讲有关计量经济学及机器学习的讲座及课程。协助 SELF Token 进行经济学模型模拟与计算。 ';
-        this.sec5name9 = '林仲生';
-        this.sec5title9 = 'SELF 首席经济学家';
+        this.sec5intro9 =
+          '芝加哥大学经济学博士，现任美国 Clemson University 经济学助理教授，専精于网路经济学，数位经济学。 Tom 的研究包含共享经济，电商评分系统，游戏产业，工程招标及诱因合约设计。于上海、香港及美国等地主讲有关计量经济学及机器学习的讲座及课程。协助 SELF Token 进行经济学模型模拟与计算。 ';
+        this.sec5name9 = '林仲生';
+        this.sec5title9 = 'SELF 首席经济学家';
 
-        this.sec5intro10 =
-          '台大电机系毕业，目前是台大电信所硕士生。2018 开源人年会 Blockchain 议程的讲者。曾在 HTC、联发科、Ubitus等公司工作实习。拥有多年智能合约开发经验与网页前端开发经验。将协助 SELF CHAIN 进行智能合约研发、测试与布建，亦着重智能合约与 SELF PAY 前后端的整合，未来亦将协助探索 SELF Dapps 架构设计与实作研发。 ';
-        this.sec5name10 = '吴冠融';
-        this.sec5title10 = 'SELF 首席区块链工程师';
+        this.sec5intro10 =
+          '台大电机系毕业，目前是台大电信所硕士生。 2018 开源人年会 Blockchain 议程的讲者。曾在 HTC、联发科、Ubitus等公司工作实习。拥有多年智能合约开发经验与网页前端开发经验。将协助 SELF CHAIN 进行智能合约研发、测试与布建，亦着重智能合约与 SELF PAY 前后端的整合，未来亦将协助探索 SELF Dapps 架构设计与实作研发。 ';
+        this.sec5name10 = '吴冠融';
+        this.sec5title10 = 'SELF 首席区块链工程师';
 
-        this.sec5intro11 =
-          '香港知名演员、电视节目主持和电影制作人。近年多为电视节目主持，偶为电影导演，他同时亦投资、策划及参与电影制作。现代表香港演艺人协会任香港电影金像奖董事局副主席。曾荣获第11届香港金像奖《双城故事》荣获最佳男主角、第36届香港金像奖《一念无明》荣获最佳男配角、第53届金马奖《愈快乐愈堕落》荣获最佳男配角。 ';
-        this.sec5name11 = '曾志伟';
-        this.sec5title11 = 'SELF 原创电影《圣人大盗》监制';
+        this.sec5intro11 =
+          '香港知名演员、电视节目主持和电影制作人。近年多为电视节目主持，偶为电影导演，他同时亦投资、策划及参与电影制作。现代表香港演艺人协会任香港电影金像奖董事局副主席。曾荣获第11届香港金像奖《双城故事》荣获最佳男主角、第36届香港金像奖《一念无明》荣获最佳男配角、第53届金马奖《愈快乐愈堕落》荣获最佳男配角。 ';
+        this.sec5name11 = '曾志伟';
+        this.sec5title11 = 'SELF 原创电影《圣人大盗》监制';
 
-        this.sec5intro12 =
-          '台湾资深电影人，深耕电影逾二十载,合作对象皆为 享誉中外、作品题材各异的优秀导演。擅长电影资源整合、预算掌控与制作，具丰富的国际合作经验。现担任华文创总监制。曾获得第50 届金马奖年度台湾杰出电影工作者，并担任第35 届香港金像奖提名最佳两岸华语电影《我的少女时代》总监制以及第53 届金马奖8 项提名、第36 届香港金像奖最佳两岸华语电影《一路顺风》监制。 ';
-        this.sec5name12 = '叶如芬';
-        this.sec5title12 = 'SELF 原创电影《圣人大盗》监制';
+        this.sec5intro12 =
+          '台湾资深电影人，深耕电影逾二十载,合作对象皆为 享誉中外、作品题材各异的优秀导演。擅长电影资源整合、预算掌控与制作，具丰富的国际合作经验。现担任华文创总监制。曾获得第50 届金马奖年度台湾杰出电影工作者，并担任第35 届香港金像奖提名最佳两岸华语电影《我的少女时代》总监制以及第53 届金马奖8 项提名、第36 届香港金像奖最佳两岸华语电影《一路顺风》监制。 ';
+        this.sec5name12 = '叶如芬';
+        this.sec5title12 = 'SELF 原创电影《圣人大盗》监制';
 
-        this.sec5intro13 =
-          '渺小（歌手：田馥甄）、寂寞寂寞就好（歌手：田馥甄）、意外（歌手：薛之谦）、曾经是少年（歌手：SHE）等华语畅销歌曲、电影原创主题曲作曲，曾获得金曲奖、上海音乐风云榜年度十大金曲等殊荣，现任SELFPICK PRODUCTION 音乐总监、华研音乐专属词曲音乐作者。 ';
-        this.sec5name13 = '杨子朴';
-        this.sec5title13 = 'SELF 原创电影《圣人大盗》音乐总监';
+        this.sec5intro13 =
+          '渺小（歌手：田馥甄）、寂寞寂寞就好（歌手：田馥甄）、意外（歌手：薛之谦）、曾经是少年（歌手：SHE）等华语畅销歌曲、电影原创主题曲作曲，曾获得金曲奖、上海音乐风云榜年度十大金曲等殊荣，现任SELFPICK PRODUCTION 音乐总监、华研音乐专属词曲音乐作者。 ';
+        this.sec5name13 = '杨子朴';
+        this.sec5title13 = 'SELF 原创电影《圣人大盗》音乐总监';
 
-        this.sec5intro14 =
-          '毕业于南加州大学大众传播系，曾有在美国生物科技产业招募人才与社群行销经验，同时在恒心资本（Perseverance Capital Management LLC) 协助投资管理 。近期回台也在虚拟货币产业公司担任主导招募与翻译，协助行销团队对国外用户进行推广教育。未来将协助与代表 Self Token 对外进行区块链教育和对英语系国家进行IEO计画的公关宣传。 ';
-        this.sec5name14 = '许家瑄';
-        this.sec5title14 = '共同创始人';
+        this.sec5intro14 =
+          '毕业于南加州大学大众传播系，曾有在美国生物科技产业招募人才与社群行销经验，同时在恒心资本 (Perseverance Capital Management LLC) 协助投资管理 。近期回台也在虚拟货币产业公司担任主导招募与翻译，协助行销团队对国外用户进行推广教育。未来将协助与代表 Self Token 对外进行区块链教育和对英语系国家进行IEO计画的公关宣传。 ';
+        this.sec5name14 = '许家瑄';
+        this.sec5title14 = 'SELF 共同创始人';
 
-        this.sec5intro15 =
-          '从事平面设计工作近十年，擅长平面、网站版面、包装、与美术设计。多项音乐展演、影视海报设计经验，包含奥地利插画家 Lisbeth Zwerger 来台巡回展出海报与周边商品之专案设计，东发生技水果啤酒系列包装设计等。现为 SELFPICK PRODUCTION 艺术统筹，执行美术场景设计、周边商品开发制作与企业 CIS 设计。 ';
-        this.sec5name15 = '何姿莹';
-        this.sec5title15 = 'SELF 艺术总监';
+        this.sec5intro15 =
+          '从事平面设计工作近十年，擅长平面、网站版面、包装、与美术设计。多项音乐展演、影视海报设计经验，包含奥地利插画家 Lisbeth Zwerger 来台巡回展出海报与周边商品之专案设计，东发生技水果啤酒系列包装设计等。现为 SELFPICK PRODUCTION 艺术统筹，执行美术场景设计、周边商品开发制作与企业 CIS 设计。 ';
+        this.sec5name15 = '何姿莹';
+        this.sec5title15 = 'SELF 艺术总监';
 
-        this.sec5intro16 =
-          '香港科技大学一级荣誉毕业，现任图灵链科技公司创始人与执行长，兼任纽约 Blackbird.AI 区块链科技总监。是历史首位港科大题名至矽谷的实习生，负责Google Glass医疗科技，隔年于 J.P. Morgan 研发NLP核心。曾获香港 Microsoft Imagine Cup 亚军及AI Cup季军，Uber 电梯演讲冠军，韩国 UpTown 商务程竞亚军，法国 Atos IT 挑战赛世界二十强与德国 CryBlock 论坛 Best Paper 等国内外数十奖项。将协助 SELF Dapp 进行技术开发以及建置，并结合其公司团队成员一同完成 SELF Dapp 之 原型。 ';
-        this.sec5name16 = '胡耀杰';
-        this.sec5title16 = 'SELF DApp 合作开发者＆区块链技术顾问';
+        this.sec5intro16 =
+          '香港科技大学一级荣誉毕业，现任图灵链科技公司创始人与执行长，兼任纽约 Blackbird.AI 区块链科技总监。是历史首位港科大题名至矽谷的实习生，负责Google Glass医疗科技，隔年于 J.P. Morgan 研发NLP核心。曾获香港 Microsoft Imagine Cup 亚军及AI Cup季军，Uber 电梯演讲冠军，韩国 UpTown 商务程竞亚军，法国 Atos IT 挑战赛世界二十强与德国 CryBlock 论坛 Best Paper 等国内外数十奖项。将协助 SELF Dapp 进行技术开发以及建置，并结合其公司团队成员一同完成 SELF Dapp 之 原型。 ';
+        this.sec5name16 = '胡耀杰';
+        this.sec5title16 = 'SELF DApp 合作开发者＆区块链技术顾问';
 
-        this.sec5intro17 =
-          '现任微软 Microsoft 亚太区人工智能研究员，横跨香港、印度、广州及深圳，于香港科技大学就学中，并担任图灵链科技公司区块链总监。曾于香港 Digitas 开发数项知名ICO项目，2018年荣获德国慕尼黑CryBlock论坛最佳论文，其著作 ERC860 将受邀于国际期刊 CPE 刊出。曾在加拿大 ETHWaterloo 盛会作为香港区块链代表，同时也于知名写作平台 Medium 撰写加密货币与 Ethereum 专栏，获选为 Top Writer。将协助 SELF Dapp 进行技术开发以及建置。 ';
-        this.sec5name17 = '李婷婷';
-        this.sec5title17 = 'SELF DApp 合作开发者＆区块链技术顾问';
+        this.sec5intro17 =
+          '现任微软 Microsoft 亚太区人工智能研究员，横跨香港、印度、广州及深圳，于香港科技大学就学中，并担任图灵链科技公司区块链总监。曾于香港 Digitas 开发数项知名ICO项目，2018年荣获德国慕尼黑CryBlock论坛最佳论文，其著作 ERC860 将受邀于国际期刊 CPE 刊出。曾在加拿大 ETHWaterloo 盛会作为香港区块链代表，同时也于知名写作平台 Medium 撰写加密货币与 Ethereum 专栏，获选为 Top Writer。将协助 SELF Dapp 进行技术开发以及建置。 ';
+        this.sec5name17 = '李婷婷';
+        this.sec5title17 = 'SELF DApp 合作开发者＆区块链技术顾问';
 
-        this.sec5intro18 =
-          '台大资管系硕士毕业，曾于网页工作室担任前后端工程师，亦于奥美公关服务国际客户、台湾爱立信从事品牌行销，毕业后于大数据分析新创 MoBagel 任职资料分析师并在三年内晋升为大中华区营运长，并有过管理三十人团队之经验。目前协助 SELF Token 负责公司营运、策略规划及产品开发管理。';
-        this.sec5name18 = '陈采青';
-        this.sec5title18 = '营运长暨 SELF 共同创办人';
+        this.sec5intro18 =
+          '台大资管系硕士毕业，曾于网页工作室担任前后端工程师，亦于奥美公关服务国际客户、台湾爱立信从事品牌行销，毕业后于大数据分析新创MoBagel 任职资料分析师并在三年内晋升为大中华区营运长，并有过管理三十人团队之经验。目前协助 SELF Token 负责公司营运、策略规划及产品开发管理。 ';
+        this.sec5name18 = '陈采青';
+        this.sec5title18 = '营运长暨 SELF 共同创办人';
 
-        this.sec5intro19 =
-          '毕业于台湾大学资讯管理系，为Ptt 站长以及共同创办人、阳光沙滩BBS创办人。深耕网路资讯与行动商务领域二十馀年，参与KKBOX、Omusic、Richi、TechOrange等知名团队的草创时期，也曾贡献于HP、中华电信、Yahoo等大型企业，是一名骇客、连续创业家、全端工程师。';
-        this.sec5name19 = '戴志洋';
-        this.sec5title19 = '技术長暨 SELF 共同创办人';
+        this.sec5intro19 =
+          '毕业于台湾大学资讯管理系，为Ptt 站长以及共同创办人、阳光沙滩BBS创办人。深耕网路资讯与行动商务领域二十余年，参与KKBOX、Omusic、Richi、TechOrange等知名团队的草创时期，也曾贡献于HP、中华电信、Yahoo等大型企业，是一名骇客、连续创业家、全端工程师。 ';
+        this.sec5name19 = '戴志洋';
+        this.sec5title19 = '技术长暨 SELF 共同创办人';
 
-        this.emailAlert = '已收到您的电子邮件，我们将尽快回覆您。 ';
+        this.emailAlert = '已收到您的电子邮件，我们将尽快回覆您。 ';
 
-        // 进度条
-        this.crowdsale = '群募认购倒数';
-        this.total_raised = '目前集资';
-        this.buy_with_eth = '以太币购买';
-        this.buy_with_ntd = '新台币购买';
-        this.phase1 = '第一阶段';
-        this.cornerstone = '基石轮';
-        this.softcap = '软顶';
-        this.hardcap = '硬顶';
-        this.phase2 = '第二阶段';
-        this.phase3 = '第三阶段';
+        // Progress Bar
+        this.crowdsale = '群募认购倒数';
+        this.total_raised = '目前集资';
+        this.buy_with_eth = '以太币购买';
+        this.buy_with_ntd = '新台币购买';
+        this.phase1 = '第一阶段';
+        this.cornerstone = '基石轮';
+        this.softcap = '软顶';
+        this.hardcap = '硬顶';
+        this.phase2 = '第二阶段';
+        this.phase3 = '第三阶段';
       }
     },
   },
