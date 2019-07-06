@@ -1532,13 +1532,13 @@ section {
       left: -5px; } }
 
 .sec2 .content:nth-of-type(6) p:before {
-  background-size: 150px;
-  left: -30px;
+  background-size: 120px;
+  left: -20px;
   background-image: url("../img/main/關於我們06.png"); }
   @media screen and (max-width: 992px) {
     .sec2 .content:nth-of-type(6) p:before {
-      background-size: 65px;
-      left: -5px; } }
+      background-size: 50px;
+      left: 0px; } }
 
 .sec2 .content:nth-of-type(7) h3,
 .sec2 .content:nth-of-type(7) p {
