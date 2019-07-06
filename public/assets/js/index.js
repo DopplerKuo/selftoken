@@ -136,9 +136,8 @@ var selftoken = new Vue ({
   },
 
   computed: {
-    pointsHeader1: function () {
+    pointsHeaderOne: function () {
       var width = $ ('header .content').width ();
-      var height = $ ('header').height ();
       var string = `${width / 4},0 0,${width / 4} ${width / 4},${width / 2}`;
       return string;
     },
@@ -163,7 +162,7 @@ var selftoken = new Vue ({
         this.sec2Title3 = '全方位的娛樂生態系統';
         this.sec2Dsc3 =
           '支持 100 SELF 可兌換 1 張台灣、香港可流通之電影票，並設立由 SELF 團隊（SELF GROUP 包括：SELF PICK PRODUCTION、SELF TOKEN、SELF SPACE）所共同控股之沉浸式娛樂場域，預計將在未來以食、衣、住、行、育、樂等六大面向簽訂多家知名合作品牌，同時經營拓展多種不同性質之場域，包含酒吧、咖啡廳、共創空間、民宿、複合型商場等。';
-        this.sec2Title4 = '全透明的獎勵機制';
+        this.sec2Title4 = '全面共贏的獎勵機制';
         this.sec2Dsc4 =
           '透過聯合創始人芝加哥大學經濟學博士林仲生所建立之區塊鏈生態經濟模型，我們將可以公平、透明、靈活的讓系統中所有的參與者皆成為受益者，並依據參與者每一次推動電影票房、場域營收、生態系成長等行為，進行積分累積與獲得獎勵回饋。';
         this.sec2Title5 = '全球流通的應用代幣';
@@ -208,9 +207,9 @@ var selftoken = new Vue ({
         this.sec5title2 = 'SELF 共同創始人＆區塊鏈技術顧問';
 
         this.sec5intro3 =
-          '為美國永恆生技（Cold Genesys Inc.）執行長，為全美最年輕的生技公司負責人，擁有掌管十億台幣資本額，募資超過兩千五百萬美元的實力！關心同時為資深虛擬貨幣投資人，並創辦以投資區塊鏈為重點之一的恆心資本（Perseverance Capital Management LLC) 。 精準的眼光與豐沛的人脈資源，未來必定能協助SELF TOKEN往國際市場推進，達成整合綜效。';
+          '美國永恆生技（Cold Genesys Inc.）執行長，為全美最年輕的生技公司負責人，擁有掌管十億台幣資本額，募資超過兩千五百萬美元的經歷。關心同時為資深虛擬貨幣投資人，並創辦以投資區塊鏈為重點之一的恆心資本（Perseverance Capital Management LLC) 。 未來將以豐沛的人脈資源與實務經驗協助 SELF TOKEN 往國際市場推進，並達成整合綜效。';
         this.sec5name3 = '關心';
-        this.sec5title3 = 'SELF 創始人＆風險管理委員';
+        this.sec5title3 = 'SELF 風險管理委員';
 
         this.sec5intro4 =
           '兩岸三地的著名製片人，也是電影製作公司影市堂的負責人，製作、出品知名華語電影九降風、殺手歐陽盆栽、變身、看不見的台灣等優秀作品，更獲得了台灣、香港金馬獎的多項肯定，未來將透過 SELF TOKEN 讓影視圈與區塊鏈科技更緊密結合，並共創出更多優秀的電影、網路影視內容。';
@@ -220,12 +219,12 @@ var selftoken = new Vue ({
         this.sec5intro5 =
           '曾任資策會產推處副處長、經濟部中小企業執行國家級對接歐美加速器的計畫主持人，曾協助全球第五大特效公司 - Rhythm & Hues (李安導演 Life of Pi 後製特效 ）在台募資含國發基金等投資 2100 萬美金，未來將協助 SELF TOKEN 在技術發展上有更穩固的基礎，並協同整合兩岸、國際資源，逐步落實各項應用。';
         this.sec5name5 = '洪雯娟';
-        this.sec5title5 = 'SELF 創始人＆風險管理委員';
+        this.sec5title5 = 'SELF 風險管理委員';
 
         this.sec5intro6 =
           '曾任澳商紅點行銷之行銷總監，協助 VISA 和中信金、日盛金推動異業結盟合作以及紅利點數回饋機制，現為大硯建築品牌行銷暨客戶關係總監、新竹縣不動產開發公會副理事長，創辦第一屆住宅博覽會，創造超過兩億新台幣的現場交易量，未來將協助 SELF TOKEN 落實與在地商家連接、拓展 SELF PAY 的多樣化娛樂餐飲商機，並建造完整的品牌形象。';
         this.sec5name6 = '林帝沅';
-        this.sec5title6 = 'SELF 創始人＆風險管理委員';
+        this.sec5title6 = 'SELF 風險管理委員';
 
         this.sec5intro7 =
           '資深的企業財務顧問、天使投資人，曾協助四家公司在台灣主板上市、渣打銀行董事總經理以及匯豐環球投資銀行大中華區董事總經理進行相關投資工作，同時也是資深虛擬貨幣投資人，將協助 SELF TOKEN 在未來營運上取得更多不同的幣圈內外互利合作的機會以及架構完整金融交易生態圈。';
@@ -238,14 +237,14 @@ var selftoken = new Vue ({
         this.sec5title8 = 'SELF 智能合約開發團隊總監';
 
         this.sec5intro9 =
-          '芝加哥大學經濟學博士，現任美國 Clemson University 經濟學助理教授，専精於網路經濟學，數位經濟學。Tom 的研究包含共享經濟，電商評分系統，遊戲產業，工程招標及誘因合約設計。於上海、香港及美國等地主講有關計量經濟學及機器學習的講座及課程。協助 SELF Token 進行經濟學模型模擬與計算。';
+          '芝加哥大學經濟學博士，現任美國 Clemson University 經濟學助理教授，専精於網路經濟學，數位經濟學。林仲生博士的研究包含共享經濟，電商評分系統，遊戲產業，工程招標及誘因合約設計。於上海、香港及美國等地主講有關計量經濟學及機器學習的講座及課程。協助 SELF TOKEN 進行經濟學模型模擬與計算。';
         this.sec5name9 = '林仲生';
-        this.sec5title9 = 'SELF 首席經濟學家';
+        this.sec5title9 = 'SELF 聯合創始人&首席經濟學家';
 
         this.sec5intro10 =
           '台大電機系畢業，目前是台大電信所碩士生。2018 開源人年會 Blockchain 議程的講者。曾在 HTC、聯發科、Ubitus等公司工作實習。擁有多年智能合約開發經驗與網頁前端開發經驗。將協助 SELF CHAIN 進行智能合約研發、測試與佈建，亦著重智能合約與 SELF PAY 前後端的整合，未來亦將協助探索 SELF Dapps 架構設計與實作研發。';
         this.sec5name10 = '吳冠融';
-        this.sec5title10 = 'SELF 首席區塊鏈工程師';
+        this.sec5title10 = 'SELF DApp 專案經理';
 
         this.sec5intro11 =
           '香港知名演員、電視節目主持和電影製作人。近年多為電視節目主持，偶為電影導演，他同時亦投資、策劃及參與電影製作。現代表香港演藝人協會任香港電影金像獎董事局副主席。曾榮獲 第11屆香港金像獎《雙城故事》榮獲最佳男主角、第36屆香港金像獎《一念無明》榮獲最佳男配角、第53屆金馬獎《愈快樂愈墮落》榮獲最佳男配角。';
@@ -263,7 +262,7 @@ var selftoken = new Vue ({
         this.sec5title13 = 'SELF 原創電影《聖人大盜》音樂總監';
 
         this.sec5intro14 =
-          '畢業於南加州大學大眾傳播系，曾有在美國生物科技產業招募人才與社群行銷經驗，同時在恆心資本 (Perseverance Capital Management LLC) 協助投資管理 。近期回台也在虛擬貨幣產業公司擔任主導招募與翻譯，協助行銷團隊對國外用戶進行推廣教育。未來將協助與代表 Self Token 對外進行區塊鏈教育和對英語系國家進行IEO計畫的公關宣傳。';
+          '畢業於南加州大學大眾傳播系，曾有在美國生物科技產業招募人才與社群行銷經驗，同時在恆心資本 (Perseverance Capital Management LLC) 協助投資管理 。近期回台也在虛擬貨幣產業公司擔任主導招募與翻譯，協助行銷團隊對國外用戶進行推廣教育。未來將協助與代表 SELF TOKEN 對外進行區塊鏈教育和對英語系國家進行IEO計畫的公關宣傳。';
         this.sec5name14 = '許家瑄';
         this.sec5title14 = 'SELF 共同創始人';
 
@@ -388,7 +387,7 @@ var selftoken = new Vue ({
         this.sec5intro3 =
           'Arthur is the CEO of Cold Genesys Inc., the youngest biotech company in the United States with over $1 billion in capital and raised more than $25 million. Arthur is also a veteran cryptocurrency investor, having founded Perseverance Capital Management LLC, which focuses on blockchain investments. With a precise vision and abundant network resources, he will help SELF TOKEN advance to the international market and achieve complete integration.';
         this.sec5name3 = 'Arthur';
-        this.sec5title3 = 'Founder & Risk Advisor';
+        this.sec5title3 = 'Risk Advisor';
 
         this.sec5intro4 =
           'Gary, a distinguished producer based in Hong Kong, China, and Taiwan, is the director of film production company Film Mall, and is best known for producing Winds of September (2008), The Killer Who Never Kills (2011), Machi Action (2013), and A Journey with Invisible Friends (2018). Having won several accolades from Golden Horse Awards, Gary will help SELFPICK create media content, and help integrate the entertainment industry with blockchain technology.';
@@ -456,12 +455,12 @@ var selftoken = new Vue ({
         this.sec5intro16 =
           'Jeff graduated top of his class from the Hong Kong University of Science and Technology (HKUST) and is the founder and CEO of Turing Chain. Jeff is the current adjunct director of Blackbird.AI blockchain technology and the first HKUST student to intern at Silicon Valley where he worked on a medical system for Google Glass. After Jeff’s internship in Silicon Valley, he worked on an NLP Core at J.P. Morgan. Jeff has received countless accolades and won many awards, including: the Uber Elevator Pitch, Best Paper from Germany’s CryBlock Forum, Top 20 in the French Atos IT Challenge, runner-up for the Korean UpTown, as well as runner-up for Hong Kong Microsoft’s Imagine Cup and third place for the AI Cup. Jeff will be assisting with the prototyping and development of SELF Dapp.';
         this.sec5name16 = 'Jeff';
-        this.sec5title16 = 'Self Dapp Developer & Blockchain Consultant ';
+        this.sec5title16 = 'SELF Dapp Developer & Blockchain Consultant ';
 
         this.sec5intro17 =
           'Tina is currently an A.I. researcher at Microsoft Pacific, spanning Hong Kong, India, Guangzhou, and Shenzhen. Tina attended Hong Kong University of Science and Technology, and is now serving as the blockchain director of Turing Chain. Tina has developed numerous ICO projects at Hong Kong’s Digitas and won the 2018 Munich CryBlock Best Paper with a paper on ERC860 - which has been invited for publication on international journal CPE. Tina was the former representative of Hong Kong blockchain at Canada’s ETHWaterloo, and is also a established Top Writer on Medium about cryptocurrency and Ethereum. Tina will be assisting with the development of SELF Dapp.';
         this.sec5name17 = 'Tina';
-        this.sec5title17 = 'Self Dapp Developer & Blockchain Consultant';
+        this.sec5title17 = 'SELF Dapp Developer & Blockchain Consultant';
 
         this.sec5intro18 =
           'Sam holds a masters for MIS at the National Taiwan University. Sam started off as a back-end development intern at a startup. She then joined Ogilvy PR and Ericsson Taiwan Marketing where she gained experience in the PR field. After graduation she went to MoBagel as a data scientist for big data, and was later promoted to the Greater China Regional COO within three years. She assisted the company in a billion-dollar fundraising and has experience managing a team of 30.';
@@ -504,7 +503,7 @@ var selftoken = new Vue ({
         this.sec2Title3 = '全方位的娱乐生态系统';
         this.sec2Dsc3 =
           '支持100 SELF 可兑换1 张台湾、香港可流通之电影票，并设立由SELF 团队（SELF GROUP 包括：SELF PICK PRODUCTION、SELF TOKEN、SELF SPACE）所共同控股之沉浸式娱乐场域，预计将在未来以食、衣、住、行、育、乐等六大面向签订多家知名合作品牌，同时经营拓展多种不同性质之场域，包含酒吧、咖啡厅、共创空间、民宿、复合型商场等。 ';
-        this.sec2Title4 = '全透明的奖励机制';
+        this.sec2Title4 = '全面共赢的奖励机制';
         this.sec2Dsc4 =
           '透过联合创始人芝加哥大学经济学博士林仲生所建立之区块链生态经济模型，我们将可以公平、透明、灵活的让系统中所有的参与者皆成为受益者，并依据参与者每一次推动电影票房、场域营收、生态系成长等行为，进行积分累积与获得奖励回馈。 ';
         this.sec2Title5 = '全球流通的应用代币';
@@ -551,7 +550,7 @@ var selftoken = new Vue ({
         this.sec5intro3 =
           '为美国永恒生技（Cold Genesys Inc.）执行长，为全美最年轻的生技公司负责人，拥有掌管十亿台币资本额，募资超过两千五百万美元的实力！关心同时为资深虚拟货币投资人，并创办以投资区块链为重点之一的恒心资本（Perseverance Capital Management LLC) 。精准的眼光与丰沛的人脉资源，未来必定能协助SELF TOKEN往国际市场推进，达成整合综效。 ';
         this.sec5name3 = '关心';
-        this.sec5title3 = 'SELF 创始人＆风险管理委员';
+        this.sec5title3 = '风险管理委员';
 
         this.sec5intro4 =
           '两岸三地的著名制片人，也是电影制作公司影市堂的负责人，制作、出品知名华语电影九降风、杀手欧阳盆栽、变身、看不见的台湾等优秀作品，更获得了台湾、香港金马奖的多项肯定，未来将透过SELF TOKEN 让影视圈与区块链科技更紧密结合，并共创出更多优秀的电影、网路影视内容。 ';
@@ -579,7 +578,7 @@ this.sec5name5 = '洪雯娟';
         this.sec5title8 = 'SELF 智能合约开发团队总监';
 
         this.sec5intro9 =
-          '芝加哥大学经济学博士，现任美国 Clemson University 经济学助理教授，専精于网路经济学，数位经济学。 Tom 的研究包含共享经济，电商评分系统，游戏产业，工程招标及诱因合约设计。于上海、香港及美国等地主讲有关计量经济学及机器学习的讲座及课程。协助 SELF Token 进行经济学模型模拟与计算。 ';
+          '芝加哥大学经济学博士，现任美国 Clemson University 经济学助理教授，専精于网路经济学，数位经济学。 林仲生博士的研究包含共享经济，电商评分系统，游戏产业，工程招标及诱因合约设计。于上海、香港及美国等地主讲有关计量经济学及机器学习的讲座及课程。协助 SELF Token 进行经济学模型模拟与计算。 ';
         this.sec5name9 = '林仲生';
         this.sec5title9 = 'SELF 首席经济学家';
 

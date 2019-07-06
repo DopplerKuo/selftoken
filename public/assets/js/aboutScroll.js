@@ -177,4 +177,8 @@ $(function() {
       500
     );
   });
+
+  $("#nav .top").headroom();
+  $("#nav .top-right").headroom();
+  $(".menu-btn").headroom();
 });

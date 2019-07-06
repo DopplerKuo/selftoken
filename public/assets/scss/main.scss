@@ -1007,6 +1007,12 @@ header.ani {
   .road:nth-of-type(11):after {
     transition: 0.6s ease calc(2s * 2);
   }
+  .road:nth-of-type(12):after {
+    transition: 0.6s ease calc(2.2s * 2);
+  }
+  .road:nth-of-type(13):after {
+    transition: 0.6s ease calc(2.4s * 2);
+  }
 }
 
 .sec5 .content {
@@ -1136,10 +1142,6 @@ section {
 #nav .bot,
 #nav .right {
   transition: 1s ease 0.4s;
-}
-
-#nav .top {
-  transform: translateY(0%);
 }
 
 #nav .bot {
@@ -1806,4 +1808,21 @@ section {
       }
     }
   }
+}
+
+#nav .top.headroom {
+  will-change: transform;
+  transition: -webkit-transform 300ms ease-out;
+  transition: transform 300ms ease-out;
+  transition: transform 300ms ease-out, -webkit-transform 300ms ease-out;
+}
+#nav .top.headroom--pinned {
+  -webkit-transform: translateY(0%);
+      -ms-transform: translateY(0%);
+          transform: translateY(0%);
+}
+#nav .top.headroom--unpinned {
+  -webkit-transform: translateY(-100%);
+      -ms-transform: translateY(-100%);
+          transform: translateY(-100%);
 }

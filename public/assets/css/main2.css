@@ -1289,6 +1289,11 @@ header.ani .sq-ani-right span {
   .medias a img, .medias > div img {
     width: 100%; }
 
+.medias > div img:hover {
+  transition: 0.3s ease;
+  filter: blur(5px);
+}
+
 .loading #nav,
 .loading header,
 .loading section {
@@ -1487,13 +1492,22 @@ section {
       background-size: 40px;
       top: 0; } }
 
-.sec2 .content:nth-of-type(2) p:before {
+.sec2 .content:nth-of-type(1) p:before {
   background-image: url("../img/main/關於我們01.png"); }
+
+.sec2 .content:nth-of-type(2) p:before {
+  background-size: 150px;
+  left: -30px;
+  background-image: url("../img/main/關於我們02.png"); }
+  @media screen and (max-width: 992px) {
+    .sec2 .content:nth-of-type(2) p:before {
+      background-size: 65px;
+      left: -5px; } }
 
 .sec2 .content:nth-of-type(3) p:before {
   background-size: 150px;
   left: -30px;
-  background-image: url("../img/main/關於我們02.png"); }
+  background-image: url("../img/main/關於我們03.png"); }
   @media screen and (max-width: 992px) {
     .sec2 .content:nth-of-type(3) p:before {
       background-size: 65px;
@@ -1502,7 +1516,7 @@ section {
 .sec2 .content:nth-of-type(4) p:before {
   background-size: 150px;
   left: -30px;
-  background-image: url("../img/main/關於我們03.png"); }
+  background-image: url("../img/main/關於我們04.png"); }
   @media screen and (max-width: 992px) {
     .sec2 .content:nth-of-type(4) p:before {
       background-size: 65px;
@@ -1511,7 +1525,7 @@ section {
 .sec2 .content:nth-of-type(5) p:before {
   background-size: 150px;
   left: -30px;
-  background-image: url("../img/main/關於我們04.png"); }
+  background-image: url("../img/main/關於我們05.png"); }
   @media screen and (max-width: 992px) {
     .sec2 .content:nth-of-type(5) p:before {
       background-size: 65px;
@@ -1520,7 +1534,7 @@ section {
 .sec2 .content:nth-of-type(6) p:before {
   background-size: 150px;
   left: -30px;
-  background-image: url("../img/main/關於我們05.png"); }
+  background-image: url("../img/main/關於我們06.png"); }
   @media screen and (max-width: 992px) {
     .sec2 .content:nth-of-type(6) p:before {
       background-size: 65px;
@@ -1530,7 +1544,7 @@ section {
 .sec2 .content:nth-of-type(7) p {
   padding-left: 0 !important; }
 
-.sec2 .content h3 {
+  .sec2 .content h3 {
   margin-bottom: 15px; }
 
 .loading-cover {
@@ -1930,3 +1944,37 @@ section {
           padding: 2px 1px 2px 4px;
           border-radius: 100%;
           font-size: 12px; }
+
+
+          #nav .top.headroom,
+          #nav .top-right.headroom,
+          .menu-btn.headroom {
+            will-change: transform;
+            transition: -webkit-transform 300ms ease-out;
+            transition: transform 300ms ease-out;
+            transition: transform 300ms ease-out, -webkit-transform 300ms ease-out;
+          }
+          
+          #nav .top.headroom--pinned,
+          #nav .top-right.headroom--pinned,
+          .menu-btn.headroom--pinned {
+            -webkit-transform: translateY(0%);
+                -ms-transform: translateY(0%);
+                    transform: translateY(0%);
+          }
+          
+          #nav .top.headroom--unpinned,
+          #nav .top-right.headroom--unpinned,
+          .menu-btn.headroom--unpinned {
+            -webkit-transform: translateY(-100%);
+                -ms-transform: translateY(-100%);
+                    transform: translateY(-100%);
+          }
+
+          #nav .top.headroom--unpinned,
+          #nav .top-right.headroom--unpinned,
+          .menu-btn.headroom--unpinned {
+            -webkit-transform: translateY(-120px);
+                -ms-transform: translateY(-120px);
+                    transform: translateY(-120px);
+          }

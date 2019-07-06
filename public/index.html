@@ -108,14 +108,14 @@
 
     <div class="bot flex-jsb-ac-">
       <div class="left flex-ac-jc-">
-        <a href="https://twitter.com/self_token_co" target="_blank">
-          <i class="fab fa-twitter"></i>
-        </a>
         <a href="https://facebook.com/selftoken" target="_blank">
           <i class="fab fa-facebook-f"></i>
         </a>
-        <a href="https://t.me/self_token" target="_blank">
-          <i class="fa fa-paper-plane"></i>
+        <a href="https://twitter.com/self_token_co" target="_blank">
+          <i class="fab fa-twitter"></i>
+        </a>
+        <a href="https://linkedin.com/company/self-token" target="_blank">
+          <i class="fab fa-linkedin-in"></i>
         </a>
         <a v-if="lang === 'en'" href="https://medium.com/self-token" target="_blank">
           <i class="fab fa-medium-m"></i>
@@ -123,12 +123,12 @@
         <a v-if="lang !== 'en'" href="https://medium.com/self-token-cn" target="_blank">
           <i class="fab fa-medium-m"></i>
         </a>
-        <a href="https://discordapp.com/channels/453448709368315916" target="_blank">
+        <!-- <a href="https://t.me/self_token" target="_blank">
+          <i class="fa fa-paper-plane"></i>
+        </a> -->
+        <!-- <a href="https://discordapp.com/channels/453448709368315916" target="_blank">
           <i class="fab fa-discord"></i>
-        </a>
-        <a href="https://linkedin.com/company/self-token" target="_blank">
-          <i class="fab fa-linkedin-in"></i>
-        </a>
+        </a> -->
       </div>
     </div>
 
@@ -145,7 +145,7 @@
 
   <header id="header">
     <svg>
-      <polyline class="header_svg" points="{{pointsHeader1}}" style="fill: none; stroke: #fff; stroke-width: 3" />
+      <polyline class="header_svg" :points="pointsHeaderOne" style="fill: none; stroke: #fff; stroke-width: 3" />
     </svg>
     <div class="content">
       <div class="header-model">
@@ -304,7 +304,7 @@
           <h3>2018 JUNE</h3>
           <p>{{ sec4p5 }}</p>
         </div>
-git
+
         <div class="road active road-finished">
           <h3>2018 JUNE-JULY</h3>
           <p v-html="sec4p6"></p>
@@ -356,9 +356,9 @@ git
         </div>
 
         <div class="road active">
-            <h3>2020</h3>
-            <p v-html="sec4p16"></p>
-          </div>
+          <h3>2020</h3>
+          <p v-html="sec4p16"></p>
+        </div>
       </div>
     </div>
   </section>
@@ -799,11 +799,14 @@ git
       <h2>CONTACT US</h2>
       <div class="flex-l2-m1-ac-jc-">
         <div class="left">
+          <a href="https://facebook.com/selftoken" target="_blank">
+            FACEBOOK
+          </a>
           <a href="https://twitter.com/self_token_co" target="_blank">
             TWITTER
           </a>
-          <a href="https://t.me/self_token" target="_blank">
-            TELEGRAM
+          <a href="https://www.linkedin.com/company/self-token" target="_blank">
+            LINKEDIN
           </a>
           <a v-if="lang === 'en'" href="https://medium.com/self-token" target="_blank">
             MEDIUM
@@ -811,22 +814,8 @@ git
           <a v-if="lang !== 'en'" href="https://medium.com/self-token-cn" target="_blank">
             MEDIUM
           </a>
-          <a href="https://facebook.com/selftoken" target="_blank">
-            FACEBOOK
-          </a>
-          <a href="http://line.me/ti/g/JEw1yp8MCK" target="_blank">
-            LINE
-          </a>
-          <a href="https://discordapp.com/channels/453448709368315916" target="_blank">
-            DISCORD
-          </a>
-          <a href="https://www.linkedin.com/company/self-token" target="_blank">
-            LINKEDIN
-          </a>
         </div>
         <div class="right">
-          <!-- <a href="">BITCOIN FORUM</a> -->
-          <a href="https://www.reddit.com/user/self_token_co/">REDDIT</a>
           <i class="far fa-envelope"></i>
           <span>CONTACT@SELFTOKEN.CO</span>
         </div>
@@ -858,6 +847,8 @@ git
     $('.canvas-block').show();
   }
 </script>
+<script src="/assets/js/vendor/headroom/headroom.js"></script>
+<script src="/assets/js/vendor/headroom/jQuery.headroom.js"></script>
 <script src="/assets/js/animateNumber.js"></script>
 <script src="/assets/js/vendor/scrollreveal/scrollreveal.min.js"></script>
 <script src="/assets/js/aboutScroll.js"></script>
