@@ -1461,7 +1461,16 @@ section {
 
 .sec7 .right {
   padding-left: 40px;
-  padding-top: 20px; }
+  padding-top: 76px; }
+  @media screen and (max-width: 992px) {
+    .sec7 .right {
+      padding-top: 20px; 
+      padding-left: 60px;
+    }
+
+    .sec7 .left {
+      padding-left: 60px; }
+  }
 
 .sec2 .content p,
 .sec2 .content h3 {
