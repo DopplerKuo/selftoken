@@ -1286,12 +1286,21 @@ header.ani .sq-ani-right span {
   padding: 10px 10px;
   text-align: center;
   margin-bottom: 30px; }
-  .medias a img, .medias > div img {
-    width: 100%; }
 
-.medias > div img:hover {
-  transition: 0.3s ease;
-  filter: blur(5px);
+.medias > a img:nth-of-type(1), .medias > div img:nth-of-type(1) {
+  display: inline-block;
+}
+
+.medias > a img:nth-of-type(2), .medias > div img:nth-of-type(2) {
+  display: none;
+}
+
+.medias > a:hover img:nth-of-type(1), .medias > div:hover img:nth-of-type(1) {
+  display: none;
+}
+
+.medias > a:hover img:nth-of-type(2), .medias > div:hover img:nth-of-type(2) {
+  display: inline-block;
 }
 
 .loading #nav,
