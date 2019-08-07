@@ -178,20 +178,20 @@ var selftoken = new Vue ({
         this.sec4p3 =
           '與橫跨電影圈、金融圈、鏈圈之夥伴組成聯合創始團隊，共同出資一千兩百萬元新台幣，登記設立區塊鏈項目之執行公司 SELF TOKEN，並與合作交易所簽訂合作備忘錄。';
         this.sec4p4 =
-          '電影製作基金「聖人大盜電影有限合夥」進行登記（詳細製作規格、金額將在八月記者會公布），同時間啟動 SELF TOKEN 正式商轉，並招聘內部工程、營運人員進行技術研發。';
+          '電影製作基金「聖人大盜電影有限合夥」進行登記，同時間啟動 SELF TOKEN 正式商轉。並簽訂實際支援 SELF 進行消費的台灣、國際知名餐飲集團、娛樂應用合作方，並同步進行技術研發。<br>電影《聖人大盜》前導影片拍攝，並同時進行非公開之私募，限定必須通過 KYC 或是邀請制度參與。';
         this.sec4p5 = '簽訂將在電影中曝光並實際支援 SELF 進行消費的台灣、國際知名餐飲集團、娛樂應用合作方，並同步進行技術研發。';
         this.sec4p6 = '電影《聖人大盜》前導影片拍攝，並同時進行非公開之私募，限定必須通過 KYC 或是邀請制度參與。';
-        this.sec4p7 = '8/22 將於舉辦記者會，正式對外公布沉浸式娛樂計畫。';
+        this.sec4p7 = '8/22 舉辦沉浸式娛樂生態系記者會，正式對外公布沉浸式娛樂計畫。';
         // 2018 SEP-NOV
-        this.sec4p8 = '電影聖人大盜進入前置工作，群募開始，SELF 發幣開始，SELF Dapp 進入商轉前技術開發期。';
-        this.sec4p9 = '電影《聖人大盜》開拍，SELF Dapp 技術開發準備期。';
-        this.sec4p10 = '電影《聖人大盜》拍攝期，實景娛樂場域合作洽談。';
+        this.sec4p8 = '電影聖人大盜進入前置工作，群募開始，SELF 第一階段發幣，SELF DApp 進入商轉前技術開發期。';
+        this.sec4p9 = '電影《聖人大盜》開拍，SELF DApp 技術開發準備期。';
+        this.sec4p10 = '電影《聖人大盜》拍攝及後製期，實景娛樂場域合作洽談及 SELF 上線準備，SELF DApp 整合技術開發期。';
         this.sec4p11 = '電影《聖人大盜》後製期，SELF 上線準備，SELF Dapp 整合技術開發期。';
-        this.sec4p12 = 'SELF Dapp 功能與頁面整合，店家測試。';
-        this.sec4p13 = 'SELF Dapp 封測版上線，店家啟用 SELF Dapp。';
-        this.sec4p14 = '電影《聖人大盜》前導預告片、正式預告片釋出，SELF Dapp 第一版正式上線。';
-        this.sec4p15 = '電影《聖人大盜》首映，SELF 正式上線，實景娛樂場域部署虛實整合技術。拓展 SELF Dapp 全球化策略合作夥伴。';
-        this.sec4p16 = '拓展 SELF Dapp 全球化策略合作夥伴。';
+        this.sec4p12 = 'SELF DApp 功能與頁面整合、封測版上線，店家測試 SELF DApp。電影《聖人大盜》前導預告釋出。';
+        this.sec4p13 = 'SELF DApp 完成整合，開放部分用戶測試及優化 SELF DApp 功能。';
+        this.sec4p14 = '電影《聖人大盜》前導預告片、正式預告片釋出、SELF DApp 正式公開上線。';
+        this.sec4p15 = '電影《聖人大盜》首映，SELF 正式上線，實景娛樂場域部署虛實整合技術。';
+        this.sec4p16 = '實現實景娛樂場域部署虛實整合技術，並拓展 SELF 生態系全球化策略合作夥伴。';
         this.sec4p17 = '';
         this.sec4p18 = '';
         this.sec4p19 = '';
@@ -340,7 +340,7 @@ var selftoken = new Vue ({
         this.sec4p3 =
           'SELF TOKEN is found with partners across the film, financial, and blockchain industries to jointly invest $12 million NTD and signed memorandum of cooperation with exchange.';
         this.sec4p4 =
-          'Registered film production fund “Self Alienation Co., Ltd.” (detailed production specifications and amount will be announced in the August press conference) and recruit internal staff to carry out technical development, marketing research, and public relation matters.';
+          'Registered film production fund “Self Alienation Co., Ltd.” (detailed production specifications and amount will be announced in the August press conference) and signed with world-renowned restaurant chains, entertainment businesses to support SELF payment system in Taiwan and began to research and development. The Last Thieves is in the pre-production process and started private sale, limited to those having passed KYC.';
         this.sec4p5 =
           'Signed with world-renowned restaurant chains, entertainment businesses to support SELF payment system in Taiwan and began to research and development.';
         this.sec4p6 =
@@ -355,21 +355,21 @@ var selftoken = new Vue ({
           '<i class="movie-name">The Last Thieves</i> entered production process. R&D team continued focusing on Dapp development.';
         // 2019 JANUARY
         this.sec4p10 =
-          'Continued filming <i class="movie-name">The Last Thieves</i>. Created partnerships with potential entertainment collaborators to join SELF\'s immersive ecosystem.';
+          '<i class="movie-name">The Last Thieves</i> entered post-production. Created partnerships with potential entertainment collaborators to join SELF\'s immersive ecosystem. SELF DApp in the final stage of development.';
         // 2019 FEB - MAY
         this.sec4p11 =
           '<i class="movie-name">The Last Thieves</i> entered post-production. SELF Dapp in the final stage of development.';
         // 2019 JUNE
         this.sec4p12 =
-          'Integrating SELF Dapp’s features and user interface.';
+          'Integrating SELF DApp’s features and user interface. SELF DApp begins beta testing at SELF SPACE. Release official teaser for <i class="movie-name">The Last Thieves</i>';
         // 2019 JULY
         this.sec4p13 =
-          'SELF Dapp begins beta testing at SELF SPACE.';
+          'Finalize integration with SELF DApp. Conduct users testing and optimize SELF DApp features.';
         // 2019 Q3
         this.sec4p14 =
-          'Release official trailer for <i class="movie-name">The Last Thieves</i> and the first version SELF Dapp.';
-        this.sec4p15 = 'The Last Thieves official and SELF wide-release achieving the goal that connecting online and offline experiences.';
-        this.sec4p16 = 'Expanding SELF Dapp global strategy partners.';
+          'Release official trailer for <i class="movie-name">The Last Thieves</i> and the first version SELF DApp.';
+        this.sec4p15 = 'Official release <i class="movie-name">The Last Thieves</i> and launch the first version SELF DApp.';
+        this.sec4p16 = 'Achieve the goal that connecting online and offline experiences. Expanding SELF DApp global strategic partners.';
         this.sec4p17 = '';
         this.sec4p18 = '';
         this.sec4p19 = '';
@@ -519,20 +519,20 @@ var selftoken = new Vue ({
         this.sec4p3 =
           '与横跨电影圈、金融圈、链圈之伙伴组成联合创始团队，共同出资一千两百万元新台币，登记设立区块链项目之执行公司SELF TOKEN，并与合作交易所签订合作备忘录。 ';
         this.sec4p4 =
-          '电影制作基金「圣人大盗电影有限合伙」进行登记（详细制作规格、金额将在八月记者会公布），同时间启动 SELF TOKEN 正式商转，并招聘内部工程、营运人员进行技术研发。 ';
+          '电影制作基金「圣人大盗电影有限合伙」进行登记，同时间启动 SELF TOKEN 正式商转。并签订实际支援 SELF 进行消费的台湾、国际知名餐饮集团、娱乐应用合作方，并同步进行技术研发。 <br>电影《圣人大盗》前导影片拍摄，并同时进行非公开之私募，限定必须通过 KYC 或是邀请制度参与。 ';
         this.sec4p5 = '签订将在电影中曝光并实际支援 SELF 进行消费的台湾、国际知名餐饮集团、娱乐应用合作方，并同步进行技术研发。 ';
         this.sec4p6 = '电影《圣人大盗》前导影片拍摄，并同时进行非公开之私募，限定必须通过 KYC 或是邀请制度参与。 ';
-        this.sec4p7 = '8/22 将于举办记者会，正式对外公布沉浸式娱乐计画。 ';
+        this.sec4p7 = '8/22 举办沉浸式娱乐生态系记者会，正式对外公布沉浸式娱乐计画。 ';
         // 2018 SEP-NOV
-        this.sec4p8 = '电影圣人大盗进入前置工作，群募开始，SELF 发币开始，SELF Dapp 进入商转前技术开发期。 ';
-        this.sec4p9 = '电影《圣人大盗》开拍，SELF Dapp 技术开发准备期。 ';
-        this.sec4p10 = '电影《圣人大盗》拍摄期，实景娱乐场域合作洽谈。 ';
+        this.sec4p8 = '电影圣人大盗进入前置工作，群募开始，SELF 第一阶段发币，SELF DApp 进入商转前技术开发期。 ';
+        this.sec4p9 = '电影《圣人大盗》开拍，SELF DApp 技术开发准备期。 ';
+        this.sec4p10 = '电影《圣人大盗》拍摄及后制期，实景娱乐场域合作洽谈及 SELF 上线准备，SELF DApp 整合技术开发期。 ';
         this.sec4p11 = '电影《圣人大盗》后制期，SELF 上线准备，SELF Dapp 整合技术开发期。 ';
-        this.sec4p12 = 'SELF Dapp 功能与页面整合，店家测试。 ';
-        this.sec4p13 = 'SELF Dapp 封测版上线，店家启用 SELF Dapp。 ';
-        this.sec4p14 = '电影《圣人大盗》前导预告片、正式预告片释出，SELF Dapp 第一版正式上线。 ';
-        this.sec4p15 = '电影《圣人大盗》首映，SELF 正式上线，实景娱乐场域部署虚实整合技术。拓展 SELF Dapp 全球化策略合作伙伴。 ';
-        this.sec4p16 = '拓展 SELF Dapp 全球化策略合作伙伴。 ';
+        this.sec4p12 = 'SELF DApp 功能与页面整合、封测版上线，店家测试 SELF DApp。电影《圣人大盗》前导预告释出。 ';
+        this.sec4p13 = 'SELF DApp 完成整合，开放部分用户测试及优化 SELF DApp 功能。 ';
+        this.sec4p14 = '电影《圣人大盗》前导预告片、正式预告片释出、SELF DApp 正式公开上线。 ';
+        this.sec4p15 = '电影《圣人大盗》首映，SELF 正式上线，实景娱乐场域部署虚实整合技术。 ';
+        this.sec4p16 = '实现实景娱乐场域部署虚实整合技术，并拓展 SELF 生态系全球化策略合作伙伴。 ';
         this.sec4p17 = '';
         this.sec4p18 = '';
         this.sec4p19 = '';
