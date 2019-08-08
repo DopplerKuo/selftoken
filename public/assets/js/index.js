@@ -120,6 +120,10 @@ var selftoken = new Vue ({
     sec5name19: '',
     sec5title19: '',
 
+    sec5intro20: '',
+    sec5name20: '',
+    sec5title20: '',
+
     emailAlert: '',
 
     // Progress Bar
@@ -232,9 +236,9 @@ var selftoken = new Vue ({
         this.sec5title7 = 'SELF 聯合創始人＆風險管理委員';
 
         this.sec5intro8 =
-          '前 Google 軟體工程師，哈工大畢業，2015年微軟編程之美競賽總冠軍，包括星雲鏈、BlockCity Hackthon 等競賽獲獎，傳奇智能合約工程師，製作並協助發行2018年中國第一款區塊鏈遊戲「以太萌王」、「以太水滸」、「冥幣」等七款智能合約遊戲，曾創下 24小時全球交易量 Top#3，兩週總流水 780ETH 的記錄。協助 SELF CHAIN 進行智能合約的研發、測試與佈建。';
+          '前 Google 軟體工程師，哈工大畢業，2015 年微軟編程之美競賽總冠軍，包括星雲鏈、BlockCity Hackthon 等競賽獲獎，傳奇智能合約工程師，製作並協助 2018 年中國第一款區塊鏈遊戲「以太萌王」、「以太水滸」、「冥幣」等七款智能合約遊戲，曾創下 24 小時全球交易量 Top#3，兩週總流水 780ETH 的記錄。協助 SELF 計畫進行智能合約的研發、測試與佈建。';
         this.sec5name8 = '唐飛虎';
-        this.sec5title8 = 'SELF 智能合約開發團隊總監';
+        this.sec5title8 = 'SELF 區塊鏈技術顧問';
 
         this.sec5intro9 =
           '芝加哥大學經濟學博士，現任美國 Clemson University 經濟學助理教授，専精於網路經濟學，數位經濟學。林仲生博士的研究包含共享經濟，電商評分系統，遊戲產業，工程招標及誘因合約設計。於上海、香港及美國等地主講有關計量經濟學及機器學習的講座及課程。協助 SELF TOKEN 進行經濟學模型模擬與計算。';
@@ -290,6 +294,11 @@ var selftoken = new Vue ({
           '畢業於台灣大學資訊管理系，為Ptt 站長以及共同創辦人、陽光沙灘BBS創辦人。深耕網路資訊與行動商務領域二十餘年，參與KKBOX、Omusic、Richi、TechOrange等知名團隊的草創時期，也曾貢獻於HP、中華電信、Yahoo等大型企業，是一名駭客、連續創業家、全端工程師。';
         this.sec5name19 = '戴志洋';
         this.sec5title19 = '技術長暨 SELF 共同創辦人';
+
+        this.sec5intro20 =
+          '一位社群實驗者，喜歡觀察人與人之間的連結與互動。2017 年初開始接觸加密貨幣市場，對區塊鏈技術及其背後的哲學思想產生濃厚興趣，也意外的成為區塊鏈貓奴。未來將協助 SELF 進行線上與線下社群的整合以及運營，並打造完整的社群節點網絡生態。';
+        this.sec5name20 = '陳浩偉';
+        this.sec5title20 = 'SELF TOKEN 行銷社群經理';
 
         this.emailAlert = '已收到您的電子郵件，我們將盡快回覆您。';
 
@@ -397,12 +406,12 @@ var selftoken = new Vue ({
         this.sec5intro5 =
           'Cherry is the former Deputy Director of the Institute for Information Industry (Product Promotion Division) and Executive Director of Ministry of Economics Affairs (Small and Medium Enterprise Administration). In the past, Cherry has worked with Rhythm & Hues, the fifth-largest special effects company in the world. Cherry will assist SELF TOKEN in establishing a foundation for technology development and coordinate the integration of cross-strait and international resources.';
         this.sec5name5 = 'Cherry';
-        this.sec5title5 = 'Founder & Risk Advisor';
+        this.sec5title5 = 'Risk Advisor';
 
         this.sec5intro6 =
           'Jackson is the Director of Marketing and Customer Relations of Stonehenge Construction as well as the Deputy Director of Real Estate Development Association of Hsinchu County. In the past, Jackson served as the Marketing Director of REDdot Marketing, and assisted VISA, CTBC, and Jihsun Holdings in cross-industry cooperation and reward management. Jackson will help SELF TOKEN establish relationships with local businesses.';
         this.sec5name6 = 'Jackson';
-        this.sec5title6 = 'Founder & Risk Advisor';
+        this.sec5title6 = 'Risk Advisor';
 
         this.sec5intro7 =
           'Allen is a senior corporate financial advisor and an angel investor. In the past, Allen has helped four companies become listed on the Taipei Exchange Market. Currently, he is the Managing Director of both Standard Charter Bank and HSBC Global Investment for Greater China; where he also works as a Senior Cryptocurrency Investor. Allen will help SELF TOKEN seek opportunities within and outside the cryptocurrency domain, and construct a stable financial trading ecosystem.';
@@ -471,6 +480,11 @@ var selftoken = new Vue ({
           'Kaede graduated with a degree in information management from NTU, is the co-founder of Ptt, and founder of Sun of Beach (SOB.BBS). He has twenty years of experience in network information and mobile businesses. Kaede has participated in grass-root stages of well-known teams such as KKBOX, Omusic, Richi, and TechOrange. He has also assisted larger enterprises such as HP, Chunghua Telecom, and Yahoo. He is a triple threat: a hacker, entrepreneur, and full-stack developer.';
         this.sec5name19 = 'Kaede';
         this.sec5title19 = 'CTO & Co Founder';
+
+        this.sec5intro20 =
+          'Haowei is passionate about community experiment likes to observe connection and interaction between people. At the beginning of 2017, Haowei started learning cryptocurrency and philosophy of blockchain. Currently, Haowei is integrating SELF offline and online community and holding offline events';
+        this.sec5name20 = 'Haowei';
+        this.sec5title20 = 'Communication Manager';
 
         this.emailAlert =
           "Thanks for your interest, we've received your request and will get back to you shortly.";
@@ -631,6 +645,12 @@ this.sec5name5 = '洪雯娟';
           '毕业于台湾大学资讯管理系，为Ptt 站长以及共同创办人、阳光沙滩BBS创办人。深耕网路资讯与行动商务领域二十余年，参与KKBOX、Omusic、Richi、TechOrange等知名团队的草创时期，也曾贡献于HP、中华电信、Yahoo等大型企业，是一名骇客、连续创业家、全端工程师。 ';
         this.sec5name19 = '戴志洋';
         this.sec5title19 = '技术长暨 SELF 共同创办人';
+
+
+        this.sec5intro20 =
+          '一位社群实验者，喜欢观察人与人之间的连结与互动。 2017 年初开始接触加密货币市场，对区块链技术及其背后的哲学思想产生浓厚兴趣，也意外的成为区块链猫奴。未来将协助 SELF 进行线上与线下社群的整合以及运营，并打造完整的社群节点网络生态。 ';
+        this.sec5name20 = '陈浩伟';
+        this.sec5title20 = 'SELF TOKEN 行销社群经理';
 
         this.emailAlert = '已收到您的电子邮件，我们将尽快回覆您。 ';
 
