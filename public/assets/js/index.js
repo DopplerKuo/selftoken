@@ -208,7 +208,7 @@ var selftoken = new Vue ({
         this.sec5intro2 =
           '1981年生，國立臺灣大學資訊工程學博士，日本慶応大學博士後研究員，美國奇點大學首位臺灣學員，創辦多家公司曾獲紅點設計獎與 HTC 投資。現任教於北科大互動設計系，亦為奇點大學台灣大使，替多家跨國公司及政府單位如經濟部、北市府，COBINHOOD, Ubitus Inc., Blueprint Japan 等跨國企業提供區塊鏈智能合約開發之研究協助。';
         this.sec5name2 = '葛如鈞';
-        this.sec5title2 = 'SELF 共同創始人＆區塊鏈技術顧問';
+        this.sec5title2 = 'SELF 共同發起人＆區塊鏈技術顧問';
 
         this.sec5intro3 =
           '美國永恆生技（Cold Genesys Inc.）執行長，為全美最年輕的生技公司負責人，擁有掌管十億台幣資本額，募資超過兩千五百萬美元的經歷。關心同時為資深虛擬貨幣投資人，並創辦以投資區塊鏈為重點之一的恆心資本（Perseverance Capital Management LLC) 。 未來將以豐沛的人脈資源與實務經驗協助 SELF TOKEN 往國際市場推進，並達成整合綜效。';
@@ -391,7 +391,7 @@ var selftoken = new Vue ({
         this.sec5intro2 =
           'Born in 1981, JC received his PhD in Computer Science at National Taipei University and completed his postdoctoral research at Keio University. JC is the first Taiwanese student to attend Singularity University, has helped multiple companies win Red Dot Design Awards, and has invested in HTC. Currently, he is a professor of Interactive Design at Taipei Tech, an ambassador at Singularity University, a consultant on VR/AR for the Ministry of Economic Affairs, and a smart contract advisor for multiple blockchain companies such as Cobinhood, Ubitus Inc., and Blueprint Japan.';
         this.sec5name2 = 'JC';
-        this.sec5title2 = 'Co Founder & Risk Blockchain Consultant';
+        this.sec5title2 = 'Risk Blockchain Consultant';
 
         this.sec5intro3 =
           'Arthur is the CEO of Cold Genesys Inc., the youngest biotech company in the United States with over $1 billion in capital and raised more than $25 million. Arthur is also a veteran cryptocurrency investor, having founded Perseverance Capital Management LLC, which focuses on blockchain investments. With a precise vision and abundant network resources, he will help SELF TOKEN advance to the international market and achieve complete integration.';
@@ -559,7 +559,7 @@ var selftoken = new Vue ({
         this.sec5intro2 =
           '1981年生，国立台湾大学资讯工程学博士，日本庆応大学博士后研究员，美国奇点大学首位台湾学员，创办多家公司曾获红点设计奖与 HTC 投资。现任教于北科大互动设计系，亦为奇点大学台湾大使，替多家跨国公司及政府单位如经济部、北市府，COBINHOOD, Ubitus Inc., Blueprint Japan 等跨国企业提供区块链智能合约开发之研究协助。 ';
         this.sec5name2 = '葛如钧';
-        this.sec5title2 = 'SELF 共同创始人＆区块链技术顾问';
+        this.sec5title2 = 'SELF 共同發起人＆区块链技术顾问';
 
         this.sec5intro3 =
           '为美国永恒生技（Cold Genesys Inc.）执行长，为全美最年轻的生技公司负责人，拥有掌管十亿台币资本额，募资超过两千五百万美元的实力！关心同时为资深虚拟货币投资人，并创办以投资区块链为重点之一的恒心资本（Perseverance Capital Management LLC) 。精准的眼光与丰沛的人脉资源，未来必定能协助SELF TOKEN往国际市场推进，达成整合综效。 ';
